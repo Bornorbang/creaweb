@@ -1,26 +1,196 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream:      #F6F1E8;
+  --green:      #12372A;
+  --charcoal:   #1C1C1C;
+  --warm-grey:  #7C746A;
+  --gold:       #B08D57;
+  --white:      #FFFFFF;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream:      var(--cream);
+  --color-green:      var(--green);
+  --color-charcoal:   var(--charcoal);
+  --color-warm-grey:  var(--warm-grey);
+  --color-gold:       var(--gold);
+  --color-white:      var(--white);
+  --font-serif: var(--font-cormorant);
+  --font-sans:  var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Thin divider utility */
+.divider {
+  border: none;
+  border-top: 1px solid rgba(28, 28, 28, 0.12);
+}
+
+/* Serif heading utility */
+.font-serif-display {
+  font-family: var(--font-cormorant), 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+/* Smooth underline link */
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ── Page load transition ─────────────────────────────────────────────── */
+@keyframes pageLoad {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+main {
+  animation: pageLoad 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Fade-up animation (hero sections, CSS-only) */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up {
+  animation: fadeUp 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.animation-delay-100 { animation-delay: 0.10s; opacity: 0; }
+.animation-delay-200 { animation-delay: 0.20s; opacity: 0; }
+.animation-delay-300 { animation-delay: 0.30s; opacity: 0; }
+.animation-delay-400 { animation-delay: 0.40s; opacity: 0; }
+.animation-delay-600 { animation-delay: 0.60s; opacity: 0; }
+
+/* ── Article prose styles (blog posts) ──────────────────────────────────── */
+.prose-editorial {
+  color: #1C1C1C;
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  font-weight: 300;
+}
+.prose-editorial h2 {
+  font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+  font-weight: 500;
+  line-height: 1.2;
+  color: #12372A;
+  margin: 2.5rem 0 1rem;
+}
+.prose-editorial h3 {
+  font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-weight: 500;
+  color: #1C1C1C;
+  margin: 2rem 0 0.75rem;
+}
+.prose-editorial p {
+  margin-bottom: 1.5rem;
+  color: #3a3a3a;
+}
+.prose-editorial a {
+  color: #12372A;
+  border-bottom: 1px solid #B08D57;
+  text-decoration: none;
+}
+.prose-editorial a:hover {
+  color: #B08D57;
+}
+.prose-editorial ul,
+.prose-editorial ol {
+  margin: 1.25rem 0 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.prose-editorial li {
+  color: #3a3a3a;
+}
+.prose-editorial blockquote {
+  border-left: 2px solid #B08D57;
+  margin: 2rem 0;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  font-style: italic;
+  color: #7C746A;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.prose-editorial hr {
+  border: none;
+  border-top: 1px solid rgba(28, 28, 28, 0.12);
+  margin: 2.5rem 0;
+}
+.prose-editorial strong { font-weight: 600; color: #1C1C1C; }
+.prose-editorial em { font-style: italic; }
+
+/* ── Legal page prose ───────────────────────────────────────────────────── */
+.prose-legal h2 { font-family: var(--font-cormorant), Georgia, serif; font-size: 1.45rem; font-weight: 500; color: #12372A; margin: 2.5rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid rgba(28,28,28,0.08); }
+.prose-legal h3 { font-family: var(--font-cormorant), Georgia, serif; font-size: 1.15rem; font-weight: 500; color: #1C1C1C; margin: 1.75rem 0 0.5rem; }
+.prose-legal p  { font-family: var(--font-inter), sans-serif; font-size: 0.9rem; line-height: 1.85; color: #7C746A; margin-bottom: 1.1rem; font-weight: 300; }
+.prose-legal a  { color: #12372A; text-decoration: underline; text-underline-offset: 2px; }
+.prose-legal a:hover { color: #B08D57; }
+.prose-legal ul, .prose-legal ol { margin: 0.5rem 0 1.25rem 1.5rem; }
+.prose-legal li { font-family: var(--font-inter), sans-serif; font-size: 0.9rem; line-height: 1.82; color: #7C746A; margin-bottom: 0.4rem; font-weight: 300; }
+.prose-legal code { font-family: monospace; font-size: 0.82rem; background: rgba(28,28,28,0.06); padding: 0.1em 0.4em; border-radius: 2px; color: #1C1C1C; }
+.prose-legal strong { font-weight: 600; color: #1C1C1C; }
+
+/* ── TipTap editor styles ───────────────────────────────────────────────── */
+.ProseMirror {
+  outline: none;
+  min-height: 400px;
+}
+.ProseMirror h2 { font-family: var(--font-cormorant), Georgia, serif; font-size: 1.6rem; font-weight: 500; color: #12372A; margin: 1.5rem 0 0.75rem; }
+.ProseMirror h3 { font-family: var(--font-cormorant), Georgia, serif; font-size: 1.3rem; font-weight: 500; color: #1C1C1C; margin: 1.25rem 0 0.5rem; }
+.ProseMirror p  { margin-bottom: 1rem; color: #1C1C1C; font-size: 0.95rem; line-height: 1.75; }
+.ProseMirror ul, .ProseMirror ol { margin: 1rem 0 1rem 1.5rem; }
+.ProseMirror li { margin-bottom: 0.25rem; font-size: 0.95rem; }
+.ProseMirror blockquote { border-left: 2px solid #B08D57; padding-left: 1rem; margin: 1.5rem 0; color: #7C746A; font-style: italic; }
+.ProseMirror a  { color: #12372A; text-decoration: underline; }
+.ProseMirror hr { border: none; border-top: 1px solid rgba(28,28,28,0.12); margin: 1.5rem 0; }
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
+
+/* ── Hide scrollbar utility ─────────────────────────────────────────────── */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
 }
