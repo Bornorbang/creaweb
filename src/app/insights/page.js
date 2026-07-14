@@ -21,8 +21,9 @@ const PER_PAGE = 12;
 
 async function getAllPosts() {
   try {
+    const api = (process.env.API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
     const res = await fetch(
-      `${process.env.API_URL || "http://localhost:8000"}/api/posts`,
+      `${api}/api/posts`,
       { next: { revalidate: 60 } }
     );
     if (res.ok) {

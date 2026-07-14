@@ -6,7 +6,7 @@ import { staticArticles } from "../../components/Journal";
 import ReadingProgress from "./ReadingProgress";
 import BottomCTA from "../../components/BottomCTA";
 
-const API = process.env.API_URL || "http://localhost:8000";
+const API = (process.env.API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
 
 async function getPost(slug) {
   try {

@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 const RichTextEditor = dynamic(() => import("../components/RichTextEditor"), { ssr: false });
 
-const API        = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API        = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
 const DEFAULT_CATEGORIES = ["Design Thinking", "Typography", "Strategy", "Development", "AI & Automation", "Case Study", "General"];
 
 function slugify(text) {

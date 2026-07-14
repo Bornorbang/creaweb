@@ -2,7 +2,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+// Accept either an API origin or an origin that already ends in /api.
+const API = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
 
 export default function AdminLogin() {
   const [password, setPassword] = useState("");
@@ -25,7 +26,11 @@ export default function AdminLogin() {
       localStorage.setItem("admin_token", data.token);
       router.push("/admin");
     } catch (err) {
-      setError(err.message);
+      setError(
+        err instanceof TypeError
+          ? "Could not connect to the admin API. Check that the PHP backend is running and that NEXT_PUBLIC_API_URL is correct."
+          : err.message
+      );
     } finally {
       setLoading(false);
     }

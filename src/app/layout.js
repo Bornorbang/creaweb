@@ -43,7 +43,7 @@ export const metadata = {
     googleBot: { index: true, follow: true },
   },
   icons: {
-    icon: "/images/Crea%20Web%20Favicon.png",
+    icon: [{ url: "/images/Crea%20Web%20Favicon.png", type: "image/png" }],
     shortcut: "/images/Crea%20Web%20Favicon.png",
     apple: "/images/Crea%20Web%20Favicon.png",
   },
