@@ -111,9 +111,9 @@ export default function RichTextEditor({ content, onChange }) {
   };
 
   return (
-    <div className="border border-[#1C1C1C]/15 overflow-hidden">
+    <div className="border border-[#1C1C1C]/15">
       {/* Toolbar */}
-      <div className="flex flex-wrap items-center gap-1 px-3 py-2 bg-[#F6F1E8] border-b border-[#1C1C1C]/10">
+      <div className="sticky top-0 z-30 flex flex-wrap items-center gap-1 px-3 py-2 bg-[#F6F1E8] border-b border-[#1C1C1C]/10 shadow-sm">
         <ToolbarBtn active={editor.isActive("bold")}      onClick={() => editor.chain().focus().toggleBold().run()}         title="Bold">        <strong>B</strong></ToolbarBtn>
         <ToolbarBtn active={editor.isActive("italic")}    onClick={() => editor.chain().focus().toggleItalic().run()}       title="Italic">      <em>I</em></ToolbarBtn>
         <ToolbarBtn active={editor.isActive("underline")} onClick={() => editor.chain().focus().toggleUnderline().run()}    title="Underline">   <u>U</u></ToolbarBtn>
