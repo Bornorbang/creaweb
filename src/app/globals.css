@@ -99,6 +99,7 @@ main {
   line-height: 1.85;
   font-weight: 300;
 }
+.prose-editorial h1,
 .prose-editorial h2 {
   font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
   font-size: clamp(1.5rem, 2.8vw, 2.1rem);
@@ -133,9 +134,12 @@ main {
   flex-direction: column;
   gap: 0.4rem;
 }
+.prose-editorial ul { list-style: disc outside; }
+.prose-editorial ol { list-style: decimal outside; }
 .prose-editorial li {
   color: #3a3a3a;
 }
+.prose-editorial li p { margin-bottom: 0.4rem; }
 .prose-editorial blockquote {
   border-left: 2px solid #B08D57;
   margin: 2rem 0;
@@ -170,11 +174,14 @@ main {
   outline: none;
   min-height: 400px;
 }
-.ProseMirror h2 { font-family: var(--font-cormorant), Georgia, serif; font-size: 1.6rem; font-weight: 500; color: #12372A; margin: 1.5rem 0 0.75rem; }
+.ProseMirror h1, .ProseMirror h2 { font-family: var(--font-cormorant), Georgia, serif; font-size: 1.6rem; font-weight: 500; color: #12372A; margin: 1.5rem 0 0.75rem; }
 .ProseMirror h3 { font-family: var(--font-cormorant), Georgia, serif; font-size: 1.3rem; font-weight: 500; color: #1C1C1C; margin: 1.25rem 0 0.5rem; }
 .ProseMirror p  { margin-bottom: 1rem; color: #1C1C1C; font-size: 0.95rem; line-height: 1.75; }
 .ProseMirror ul, .ProseMirror ol { margin: 1rem 0 1rem 1.5rem; }
+.ProseMirror ul { list-style: disc outside; }
+.ProseMirror ol { list-style: decimal outside; }
 .ProseMirror li { margin-bottom: 0.25rem; font-size: 0.95rem; }
+.ProseMirror li p { margin-bottom: 0.25rem; }
 .ProseMirror blockquote { border-left: 2px solid #B08D57; padding-left: 1rem; margin: 1.5rem 0; color: #7C746A; font-style: italic; }
 .ProseMirror a  { color: #12372A; text-decoration: underline; }
 .ProseMirror hr { border: none; border-top: 1px solid rgba(28,28,28,0.12); margin: 1.5rem 0; }

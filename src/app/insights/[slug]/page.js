@@ -137,9 +137,6 @@ export default async function PostPage({ params }) {
                   <p className="text-[#F6F1E8] text-[0.8rem] font-sans font-medium leading-tight">
                     {post.author ?? "Bornor Bang"}
                   </p>
-                  <p className="text-[#F6F1E8]/45 text-[0.65rem] font-sans">
-                    Founder &amp; Creative Director
-                  </p>
                 </div>
               </div>
 
@@ -217,7 +214,6 @@ export default async function PostPage({ params }) {
                   <div>
                     <p className="text-[0.58rem] tracking-[0.18em] uppercase font-sans text-[#B08D57] mb-1">Author</p>
                     <p className="text-[#F6F1E8] font-sans font-medium text-[0.95rem]">{post.author ?? "Bornor Bang"}</p>
-                    <p className="text-[#F6F1E8]/50 text-[0.75rem] font-sans mt-0.5">Founder &amp; Creative Director, Crea Web Agency</p>
                   </div>
                 </div>
               </div>
@@ -250,7 +246,6 @@ export default async function PostPage({ params }) {
                       <div>
                         <p className="text-[0.58rem] tracking-[0.16em] uppercase font-sans text-[#B08D57] mb-0.5">Author</p>
                         <p className="text-[#1C1C1C] text-[0.88rem] font-sans font-medium">{post.author ?? "Bornor Bang"}</p>
-                        <p className="text-[#7C746A] text-[0.72rem] font-sans">Founder &amp; Creative Director</p>
                       </div>
                     </div>
 

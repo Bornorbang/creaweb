@@ -1,16 +1,20 @@
 "use client";
+import { useEffect } from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Placeholder from "@tiptap/extension-placeholder";
 import Link from "@tiptap/extension-link";
 import Underline from "@tiptap/extension-underline";
 
-const ToolbarBtn = ({ active, onClick, children, title }) => (
+const ToolbarBtn = ({ active, disabled = false, onClick, children, title }) => (
   <button
     type="button"
     title={title}
+    aria-pressed={active}
+    disabled={disabled}
+    onMouseDown={(event) => event.preventDefault()}
     onClick={onClick}
-    className={`px-3 py-1.5 text-[0.78rem] font-sans border transition-colors duration-150 ${
+    className={`px-3 py-1.5 text-[0.78rem] font-sans border transition-colors duration-150 disabled:opacity-35 disabled:cursor-not-allowed ${
       active
         ? "bg-[#12372A] text-white border-[#12372A]"
         : "border-[#1C1C1C]/15 text-[#1C1C1C] hover:bg-[#F6F1E8]"
@@ -21,6 +25,54 @@ const ToolbarBtn = ({ active, onClick, children, title }) => (
 );
 
 const Sep = () => <div className="w-px bg-[#1C1C1C]/10 mx-0.5 self-stretch" />;
+
+function escapeHtml(value) {
+  return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function inlineMarkdown(value) {
+  return escapeHtml(value)
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/__([^_]+)__/g, "<strong>$1</strong>")
+    .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, "<em>$1</em>");
+}
+
+function markdownToHtml(text) {
+  const lines = text.replace(/\r/g, "").split("\n");
+  const html = [];
+  let list = null;
+  const closeList = () => {
+    if (list) html.push(`</${list}>`);
+    list = null;
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    const bullet = line.match(/^[-*+]\s+(.+)/);
+    const numbered = line.match(/^\d+[.)]\s+(.+)/);
+    if (bullet || numbered) {
+      const nextList = bullet ? "ul" : "ol";
+      if (list !== nextList) {
+        closeList();
+        list = nextList;
+        html.push(`<${list}>`);
+      }
+      html.push(`<li>${inlineMarkdown((bullet || numbered)[1])}</li>`);
+      continue;
+    }
+
+    closeList();
+    if (!line) continue;
+    if (/^###\s+/.test(line)) html.push(`<h3>${inlineMarkdown(line.replace(/^###\s+/, ""))}</h3>`);
+    else if (/^#{1,2}\s+/.test(line)) html.push(`<h2>${inlineMarkdown(line.replace(/^#{1,2}\s+/, ""))}</h2>`);
+    else if (/^>\s?/.test(line)) html.push(`<blockquote><p>${inlineMarkdown(line.replace(/^>\s?/, ""))}</p></blockquote>`);
+    else if (/^(---|___|\*\*\*)$/.test(line)) html.push("<hr>");
+    else html.push(`<p>${inlineMarkdown(line)}</p>`);
+  }
+  closeList();
+  return html.join("");
+}
 
 export default function RichTextEditor({ content, onChange }) {
   const editor = useEditor({
@@ -34,6 +86,12 @@ export default function RichTextEditor({ content, onChange }) {
     onUpdate: ({ editor }) => onChange(editor.getHTML()),
   });
 
+  useEffect(() => {
+    if (editor && content !== editor.getHTML()) {
+      editor.commands.setContent(content || "", { emitUpdate: false });
+    }
+  }, [content, editor]);
+
   if (!editor) return <div className="h-64 border border-[#1C1C1C]/15 animate-pulse bg-[#F6F1E8]/50" />;
 
   const addLink = () => {
@@ -42,6 +100,14 @@ export default function RichTextEditor({ content, onChange }) {
     if (url === null) return;
     if (url === "") { editor.chain().focus().unsetLink().run(); return; }
     editor.chain().focus().setLink({ href: url }).run();
+  };
+
+  const handlePaste = (event) => {
+    if (event.clipboardData.getData("text/html")) return;
+    const text = event.clipboardData.getData("text/plain");
+    if (!/(^|\n)(#{1,3}\s|[-*+]\s|\d+[.)]\s|>\s|(?:---|___|\*\*\*)$)/m.test(text)) return;
+    event.preventDefault();
+    editor.chain().focus().insertContent(markdownToHtml(text)).run();
   };
 
   return (
@@ -60,7 +126,7 @@ export default function RichTextEditor({ content, onChange }) {
         <ToolbarBtn active={editor.isActive("blockquote")}  onClick={() => editor.chain().focus().toggleBlockquote().run()}  title="Blockquote">   ❝</ToolbarBtn>
         <Sep />
         <ToolbarBtn active={editor.isActive("link")}  onClick={addLink}                                                   title="Add link">  Link</ToolbarBtn>
-        <ToolbarBtn active={false}                    onClick={() => editor.chain().focus().unsetLink().run()}             title="Remove link">Unlink</ToolbarBtn>
+        <ToolbarBtn active={false} disabled={!editor.isActive("link")} onClick={() => editor.chain().focus().unsetLink().run()} title="Remove link">Unlink</ToolbarBtn>
         <Sep />
         <ToolbarBtn active={false} onClick={() => editor.chain().focus().setHorizontalRule().run()} title="Divider">──</ToolbarBtn>
         <ToolbarBtn active={false} onClick={() => editor.chain().focus().undo().run()}              title="Undo">↩</ToolbarBtn>
@@ -69,7 +135,7 @@ export default function RichTextEditor({ content, onChange }) {
 
       {/* Editor area */}
       <div className="min-h-[420px] p-6 bg-white">
-        <EditorContent editor={editor} />
+        <EditorContent editor={editor} onPaste={handlePaste} />
       </div>
 
       {/* Word count */}
