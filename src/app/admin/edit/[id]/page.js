@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 const RichTextEditor = dynamic(() => import("../../components/RichTextEditor"), { ssr: false });
 
-const API        = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
+const API        = "/api/admin-backend";
 const CATEGORIES = ["Design Thinking", "Typography", "Strategy", "Development", "AI & Automation", "Case Study", "General"];
 
 function slugify(text) {
@@ -30,7 +30,7 @@ export default function EditPost({ params }) {
     const t = localStorage.getItem("admin_token");
     if (!t) { router.push("/admin/login"); return; }
     setToken(t);
-    fetch(`${API}/api/posts/${id}`, { headers: { Authorization: `Bearer ${t}` } })
+    fetch(`${API}/posts/${id}`, { headers: { Authorization: `Bearer ${t}` } })
       .then((r) => r.json())
       .then((data) => {
         if (data.post) setForm(data.post);
@@ -53,7 +53,7 @@ export default function EditPost({ params }) {
     if (!form.title.trim()) { setError("Title is required."); return; }
     setSaving(true); setError("");
     try {
-      const res = await fetch(`${API}/api/posts/${id}`, {
+      const res = await fetch(`${API}/posts/${id}`, {
         method:  "PUT",
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
         body:    JSON.stringify({ ...form, published: publish }),

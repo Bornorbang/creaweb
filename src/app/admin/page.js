@@ -3,7 +3,7 @@ import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const API = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
+const API = "/api/admin-backend";
 
 function AdminHeader({ onLogout }) {
   return (
@@ -53,7 +53,7 @@ export default function AdminDashboard() {
   const fetchPosts = useCallback(async (t) => {
     setLoading(true);
     try {
-      const res = await fetch(`${API}/api/posts?all=true`, {
+      const res = await fetch(`${API}/posts?all=true`, {
         headers: { Authorization: `Bearer ${t}` },
         cache: "no-store",
       });
@@ -77,7 +77,7 @@ export default function AdminDashboard() {
   }
 
   async function togglePublish(post) {
-    const res = await fetch(`${API}/api/posts/${post.id}`, {
+    const res = await fetch(`${API}/posts/${post.id}`, {
       method:  "PUT",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
       body:    JSON.stringify({ published: !post.published }),
@@ -88,7 +88,7 @@ export default function AdminDashboard() {
   async function deletePost(post) {
     if (!confirm(`Delete "${post.title}"? This cannot be undone.`)) return;
     setDeleting(post.id);
-    const res = await fetch(`${API}/api/posts/${post.id}`, {
+    const res = await fetch(`${API}/posts/${post.id}`, {
       method:  "DELETE",
       headers: { Authorization: `Bearer ${token}` },
     });

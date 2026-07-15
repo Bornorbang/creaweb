@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 const RichTextEditor = dynamic(() => import("../components/RichTextEditor"), { ssr: false });
 
-const API        = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
+const API        = "/api/admin-backend";
 const DEFAULT_CATEGORIES = ["Design Thinking", "Typography", "Strategy", "Development", "AI & Automation", "Case Study", "General"];
 
 function slugify(text) {
@@ -83,7 +83,7 @@ export default function NewPost() {
     setSaving(true); setError("");
     try {
       const { tagInput, ...postData } = form;
-      const res = await fetch(`${API}/api/posts`, {
+      const res = await fetch(`${API}/posts`, {
         method:  "POST",
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
         body:    JSON.stringify({ ...postData, published: publish }),
