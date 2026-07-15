@@ -39,10 +39,10 @@ export const metadata = {
 
 async function getLatestPosts() {
   try {
-    const api = (process.env.API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
+    const api = (process.env.API_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/(?:\/api)+\/?$/, "");
     const res = await fetch(
       `${api}/api/posts?limit=3`,
-      { next: { revalidate: 60 } }
+      { cache: "no-store" }
     );
     if (res.ok) {
       const data = await res.json();

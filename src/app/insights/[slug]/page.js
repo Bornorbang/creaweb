@@ -6,12 +6,12 @@ import { staticArticles } from "../../components/Journal";
 import ReadingProgress from "./ReadingProgress";
 import BottomCTA from "../../components/BottomCTA";
 
-const API = (process.env.API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
+const API = (process.env.API_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/(?:\/api)+\/?$/, "");
 
 async function getPost(slug) {
   try {
     const res = await fetch(`${API}/api/posts/${slug}`, {
-      next: { revalidate: 60 },
+      cache: "no-store",
     });
     if (res.ok) {
       const data = await res.json();
@@ -23,7 +23,7 @@ async function getPost(slug) {
 
 async function getRelatedPosts(currentSlug) {
   try {
-    const res = await fetch(`${API}/api/posts`, { next: { revalidate: 60 } });
+    const res = await fetch(`${API}/api/posts`, { cache: "no-store" });
     if (res.ok) {
       const data = await res.json();
       const all = data.posts ?? [];
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
   return {
     title: `${post.title}`,
     description: post.excerpt,
-    alternates: { canonical: `https://creaweb.co.uk/insights/${slug}` },
+    alternates: { canonical: `https://creaweb.co.uk/${slug}` },
     openGraph: {
       title: `${post.title} | Crea Web Agency`,
       description: post.excerpt,
@@ -280,7 +280,7 @@ export default async function PostPage({ params }) {
                     <p className="text-[0.62rem] tracking-[0.18em] uppercase font-sans text-[#7C746A] mb-5">Share this article</p>
                     <div className="flex flex-col gap-3">
                       <a
-                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://creaweb.co.uk/insights/${post.slug}`)}`}
+                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://creaweb.co.uk/${post.slug}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 text-[0.72rem] font-sans text-[#1C1C1C] border border-[#1C1C1C]/12 px-4 py-2.5 hover:border-[#12372A] hover:text-[#12372A] transition-colors duration-300"
@@ -291,7 +291,7 @@ export default async function PostPage({ params }) {
                         Share on X (Twitter)
                       </a>
                       <a
-                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://creaweb.co.uk/insights/${post.slug}`)}`}
+                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://creaweb.co.uk/${post.slug}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 text-[0.72rem] font-sans text-[#1C1C1C] border border-[#1C1C1C]/12 px-4 py-2.5 hover:border-[#12372A] hover:text-[#12372A] transition-colors duration-300"
@@ -302,7 +302,7 @@ export default async function PostPage({ params }) {
                         Share on LinkedIn
                       </a>
                       <a
-                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://creaweb.co.uk/insights/${post.slug}`)}`}
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://creaweb.co.uk/${post.slug}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 text-[0.72rem] font-sans text-[#1C1C1C] border border-[#1C1C1C]/12 px-4 py-2.5 hover:border-[#12372A] hover:text-[#12372A] transition-colors duration-300"
@@ -381,7 +381,7 @@ export default async function PostPage({ params }) {
                     className="group bg-[#F6F1E8] hover:bg-white transition-colors duration-400 flex flex-col"
                   >
                     <Link
-                      href={`/insights/${r.slug}`}
+                      href={`/${r.slug}`}
                       className="block overflow-hidden aspect-[16/9] relative bg-[#1C1C1C]/5"
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -403,7 +403,7 @@ export default async function PostPage({ params }) {
 
                     <div className="p-7 flex flex-col gap-3 flex-1">
                       <span className="text-[#7C746A] text-[0.67rem] font-sans">{r.date}</span>
-                      <Link href={`/insights/${r.slug}`}>
+                      <Link href={`/${r.slug}`}>
                         <h3
                           className="font-serif-display text-[#1C1C1C] leading-tight group-hover:text-[#12372A] transition-colors duration-300"
                           style={{ fontSize: "clamp(1rem, 1.5vw, 1.25rem)" }}
@@ -417,7 +417,7 @@ export default async function PostPage({ params }) {
                       <div className="flex items-center justify-between pt-5 border-t border-[#1C1C1C]/8 mt-auto">
                         <span className="text-[#7C746A]/60 text-[0.66rem] font-sans">{r.readTime}</span>
                         <Link
-                          href={`/insights/${r.slug}`}
+                          href={`/${r.slug}`}
                           className="text-[0.66rem] tracking-[0.1em] uppercase font-sans text-[#12372A] group-hover:text-[#B08D57] transition-colors duration-300 font-medium"
                         >
                           Read →

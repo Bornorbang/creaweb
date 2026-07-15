@@ -21,10 +21,10 @@ const PER_PAGE = 12;
 
 async function getAllPosts() {
   try {
-    const api = (process.env.API_URL || "http://localhost:8000").replace(/\/api\/?$/, "");
+    const api = (process.env.API_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/(?:\/api)+\/?$/, "");
     const res = await fetch(
       `${api}/api/posts`,
-      { next: { revalidate: 60 } }
+      { cache: "no-store" }
     );
     if (res.ok) {
       const data = await res.json();
@@ -112,7 +112,7 @@ export default async function InsightsPage({ searchParams }) {
                       className="group bg-[#F6F1E8] hover:bg-white transition-colors duration-400 flex flex-col"
                     >
                       <Link
-                        href={`/insights/${post.slug}`}
+                        href={`/${post.slug}`}
                         className="block overflow-hidden aspect-[16/9] relative bg-[#1C1C1C]/5"
                       >
                         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -142,7 +142,7 @@ export default async function InsightsPage({ searchParams }) {
                         <span className="text-[#7C746A] text-[0.68rem] font-sans">
                           {post.date}
                         </span>
-                        <Link href={`/insights/${post.slug}`}>
+                        <Link href={`/${post.slug}`}>
                           <h2
                             className="font-serif-display text-[#1C1C1C] leading-tight group-hover:text-[#12372A] transition-colors duration-300"
                             style={{ fontSize: "clamp(1.05rem, 1.6vw, 1.35rem)" }}
@@ -158,7 +158,7 @@ export default async function InsightsPage({ searchParams }) {
                             {post.readTime}
                           </span>
                           <Link
-                            href={`/insights/${post.slug}`}
+                            href={`/${post.slug}`}
                             className="text-[0.67rem] tracking-[0.1em] uppercase font-sans text-[#12372A] group-hover:text-[#B08D57] transition-colors duration-300 font-medium"
                           >
                             Read →

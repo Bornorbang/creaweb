@@ -171,7 +171,7 @@ export default function AdminDashboard() {
                     {post.title}
                   </p>
                   <p className="text-[#7C746A] text-[0.7rem] font-sans truncate max-w-[35ch] hidden md:block">
-                    /insights/{post.slug}
+                    /{post.slug}
                   </p>
                 </div>
 

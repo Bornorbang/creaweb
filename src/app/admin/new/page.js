@@ -141,7 +141,7 @@ export default function NewPost() {
               <label className="label-sm">URL Slug</label>
               <input type="text" value={form.slug} onChange={(e) => set("slug", e.target.value)}
                 placeholder="url-friendly-slug" className="field font-mono text-[0.85rem]" />
-              <p className="text-[0.65rem] text-[#7C746A] font-sans">/insights/{form.slug || "slug"}</p>
+              <p className="text-[0.65rem] text-[#7C746A] font-sans">/{form.slug || "slug"}</p>
             </div>
 
             {/* Author */}

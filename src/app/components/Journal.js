@@ -86,7 +86,7 @@ export default function Journal({ posts }) {
                 className="group bg-[#F6F1E8] hover:bg-white transition-colors duration-400 flex flex-col h-full"
               >
               {/* Featured image */}
-              <Link href={`/insights/${a.slug}`} className="block overflow-hidden aspect-[16/9] relative bg-[#1C1C1C]/5">
+              <Link href={`/${a.slug}`} className="block overflow-hidden aspect-[16/9] relative bg-[#1C1C1C]/5">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={a.coverImage || `https://picsum.photos/seed/${a.slug}/800/500`}
@@ -113,7 +113,7 @@ export default function Journal({ posts }) {
                 </span>
 
                 {/* Title */}
-                <Link href={`/insights/${a.slug}`}>
+                <Link href={`/${a.slug}`}>
                   <h3
                     className="font-serif-display text-[#1C1C1C] leading-tight group-hover:text-[#12372A] transition-colors duration-300"
                     style={{ fontSize: "clamp(1.1rem, 1.8vw, 1.4rem)" }}
@@ -133,7 +133,7 @@ export default function Journal({ posts }) {
                     {a.readTime}
                   </span>
                   <Link
-                    href={`/insights/${a.slug}`}
+                    href={`/${a.slug}`}
                     className="text-[0.68rem] tracking-[0.1em] uppercase font-sans text-[#12372A] group-hover:text-[#B08D57] transition-colors duration-300 font-medium"
                   >
                     Read →

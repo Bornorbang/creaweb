@@ -105,7 +105,7 @@ export default function EditPost({ params }) {
             <div className="flex flex-col gap-2">
               <label className="label-sm">URL Slug</label>
               <input type="text" value={form.slug} onChange={(e) => set("slug", e.target.value)} className="field font-mono text-[0.85rem]" />
-              <p className="text-[0.65rem] text-[#7C746A] font-sans">/insights/{form.slug}</p>
+              <p className="text-[0.65rem] text-[#7C746A] font-sans">/{form.slug}</p>
             </div>
             <div className="flex flex-col gap-2">
               <label className="label-sm">Category</label>
