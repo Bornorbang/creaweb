@@ -1,3 +1,4 @@
+import SymbolIcon from "./SymbolIcon";
 import Link from "next/link";
 import Reveal from "./Reveal";
 
@@ -136,7 +137,7 @@ export default function Journal({ posts }) {
                     href={`/${a.slug}`}
                     className="text-[0.68rem] tracking-[0.1em] uppercase font-sans text-[#12372A] group-hover:text-[#B08D57] transition-colors duration-300 font-medium"
                   >
-                    Read →
+                    Read <SymbolIcon symbol="→" />
                   </Link>
                 </div>
               </div>

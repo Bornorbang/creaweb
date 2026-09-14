@@ -1,3 +1,4 @@
+import SymbolIcon from "../SymbolIcon";
 ﻿import Link from "next/link";
 import { processSteps } from "./content";
 
@@ -11,8 +12,8 @@ const stages = [
 
 export default function Process() {
   return <section id="process" className="cw-section cw-process-board" aria-labelledby="process-heading">
-    <div className="cw-section-heading"><div><span className="cw-label">Clear steps. Close collaboration.</span><h2 id="process-heading">Our website<br />design process.</h2></div><div className="cw-process-intro"><span aria-hidden="true">↘</span><p>No mystery. No disappearing act. Five considered stages, with your feedback built into the journey.</p></div></div>
-    <ol className="cw-process-path">{stages.map((stage,index)=><li key={stage.output}><span className="cw-process-number" aria-hidden="true">{String(index+1).padStart(2,"0")}</span><span className="cw-label">{stage.note}</span><h3>{processSteps[index]}</h3><p>{stage.text}</p><div className="cw-process-output"><span aria-hidden="true">↗</span>{stage.output}</div></li>)}</ol>
-    <div className="cw-process-end"><p>You bring the ambition. We bring a plan.</p><Link className="cw-button" href="/contact">Let’s talk about your project <span aria-hidden="true">↗</span></Link></div>
+    <div className="cw-section-heading"><div><span className="cw-label">Clear steps. Close collaboration.</span><h2 id="process-heading">Our website<br />design process.</h2></div><div className="cw-process-intro"><span aria-hidden="true"><SymbolIcon symbol="↘" /></span><p>No mystery. No disappearing act. Five considered stages, with your feedback built into the journey.</p></div></div>
+    <ol className="cw-process-path">{stages.map((stage,index)=><li key={stage.output}><span className="cw-process-number" aria-hidden="true">{String(index+1).padStart(2,"0")}</span><span className="cw-label">{stage.note}</span><h3>{processSteps[index]}</h3><p>{stage.text}</p><div className="cw-process-output"><span aria-hidden="true"><SymbolIcon symbol="↗" /></span>{stage.output}</div></li>)}</ol>
+    <div className="cw-process-end"><p>You bring the ambition. We bring a plan.</p><Link className="cw-button" href="/contact">Let’s talk about your project <span aria-hidden="true"><SymbolIcon symbol="↗" /></span></Link></div>
   </section>;
 }

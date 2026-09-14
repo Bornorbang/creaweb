@@ -1,8 +1,9 @@
+import SymbolIcon from "../components/SymbolIcon";
 import Image from "next/image";
 import Link from "next/link";
 import { articles, copy, processSteps, projects, services } from "./content";
 
-const Arrow = () => <span aria-hidden="true">↗</span>;
+const Arrow = () => <span aria-hidden="true"><SymbolIcon symbol="↗" /></span>;
 
 export function DesignHeader({ compact = false }) {
   return (
@@ -45,7 +46,7 @@ export function DesignHero({ theme, preview = false }) {
   if (theme === "form") return (
     <section className="ed-hero swiss-hero">
       <div className="swiss-top"><span className="ed-kicker">UK web design studio</span><span>Design with intention.<br />Built for performance.</span></div>
-      <h1><span>Professional</span><span>Web Design<span className="swiss-asterisk" aria-hidden="true">✳</span></span><span className="swiss-last">Agency UK<span className="swiss-period">.</span></span></h1>
+      <h1><span>Professional</span><span>Web Design<span className="swiss-asterisk" aria-hidden="true"><SymbolIcon symbol="✳" /></span></span><span className="swiss-last">Agency UK<span className="swiss-period">.</span></span></h1>
       <div className="swiss-bottom"><span className="swiss-arrow" aria-hidden="true">↳</span><Intro /><Action href="/contact">Start a conversation</Action></div>
       <div className="swiss-project"><Photo src={projects[2].image} alt="Accelede website design" position="top" priority={priority} /><div><span className="ed-kicker">Selected work / 003</span><h2>Accelede</h2><p>Technology</p><Action href="#work">Explore our projects</Action></div></div>
     </section>
@@ -59,16 +60,16 @@ export function DesignHero({ theme, preview = false }) {
   );
   if (theme === "afterhours") return (
     <section className="ed-hero night-hero">
-      <div className="night-top"><span className="ed-kicker">Design meets development</span><span className="night-disc" aria-hidden="true">↗</span></div>
+      <div className="night-top"><span className="ed-kicker">Design meets development</span><span className="night-disc" aria-hidden="true"><SymbolIcon symbol="↗" /></span></div>
       <h1>Professional<br /><em>Web Design.</em><span>Agency UK</span></h1>
-      <div className="night-bottom"><Intro /><Action href="/contact">Start a conversation</Action><span className="ed-kicker">Scroll to explore ↓</span></div>
+      <div className="night-bottom"><Intro /><Action href="/contact">Start a conversation</Action><span className="ed-kicker">Scroll to explore <SymbolIcon symbol="↓" /></span></div>
       <figure className="night-cover"><Photo src={projects[2].image} alt="Accelede — selected technology website project" position="top" priority={priority} /><figcaption><span>Selected work — Accelede</span><span>Technology / 003</span></figcaption></figure>
     </section>
   );
   return (
     <section className="ed-hero field-hero">
       <div className="field-title"><span className="ed-kicker">A note from the studio — Manchester, UK</span><h1>Professional<br /><em>Web Design</em><br />Agency UK<span>.</span></h1><Intro /><Action>View our work</Action></div>
-      <div className="field-collage"><figure className="field-main"><Photo priority={priority} /><figcaption>01 / Ideas into digital experiences.</figcaption></figure><figure className="field-project"><Photo src={projects[0].image} alt="Aanchor Health website project" position="top" /><figcaption>Aanchor Health — Healthcare</figcaption></figure><span className="field-stamp">CREATIVE THINKING<br /><span aria-hidden="true">✳</span><br />TECHNICAL EXPERTISE</span></div>
+      <div className="field-collage"><figure className="field-main"><Photo priority={priority} /><figcaption>01 / Ideas into digital experiences.</figcaption></figure><figure className="field-project"><Photo src={projects[0].image} alt="Aanchor Health website project" position="top" /><figcaption>Aanchor Health — Healthcare</figcaption></figure><span className="field-stamp">CREATIVE THINKING<br /><span aria-hidden="true"><SymbolIcon symbol="✳" /></span><br />TECHNICAL EXPERTISE</span></div>
       <div className="field-bottom"><span>Good people. Considered work.</span><span>Bespoke websites for British businesses.</span></div>
     </section>
   );
@@ -79,7 +80,7 @@ function SectionHeading({ number, title, href, label }) {
 }
 
 function Work() {
-  return <section id="work" className="ed-work ed-section"><SectionHeading number="01" label="Selected projects" title="Our recent work." href="/projects" /><div className="ed-projects">{projects.map((p, i) => <Link key={p.index} href="/projects" className={`ed-project ed-project-${i}`}><div className="ed-project-mat"><Photo src={p.image} alt={`${p.client} website design`} position="top" /><span className="ed-project-arrow" aria-hidden="true">↗</span></div><div className="ed-project-caption"><div><h3>{p.client}</h3><p>{p.category}</p></div><span>{p.index}</span></div></Link>)}</div></section>;
+  return <section id="work" className="ed-work ed-section"><SectionHeading number="01" label="Selected projects" title="Our recent work." href="/projects" /><div className="ed-projects">{projects.map((p, i) => <Link key={p.index} href="/projects" className={`ed-project ed-project-${i}`}><div className="ed-project-mat"><Photo src={p.image} alt={`${p.client} website design`} position="top" /><span className="ed-project-arrow" aria-hidden="true"><SymbolIcon symbol="↗" /></span></div><div className="ed-project-caption"><div><h3>{p.client}</h3><p>{p.category}</p></div><span>{p.index}</span></div></Link>)}</div></section>;
 }
 
 function Studio() {

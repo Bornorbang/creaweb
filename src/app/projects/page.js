@@ -1,3 +1,4 @@
+import SymbolIcon from "../components/SymbolIcon";
 ﻿import SiteShell, { Button } from "../components/pages/SiteShell";
 import { Hero } from "../components/pages/MarketingPage";
 import ProjectGallery from "../components/pages/ProjectGallery";
@@ -9,5 +10,5 @@ export const metadata = {
   openGraph: { title: "Web Design Portfolio UK | Crea Web Agency", description: "Explore bespoke websites from the Crea Web Agency portfolio.", url: "https://creaweb.co.uk/projects", type: "website" },
 };
 export default function ProjectsPage() {
-  return <SiteShell page="projects"><Hero label="Selected work" title="Good ideas. Made real." intro={[content.projects.title,...content.projects.intro]} tone="lime"><a href="#portfolio" className="sp-text-link">Explore all 12 projects ↓</a><Button>Start your project</Button></Hero><ProjectGallery /></SiteShell>;
+  return <SiteShell page="projects"><Hero label="Selected work" title="Good ideas. Made real." intro={[content.projects.title,...content.projects.intro]} tone="lime"><a href="#portfolio" className="sp-text-link">Explore all 12 projects <SymbolIcon symbol="↓" /></a><Button>Start your project</Button></Hero><ProjectGallery /></SiteShell>;
 }

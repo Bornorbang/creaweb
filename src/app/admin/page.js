@@ -1,4 +1,5 @@
 "use client";
+import SymbolIcon from "../components/SymbolIcon";
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -23,7 +24,7 @@ function AdminHeader({ onLogout }) {
           target="_blank"
           className="text-[0.68rem] tracking-[0.1em] uppercase font-sans text-[#F6F1E8]/60 hover:text-[#F6F1E8] transition-colors"
         >
-          View Site ↗
+          View Site <SymbolIcon symbol="↗" />
         </Link>
         <button
           onClick={onLogout}

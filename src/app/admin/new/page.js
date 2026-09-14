@@ -1,4 +1,5 @@
 "use client";
+import SymbolIcon from "../../components/SymbolIcon";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -111,7 +112,7 @@ export default function NewPost() {
           <span className="text-[#B08D57] text-[0.65rem] tracking-[0.18em] uppercase font-sans hidden sm:block">Admin</span>
         </div>
         <Link href="/admin" className="text-[0.68rem] tracking-[0.1em] uppercase font-sans text-[#F6F1E8]/60 hover:text-[#F6F1E8] transition-colors">
-          ← All Posts
+          <SymbolIcon symbol="←" /> All Posts
         </Link>
       </header>
 

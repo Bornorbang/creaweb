@@ -1,5 +1,6 @@
 "use client";
 
+import SymbolIcon from "../components/SymbolIcon";
 import { useState } from "react";
 import Link from "next/link";
 import { directions } from "./content";
@@ -17,7 +18,7 @@ export default function DesignPicker({ current }) {
 
   return (
     <aside className="design-picker" aria-label="Design comparison">
-      <Link href={modern ? "/designs" : "/designs?collection=editorial"} className="picker-back">← <span>All designs</span></Link>
+      <Link href={modern ? "/designs" : "/designs?collection=editorial"} className="picker-back"><SymbolIcon symbol="←" /> <span>All designs</span></Link>
       <nav aria-label="Five design options">
         {options.map((d) => (
           <Link key={d.id} href={`/designs/${d.id}`} aria-current={current === d.id ? "page" : undefined} title={d.name}>
