@@ -74,7 +74,7 @@ export default function ContactCTA() {
           <div className="space-y-5">
             {[
               { label: "Email",    value: "contact@creaweb.co.uk" },
-              { label: "Phone",    value: "+44 20 7123 4567"           },
+              { label: "Phone",    value: "+447846935545"           },
               { label: "Location", value: "Manchester · Remote across UK" },
             ].map((c) => (
               <div key={c.label} className="flex items-start gap-5">
@@ -131,7 +131,7 @@ export default function ContactCTA() {
                   name="mobile"
                   type="tel"
                   autoComplete="tel"
-                  placeholder="+44 7700 900000"
+                  placeholder="+447846935545"
                   className="bg-transparent border-b border-[#1C1C1C]/20 py-3 text-[#1C1C1C] text-[0.9rem] font-sans placeholder:text-[#1C1C1C]/25 focus:outline-none focus:border-[#12372A] transition-colors duration-300"
                 />
               </div>
