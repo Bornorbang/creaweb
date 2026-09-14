@@ -15,7 +15,7 @@ const technologies = [
   },
   {
     name: "Django",
-    src: "https://www.websitedesigner.ng/static/img/django-logo.png",
+    src: "/images/technologies/django.svg",
   },
   {
     name: "PHP",
@@ -39,11 +39,11 @@ const technologies = [
   },
   {
     name: "React",
-    src: "https://www.websitedesigner.ng/static/img/react-logo.png",
+    src: "/images/technologies/react.svg",
   },
   {
     name: "MySQL",
-    src: "https://www.websitedesigner.ng/static/img/mysql-logo.png",
+    src: "/images/technologies/mysql.svg",
   },
 ];
 

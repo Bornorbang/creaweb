@@ -1,10 +1,9 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Link from "next/link";
-import { staticArticles } from "../components/Journal";
-import Reveal from "../components/Reveal";
+import SiteShell from "../components/pages/SiteShell";
+import { InsightCard } from "../components/insights/InsightCard";
+import "../components/insights/insights.css";
 
-export const metadata = {
+const listingMetadata = {
   title: "Web Design Blog",
   description:
     "Expert insights on web design, digital strategy, and building effective online presences for UK businesses. Read the Crea Web agency blog.",
@@ -17,7 +16,17 @@ export const metadata = {
   },
 };
 
+
 const PER_PAGE = 12;
+export async function generateMetadata({ searchParams }) {
+  const params = await searchParams;
+  const requested = Number(params?.page ?? 1);
+  const posts = await getAllPosts();
+  const page = Number.isSafeInteger(requested) && requested > 0 ? Math.min(requested, Math.max(1, Math.ceil((posts?.length || 0) / PER_PAGE))) : 1;
+  const url = "https://creaweb.co.uk/insights" + (page > 1 ? "?page=" + page : "");
+  return { ...listingMetadata, title: page > 1 ? "Web Design Blog - Page " + page : listingMetadata.title,
+    alternates: { canonical: url }, openGraph: { ...listingMetadata.openGraph, url } };
+}
 
 async function getAllPosts() {
   try {
@@ -31,214 +40,20 @@ async function getAllPosts() {
       return data.posts ?? null;
     }
   } catch {
-    // PHP server offline — use static fallback
+    // Show a temporary-unavailability message if the API cannot be reached.
   }
   return null;
 }
 
-const categoryColors = {
-  "Design Thinking":  "#12372A",
-  Typography:         "#B08D57",
-  Strategy:           "#7C746A",
-  Development:        "#1C1C1C",
-  "AI & Automation":  "#12372A",
-  "Case Study":       "#B08D57",
-  General:            "#12372A",
-};
 
 export default async function InsightsPage({ searchParams }) {
-  const params  = await searchParams;
-  const page    = Math.max(1, parseInt(params?.page ?? "1", 10));
-  const fetched = await getAllPosts();
-  const all     = fetched && fetched.length > 0 ? fetched : staticArticles;
-
-  const totalPages = Math.ceil(all.length / PER_PAGE);
-  const safePage   = Math.min(page, totalPages || 1);
-  const posts      = all.slice((safePage - 1) * PER_PAGE, safePage * PER_PAGE);
-
-  return (
-    <>
-      <Navbar />
-      <main>
-
-        {/* ── Hero ─────────────────────────────────────────────────────── */}
-        <section className="relative bg-[#12372A] pt-24 pb-14 md:pt-28 md:pb-20 overflow-hidden">
-          {/* Banner image */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1800&auto=format&fit=crop&q=70"
-            alt=""
-            aria-hidden="true"
-            className="absolute inset-0 w-full h-full object-cover object-center opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#12372A] via-[#12372A]/85 to-[#12372A]/50" />
-          <div className="absolute top-0 left-0 right-0 h-[3px] bg-[#B08D57] z-10" />
-          <div className="relative max-w-[1320px] mx-auto px-6 md:px-10">
-            <div className="flex items-center gap-4 mb-10 animate-fade-up">
-              <span className="block w-8 h-[1px] bg-[#B08D57]" />
-              <span className="text-[#B08D57] text-[0.68rem] tracking-[0.22em] uppercase font-sans">
-                The Studio Journal
-              </span>
-            </div>
-            <h1
-              className="font-serif-display text-[#F6F1E8] leading-[1.08] mb-8 animate-fade-up animation-delay-200"
-              style={{ fontSize: "clamp(1.8rem, 3.5vw, 3rem)" }}
-            >
-              Insights &amp;
-              <br />
-              <em className="text-[#B08D57]">Observations</em>
-            </h1>
-            <p className="text-[#F6F1E8]/65 text-[0.9rem] leading-relaxed max-w-[50ch] font-sans font-light">
-              Considered perspectives on web design, digital strategy, and the
-              craft of building lasting online presences for British businesses.
-            </p>
-          </div>
-        </section>
-
-        {/* ── Posts Grid ───────────────────────────────────────────────── */}
-        <section className="bg-[#F6F1E8] py-16 md:py-20">
-          <div className="max-w-[1320px] mx-auto px-6 md:px-10">
-            {posts.length === 0 ? (
-              <p className="text-[#7C746A] font-sans text-center py-20">
-                No articles published yet.
-              </p>
-            ) : (
-              <>
-                {/* 3-column grid — every post equal weight */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#1C1C1C]/10 border border-[#1C1C1C]/10">
-                  {posts.map((post, i) => (
-                    <Reveal key={post.id ?? post.slug} delay={i * 60}>
-                    <article
-                      className="group bg-[#F6F1E8] hover:bg-white transition-colors duration-400 flex flex-col"
-                    >
-                      <Link
-                        href={`/${post.slug}`}
-                        className="block overflow-hidden aspect-[16/9] relative bg-[#1C1C1C]/5"
-                      >
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
-                          src={
-                            post.coverImage ||
-                            `https://picsum.photos/seed/${post.slug}/800/500`
-                          }
-                          alt={post.title}
-                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                          loading="lazy"
-                        />
-                        <div className="absolute top-3 left-3">
-                          <span
-                            className="text-[0.6rem] tracking-[0.14em] uppercase font-sans text-[#F6F1E8] px-2.5 py-1"
-                            style={{
-                              backgroundColor:
-                                categoryColors[post.category] ?? "#12372A",
-                            }}
-                          >
-                            {post.category}
-                          </span>
-                        </div>
-                      </Link>
-
-                      <div className="p-8 flex flex-col gap-4 flex-1">
-                        <span className="text-[#7C746A] text-[0.68rem] font-sans">
-                          {post.date}
-                        </span>
-                        <Link href={`/${post.slug}`}>
-                          <h2
-                            className="font-serif-display text-[#1C1C1C] leading-tight group-hover:text-[#12372A] transition-colors duration-300"
-                            style={{ fontSize: "clamp(1.05rem, 1.6vw, 1.35rem)" }}
-                          >
-                            {post.title}
-                          </h2>
-                        </Link>
-                        <p className="text-[#7C746A] text-[0.83rem] leading-[1.75] font-sans font-light flex-1">
-                          {post.excerpt}
-                        </p>
-                        <div className="flex items-center justify-between pt-5 border-t border-[#1C1C1C]/8 mt-auto">
-                          <span className="text-[#7C746A]/60 text-[0.67rem] font-sans">
-                            {post.readTime}
-                          </span>
-                          <Link
-                            href={`/${post.slug}`}
-                            className="text-[0.67rem] tracking-[0.1em] uppercase font-sans text-[#12372A] group-hover:text-[#B08D57] transition-colors duration-300 font-medium"
-                          >
-                            Read →
-                          </Link>
-                        </div>
-                      </div>
-                    </article>
-                  </Reveal>
-                  ))}
-                </div>
-
-                {/* ── Pagination ───────────────────────────────────────── */}
-                {totalPages > 1 && (
-                  <nav
-                    className="mt-16 flex items-center justify-center gap-2"
-                    aria-label="Pagination"
-                  >
-                    {/* Prev */}
-                    {safePage > 1 ? (
-                      <Link
-                        href={`/insights?page=${safePage - 1}`}
-                        className="flex items-center gap-2 text-[0.72rem] tracking-[0.1em] uppercase font-sans text-[#12372A] border border-[#12372A]/25 px-5 py-2.5 hover:bg-[#12372A] hover:text-[#F6F1E8] transition-colors duration-300"
-                      >
-                        <svg width="12" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true">
-                          <path d="M13 5H1M6 1L1 5l5 4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                        Prev
-                      </Link>
-                    ) : (
-                      <span className="flex items-center gap-2 text-[0.72rem] tracking-[0.1em] uppercase font-sans text-[#1C1C1C]/25 border border-[#1C1C1C]/10 px-5 py-2.5 cursor-not-allowed">
-                        <svg width="12" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true">
-                          <path d="M13 5H1M6 1L1 5l5 4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                        Prev
-                      </span>
-                    )}
-
-                    {/* Page numbers */}
-                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((n) => (
-                      <Link
-                        key={n}
-                        href={`/insights?page=${n}`}
-                        className={`w-10 h-10 flex items-center justify-center text-[0.75rem] font-sans transition-colors duration-300 ${
-                          n === safePage
-                            ? "bg-[#12372A] text-[#F6F1E8]"
-                            : "border border-[#1C1C1C]/15 text-[#1C1C1C] hover:border-[#12372A] hover:text-[#12372A]"
-                        }`}
-                        aria-current={n === safePage ? "page" : undefined}
-                      >
-                        {n}
-                      </Link>
-                    ))}
-
-                    {/* Next */}
-                    {safePage < totalPages ? (
-                      <Link
-                        href={`/insights?page=${safePage + 1}`}
-                        className="flex items-center gap-2 text-[0.72rem] tracking-[0.1em] uppercase font-sans text-[#12372A] border border-[#12372A]/25 px-5 py-2.5 hover:bg-[#12372A] hover:text-[#F6F1E8] transition-colors duration-300"
-                      >
-                        Next
-                        <svg width="12" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true">
-                          <path d="M1 5h12M8 1l5 4-5 4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                      </Link>
-                    ) : (
-                      <span className="flex items-center gap-2 text-[0.72rem] tracking-[0.1em] uppercase font-sans text-[#1C1C1C]/25 border border-[#1C1C1C]/10 px-5 py-2.5 cursor-not-allowed">
-                        Next
-                        <svg width="12" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true">
-                          <path d="M1 5h12M8 1l5 4-5 4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                      </span>
-                    )}
-                  </nav>
-                )}
-              </>
-            )}
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </>
-  );
+ const params = await searchParams;
+ const requested = Number(params?.page ?? 1);
+ const page = Number.isSafeInteger(requested) && requested > 0 ? requested : 1;
+ const fetched = await getAllPosts();
+ const all = Array.isArray(fetched) ? fetched : [];
+ const totalPages = Math.max(1, Math.ceil(all.length / PER_PAGE));
+ const safePage = Math.min(page, totalPages);
+ const posts = all.slice((safePage - 1) * PER_PAGE, safePage * PER_PAGE);
+ return <SiteShell page="insights"><section className="ij-hero"><div className="sp-shell"><nav className="sp-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><span>Insights</span></nav><div className="ij-hero-grid"><div><span className="cw-label">The studio journal</span><h1>Insights &amp;<br />observations.</h1></div><div><span className="ij-star" aria-hidden="true">✳</span><p>Considered perspectives on web design, digital strategy, and the craft of building lasting online presences for British businesses.</p></div></div></div></section><section className="sp-shell sp-section ij-list" aria-label="Journal articles"><div className="ij-section-label"><span className="cw-label">{safePage === 1 ? "From the journal" : "More from the journal"}</span><span>{all.length} articles / Page {safePage} of {totalPages}</span></div>{posts.length ? <><InsightCard post={posts[0]} featured /><div className="ij-card-grid">{posts.slice(1).map(post => <InsightCard key={post.id ?? post.slug} post={post} />)}</div></> : <p>{fetched === null ? "The journal is temporarily unavailable. Please try again shortly." : "No articles published yet."}</p>}{totalPages > 1 && <nav className="ij-pagination" aria-label="Pagination">{safePage > 1 && <Link href={`/insights?page=${safePage - 1}`}>← Previous</Link>}{Array.from({length:totalPages},(_,i)=>i+1).filter(n=>n===1||n===totalPages||Math.abs(n-safePage)<=2).map((n,i,visible)=><span key={n}>{i>0 && n-visible[i-1]>1 && <span className="ij-page-gap" aria-hidden="true">…</span>}<Link href={`/insights?page=${n}`} aria-label={`Page ${n}`} aria-current={n===safePage?"page":undefined}>{n}</Link></span>)}{safePage < totalPages && <Link href={`/insights?page=${safePage+1}`}>Next →</Link>}</nav>}</section></SiteShell>;
 }

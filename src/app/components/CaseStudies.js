@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Reveal from "./Reveal";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const caseStudies = [
   {
@@ -46,16 +46,32 @@ const caseStudies = [
 export default function CaseStudies() {
   const [scrolledImages, setScrolledImages] = useState(new Set());
   const imageRefs = useRef({});
-  const animationFrameRefs = useRef({});
+  const animationFrameRefs = useRef(new Map());
+
+  useEffect(() => {
+    const frames = animationFrameRefs.current;
+    return () => {
+      frames.forEach((frame) => cancelAnimationFrame(frame));
+      frames.clear();
+    };
+  }, []);
 
   const smoothScroll = (element, targetScroll) => {
     const startScroll = element.scrollTop;
     const distance = targetScroll - startScroll;
     const duration = 2000; // 2 second smooth scroll for full scroll
-    const startTime = Date.now();
+    const frames = animationFrameRefs.current;
+    if (frames.has(element)) cancelAnimationFrame(frames.get(element));
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      element.scrollTop = targetScroll;
+      frames.delete(element);
+      return;
+    }
+    let startTime;
 
-    const animate = () => {
-      const elapsed = Date.now() - startTime;
+    const animate = (timestamp) => {
+      startTime ??= timestamp;
+      const elapsed = timestamp - startTime;
       const progress = Math.min(elapsed / duration, 1);
       
       // Easing function for smooth motion
@@ -66,14 +82,13 @@ export default function CaseStudies() {
       element.scrollTop = startScroll + distance * easeProgress;
 
       if (progress < 1) {
-        animationFrameRefs.current[element] = requestAnimationFrame(animate);
+        frames.set(element, requestAnimationFrame(animate));
+      } else {
+        frames.delete(element);
       }
     };
 
-    if (animationFrameRefs.current[element]) {
-      cancelAnimationFrame(animationFrameRefs.current[element]);
-    }
-    animationFrameRefs.current[element] = requestAnimationFrame(animate);
+    frames.set(element, requestAnimationFrame(animate));
   };
 
   const handleImageClick = (index) => {
@@ -121,6 +136,12 @@ export default function CaseStudies() {
                 {/* Image container */}
                 <div
                   onClick={() => handleImageClick(i)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      handleImageClick(i);
+                    }
+                  }}
                   role="button"
                   tabIndex={0}
                   className="group relative bg-gray-200 cursor-pointer h-80 sm:h-96 md:h-72 lg:h-80 mb-5 transition-all duration-300 overflow-hidden"

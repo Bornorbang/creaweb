@@ -10,19 +10,21 @@ export default function ReadingProgress() {
       if (!el) return;
 
       const top    = el.getBoundingClientRect().top + window.scrollY;
-      const height = el.offsetHeight;
+      const height = Math.max(1, el.offsetHeight - window.innerHeight);
       const scrolled = Math.max(0, window.scrollY - top);
       const pct = Math.min(100, (scrolled / height) * 100);
       setProgress(pct);
     }
 
+    onScroll();
+    window.addEventListener("resize", onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    return () => { window.removeEventListener("scroll", onScroll); window.removeEventListener("resize", onScroll); };
   }, []);
 
   return (
     <div
-      className="fixed top-0 left-0 z-[60] h-[3px] bg-[#B08D57] transition-none"
+      className="ij-reading-progress"
       style={{ width: `${progress}%` }}
       aria-hidden="true"
     />

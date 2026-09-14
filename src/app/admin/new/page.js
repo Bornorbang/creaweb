@@ -39,13 +39,15 @@ export default function NewPost() {
   useEffect(() => {
     const t = localStorage.getItem("admin_token");
     if (!t) { router.push("/admin/login"); return; }
+    // Hydrate browser-only authentication after the server render.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setToken(t);
   }, [router]);
 
   function set(field, value) {
     setForm((prev) => {
       const next = { ...prev, [field]: value };
-      if (field === "title" && !prev.slug) next.slug = slugify(value);
+      if (field === "title" && (!prev.slug || prev.slug === slugify(prev.title))) next.slug = slugify(value);
       return next;
     });
   }

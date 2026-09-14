@@ -1,4 +1,6 @@
-export default function sitemap() {
+export const dynamic = "force-dynamic";
+
+export default async function sitemap() {
   const baseUrl = "https://creaweb.co.uk";
   const now = new Date().toISOString();
 
@@ -42,10 +44,17 @@ export default function sitemap() {
     { url: "/industries/charities",     priority: 0.70, changeFrequency: "monthly" },
   ];
 
-  return routes.map(({ url, priority, changeFrequency }) => ({
-    url: `${baseUrl}${url}`,
-    lastModified: now,
-    changeFrequency,
-    priority,
+  const extraRoutes = ["/projects", "/privacy-policy", "/terms-of-service", "/cookie-policy", "/accessibility", "/industries/charity"];
+  for (const url of extraRoutes) routes.push({ url, priority: 0.6, changeFrequency: "monthly" });
+  const api = (process.env.API_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/(?:\/api)+\/?$/, "");
+  const response = await fetch(`${api}/api/posts`, { cache: "no-store" });
+  if (!response.ok) throw new Error("Unable to load published articles for the sitemap");
+  const data = await response.json();
+  const articles = (data.posts || []).map(post => ({
+    url: `${baseUrl}/${post.slug}`,
+    lastModified: post.updatedAt || post.createdAt, changeFrequency: "monthly", priority: 0.7,
   }));
+  return [...routes.map(({ url, priority, changeFrequency }) => ({
+    url: baseUrl + url, lastModified: now, changeFrequency, priority,
+  })), ...articles];
 }

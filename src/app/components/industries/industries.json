@@ -1,0 +1,2557 @@
+{
+  "arts-culture": {
+    "slug": "arts-culture",
+    "label": "Arts & culture",
+    "keyword": "Arts & Culture Web Design",
+    "heroTitle": "Arts & Culture Web Design That Brings Creativity Online",
+    "intro": "Every creative organisation has a unique story to tell. At Crea Web, we specialise in Arts & Culture Web Design, crafting bespoke websites for museums, galleries, theatres, artists, festivals, and cultural institutions. We combine elegant design, intuitive navigation, and modern technology to help you inspire audiences, promote events, and strengthen your digital presence.",
+    "cta": "Get Started",
+    "images": [
+      {
+        "src": "/images/industries/arts-hero.jpg",
+        "alt": "Arts & Culture Web Design UK"
+      },
+      {
+        "src": "/images/industries/arts-about.jpg",
+        "alt": "Arts & Culture Web Design UK"
+      },
+      {
+        "src": "/images/industries/art-why.jpg",
+        "alt": "Arts & Culture Web Design UK"
+      }
+    ],
+    "aboutTitle": "Digital Experiences That Celebrate Creativity",
+    "about": [
+      "The arts are built on emotion, storytelling, and human connection—and your website should reflect that. Whether you're showcasing an exhibition, promoting performances, or preserving cultural heritage, your website should capture attention while making information easy to explore. At Crea Web, we design bespoke arts and culture websites that balance creativity with usability, helping organisations connect with audiences in meaningful ways.",
+      "Every creative organisation has different goals. A museum may need an engaging exhibition archive, a theatre may require online ticketing, while an independent artist may want a portfolio that highlights their work beautifully. That's why we design every website from the ground up, tailoring layouts, functionality, and content around your organisation's mission, audience, and identity.",
+      "As a trusted UK web design agency, we understand the importance of presenting creative work with care and authenticity. Every website we build is responsive, SEO-friendly, and designed to encourage exploration, whether visitors are discovering your collection, purchasing tickets, supporting your organisation, or learning about your latest project."
+    ],
+    "reasonsTitle": "Why Arts & Culture Organisations Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Showcase Your Work Beautifully",
+        "body": "We design visually rich websites that place your artwork, performances, exhibitions, and collections at the centre of the experience."
+      },
+      {
+        "title": "Encourage Visitor Engagement",
+        "body": "Clear navigation, intuitive event pages, and engaging storytelling help visitors spend more time exploring your organisation."
+      },
+      {
+        "title": "Increase Visibility Online",
+        "body": "Every website is built with SEO best practices to help organisations appear in searches for exhibitions, events, and cultural experiences."
+      },
+      {
+        "title": "Designed for Every Device",
+        "body": "Whether someone is buying tickets on their phone or exploring an exhibition from their desktop, your website will provide a seamless experience."
+      },
+      {
+        "title": "Built Around Your Creative Identity",
+        "body": "No templates. Every project is uniquely designed to reflect your artistic vision, organisational values, and audience expectations."
+      },
+      {
+        "title": "Accessibility-First Design",
+        "body": "Every website is built with accessibility standards in mind, ensuring everyone can explore and enjoy your content."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": "Your arts & culture website can include all of these features and more.",
+    "features": [
+      "Exhibition pages",
+      "Artist portfolio galleries",
+      "Collection archives",
+      "Event calendars",
+      "Online ticket booking",
+      "Membership registration",
+      "Donation integration",
+      "Digital exhibition experiences",
+      "Audio & video galleries",
+      "Interactive timelines",
+      "Educational resources",
+      "Press & media centre",
+      "Blog & news section",
+      "Volunteer sign-up forms",
+      "Newsletter integration"
+    ],
+    "sectorsTitle": "We Work With",
+    "sectorsIntro": "Our arts & culture web design services are ideal for a wide range of creative organisations.",
+    "sectors": [
+      "Museums",
+      "Art Galleries",
+      "Independent Artists",
+      "Sculptors",
+      "Photographers",
+      "Theatres",
+      "Performing Arts Centres",
+      "Festivals",
+      "Cultural Organisations",
+      "Heritage Sites",
+      "Community Arts Projects",
+      "Dance Companies",
+      "Music Organisations",
+      "Creative Studios",
+      "Public Art Initiatives",
+      "Non-Profit Cultural Institutions"
+    ],
+    "whyTitle": "Why Your Creative Organisation Needs a Modern Website",
+    "why": [
+      "For many people, your website is the first opportunity to experience your organisation. A thoughtfully designed website should invite curiosity, communicate your story, and make it easy for visitors to discover exhibitions, purchase tickets, support your work, or engage with your community. A poor online experience can discourage potential visitors, while a beautifully designed website strengthens your reputation and broadens your reach.",
+      "At Crea Web, we combine editorial-inspired design with modern web development to create digital experiences that celebrate creativity while delivering outstanding performance. Every website is built with accessibility, responsive design, and SEO in mind, helping arts and culture organisations connect with larger audiences and remain relevant in an increasingly digital world."
+    ],
+    "benefitsTitle": "Why Choose Crea Web?",
+    "benefits": [
+      "Bespoke Arts & Culture Website Design",
+      "UK Web Design Agency",
+      "Creative & Editorial Design",
+      "SEO-Friendly Development",
+      "Responsive Across All Devices",
+      "Accessibility-Focused Design",
+      "Event & Ticketing Integrations",
+      "Long-Term Website Support",
+      "Designed to Inspire & Engage"
+    ],
+    "pricingTitle": "Arts & Culture Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 8 pages",
+          "Exhibition gallery",
+          "Event calendar",
+          "Basic SEO setup",
+          "Mobile optimized"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 15 pages",
+          "Portfolio galleries",
+          "Online ticketing",
+          "Membership system",
+          "Advanced SEO",
+          "Newsletter integration"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Unlimited pages",
+          "Digital exhibitions",
+          "Donation system",
+          "Multi-location support",
+          "Advanced integrations",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does an arts or culture website cost?",
+        "a": "Every project is tailored to your organisation's needs. Pricing depends on the required functionality, content, and integrations."
+      },
+      {
+        "q": "Can you integrate event ticketing systems?",
+        "a": "Yes. We can integrate ticketing platforms, event booking systems, and custom registration forms."
+      },
+      {
+        "q": "Do you create artist portfolio websites?",
+        "a": "Absolutely. We design bespoke portfolio websites for artists, photographers, designers, and other creative professionals."
+      },
+      {
+        "q": "Can you redesign our existing museum or gallery website?",
+        "a": "Yes. We modernise outdated websites while improving user experience, accessibility, and search visibility."
+      },
+      {
+        "q": "Are your websites mobile-friendly?",
+        "a": "Yes. Every website is fully responsive and optimised for smartphones, tablets, and desktop devices."
+      },
+      {
+        "q": "Do you provide SEO services?",
+        "a": "Yes. Every project includes technical SEO foundations, with optional ongoing SEO campaigns available."
+      },
+      {
+        "q": "Can you include donation functionality?",
+        "a": "Yes. We can integrate secure online donation systems for charities, museums, and cultural organisations."
+      },
+      {
+        "q": "Do you provide ongoing maintenance?",
+        "a": "Yes. We offer maintenance, updates, security monitoring, and long-term technical support."
+      }
+    ],
+    "finalTitle": "Tell Your Story Through Exceptional Design",
+    "finalText": [
+      "Whether you're a museum, gallery, theatre, festival, or independent artist, your website should inspire the same confidence and creativity as your work. Crea Web creates bespoke arts and culture websites that engage audiences, promote events, and support long-term growth."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Arts & Culture Web Design UK | Crea Web"
+      },
+      "description": "Crea Web creates bespoke arts and culture websites for galleries, museums, artists, theatres, festivals, and cultural organisations. Beautiful, responsive, and SEO-friendly.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/arts-culture"
+      },
+      "openGraph": {
+        "title": "Arts & Culture Web Design UK | Crea Web",
+        "description": "Crea Web creates bespoke arts and culture websites for galleries, museums, artists, theatres, festivals, and cultural organisations. Beautiful, responsive, and SEO-friendly.",
+        "url": "https://creaweb.co.uk/industries/arts-culture",
+        "type": "website"
+      }
+    }
+  },
+  "charity": {
+    "slug": "charity",
+    "label": "Charity",
+    "keyword": "Charity Web Design",
+    "heroTitle": "Charity Web Design That Inspires Action & Builds Trust",
+    "intro": "Every charity has a mission worth sharing. At Crea Web, we specialise in Charity Web Design, creating accessible, responsive, and SEO-friendly websites for charities, non-profit organisations, NGOs, community groups, and social enterprises across the UK. We design websites that increase awareness, encourage donations, recruit volunteers, and help organisations create lasting impact.",
+    "cta": "Start Your Project",
+    "images": [
+      {
+        "src": "/images/industries/charity-hero.jpg",
+        "alt": "Charity Web Design UK"
+      },
+      {
+        "src": "/images/industries/charity-about.jpg",
+        "alt": "Charity Web Design UK"
+      },
+      {
+        "src": "/images/industries/charity-why.jpg",
+        "alt": "Charity Web Design UK"
+      }
+    ],
+    "aboutTitle": "Websites That Help You Make a Greater Impact",
+    "about": [
+      "Your website is one of your most important fundraising and communication tools. Whether you're supporting local communities, protecting the environment, advancing education, or delivering humanitarian aid, your website should clearly communicate your mission while making it easy for people to donate, volunteer, and get involved. At Crea Web, we create bespoke charity websites that combine compelling storytelling with intuitive functionality to help organisations maximise their impact.",
+      "Every organisation has different goals, supporters, and programmes. That's why we design every website from the ground up to reflect your mission, values, and audience. From campaign landing pages and volunteer registration to donation forms and impact reports, every feature is carefully planned to strengthen engagement and build long-term supporter relationships.",
+      "As a trusted UK web design agency, we understand the importance of transparency, accessibility, and trust in the charity sector. Our websites are designed to be inclusive, easy to manage, and optimised for search engines, ensuring your organisation can reach more people while demonstrating accountability and professionalism."
+    ],
+    "reasonsTitle": "Why Charities Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Increase Donations",
+        "body": "We create clear, persuasive donation journeys that make it simple for supporters to contribute securely online."
+      },
+      {
+        "title": "Engage Volunteers & Supporters",
+        "body": "From volunteer applications to newsletter sign-ups, every website is designed to encourage meaningful participation in your mission."
+      },
+      {
+        "title": "Improve Search Visibility",
+        "body": "Our charity websites are optimised for searches such as Charity London, Non-Profit Organisation UK, and Community Charity Manchester."
+      },
+      {
+        "title": "Accessible for Everyone",
+        "body": "We follow modern accessibility best practices to help ensure your website is usable for people with diverse needs and abilities."
+      },
+      {
+        "title": "Designed Around Your Mission",
+        "body": "No templates. Every website is thoughtfully designed to reflect your organisation's purpose, values, and long-term objectives."
+      },
+      {
+        "title": "Ongoing Support & Partnership",
+        "body": "We don't disappear after launch. Ongoing maintenance, updates, and strategic guidance help your organisation stay ahead as your mission grows."
+      }
+    ],
+    "featuresTitle": "Charity Website Features",
+    "featuresIntro": "Every charity website can include:",
+    "features": [
+      "Secure online donation integration",
+      "One-time & recurring donations",
+      "Fundraising campaign pages",
+      "Volunteer registration forms",
+      "Event management & ticketing",
+      "Charity impact reports",
+      "Success stories",
+      "Trustee & leadership profiles",
+      "Project & programme pages",
+      "News & blog section",
+      "Resource library",
+      "Newsletter sign-up",
+      "Petition & advocacy forms",
+      "Corporate partnership pages",
+      "Interactive maps"
+    ],
+    "sectorsTitle": "Industries We Work With",
+    "sectorsIntro": "We design websites for:",
+    "sectors": [
+      "Registered Charities",
+      "Non-Profit Organisations",
+      "NGOs",
+      "Community Interest Companies (CICs)",
+      "Social Enterprises",
+      "Community Organisations",
+      "Faith-Based Organisations",
+      "Educational Charities",
+      "Health Charities",
+      "Environmental Organisations",
+      "Animal Welfare Charities",
+      "Arts & Heritage Charities",
+      "Youth Organisations",
+      "International Development Organisations"
+    ],
+    "whyTitle": "Why Your Charity Needs a Modern Website",
+    "why": [
+      "Supporters expect to learn about your work quickly, understand your impact, and donate with confidence. A professionally designed charity website helps communicate your mission, build credibility, and make it easy for visitors to contribute in meaningful ways. Whether someone wants to make a donation, volunteer, attend an event, or partner with your organisation, your website should provide a simple and inspiring experience.",
+      "At Crea Web, we combine purposeful design with modern web development to create charity websites that support fundraising, community engagement, and long-term organisational growth. Every website is responsive, secure, and optimised for search engines, helping your organisation reach more supporters while making every interaction more impactful."
+    ],
+    "benefitsTitle": "Why Crea Web?",
+    "benefits": [
+      "Bespoke Charity Website Design",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Accessibility-Focused Design",
+      "Secure Donation Integrations",
+      "Mobile-First Experience",
+      "Fast Loading Websites",
+      "Long-Term Website Support",
+      "Designed to Increase Donations & Engagement"
+    ],
+    "pricingTitle": "Charity Website Pricing",
+    "pricingIntro": "Transparent, bespoke pricing for charities of all sizes. Every package is tailored to your needs with no hidden fees.",
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 8 pages",
+          "Responsive design",
+          "Basic SEO setup",
+          "Contact forms",
+          "Mobile optimized"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 15 pages",
+          "Donation integration",
+          "Volunteer system",
+          "Advanced SEO",
+          "Blog setup",
+          "Analytics tracking"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000+",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Unlimited pages",
+          "Multi-program support",
+          "Advanced donation systems",
+          "Event ticketing",
+          "Staff portal",
+          "Impact reporting",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a charity website cost?",
+        "a": "Every charity website is tailored to your organisation's goals and requirements. Pricing depends on the number of pages, features, and integrations required."
+      },
+      {
+        "q": "Can you integrate online donations?",
+        "a": "Yes. We can integrate secure donation platforms such as Stripe, PayPal, JustGiving, CAF Donate, and other fundraising solutions."
+      },
+      {
+        "q": "Do you design websites for small charities?",
+        "a": "Absolutely. We work with organisations of all sizes, from local community groups to national charities and international NGOs."
+      },
+      {
+        "q": "Can supporters volunteer through the website?",
+        "a": "Yes. We can create volunteer application forms, event registration systems, and supporter sign-up pages."
+      },
+      {
+        "q": "Will the website be accessible?",
+        "a": "Yes. We design with accessibility in mind, helping your website serve a wider audience and align with recognised accessibility best practices."
+      },
+      {
+        "q": "Do you provide SEO services?",
+        "a": "Yes. Every website includes technical SEO foundations, with optional ongoing SEO services to improve your visibility in search engines."
+      },
+      {
+        "q": "Can you redesign our existing charity website?",
+        "a": "Yes. We modernise outdated charity websites while improving performance, accessibility, branding, and user experience."
+      },
+      {
+        "q": "Do you provide maintenance and support?",
+        "a": "Yes. We offer ongoing maintenance, content updates, security monitoring, and technical support after launch."
+      }
+    ],
+    "finalTitle": "Amplify Your Mission With a Website That Makes a Difference",
+    "finalText": [
+      "Whether you're launching a new charity, expanding your fundraising efforts, or modernising your existing website, Crea Web creates secure, SEO-friendly charity websites that inspire trust, increase donations, and strengthen community engagement.",
+      "Ready to make an even greater impact? Get in touch today for a free consultation."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Charity Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs bespoke charity websites for UK charities, non-profit organisations, NGOs, and community groups. Accessible, SEO-friendly, and built to increase donations and engagement.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/charity"
+      },
+      "openGraph": {
+        "title": "Charity Web Design UK | Crea Web",
+        "description": "Crea Web designs bespoke charity websites for UK charities, non-profit organisations, NGOs, and community groups. Accessible, SEO-friendly, and built to increase donations and engagement.",
+        "url": "https://creaweb.co.uk/industries/charity",
+        "type": "website"
+      }
+    }
+  },
+  "ecommerce": {
+    "slug": "ecommerce",
+    "label": "E-commerce",
+    "keyword": "E-Commerce Web Design",
+    "heroTitle": "E-Commerce Web Design That Turns Visitors Into Customers",
+    "intro": "Your online store should do more than look impressive—it should make shopping effortless and drive sales. At Crea Web, we specialise in E-Commerce Web Design, creating fast, secure, and conversion-focused online stores for retailers, brands, manufacturers, and growing businesses across the UK. Every website is designed to maximise performance, improve customer experience, and increase revenue.",
+    "cta": "Get Started",
+    "images": [
+      {
+        "src": "/images/industries/ecommerce-hero.jpg",
+        "alt": "E-Commerce Web Design UK"
+      },
+      {
+        "src": "/images/industries/ecommerce-about.jpg",
+        "alt": "E-Commerce Web Design UK"
+      },
+      {
+        "src": "/images/industries/ecommerce-why.jpg",
+        "alt": "E-Commerce Web Design UK"
+      }
+    ],
+    "aboutTitle": "Online Stores Designed to Sell More",
+    "about": [
+      "Your website is your most valuable sales representative, working around the clock to showcase products, answer customer questions, and process orders. A successful e-commerce website must combine attractive design with intuitive navigation, fast performance, and a frictionless checkout experience. At Crea Web, we build bespoke online stores that help businesses convert more visitors into loyal customers.",
+      "No two online retailers are the same. Whether you're launching your first online shop, expanding an established retail brand, or migrating from another platform, every website we build is tailored to your products, customers, and growth strategy. We design scalable e-commerce solutions that are easy to manage while providing customers with an enjoyable shopping experience from homepage to checkout.",
+      "As a trusted UK web design agency, we understand that every click matters. From product discovery and search functionality to secure payments and mobile optimisation, every detail is carefully considered to increase conversions, reduce abandoned carts, and encourage repeat purchases. Our goal is simple: to create an online store that helps your business grow."
+    ],
+    "reasonsTitle": "Why Businesses Choose Crea Web for E-Commerce",
+    "reasons": [
+      {
+        "title": "Designed to Increase Sales",
+        "body": "Every page is strategically designed to guide shoppers toward completing a purchase through clear navigation, compelling product pages, and streamlined checkout experiences."
+      },
+      {
+        "title": "Optimised for Search Engines",
+        "body": "Our e-commerce websites are built using technical SEO best practices to improve visibility for searches such as product categories, brand names, and shopping queries."
+      },
+      {
+        "title": "Fast & Mobile-First",
+        "body": "With most online shopping taking place on mobile devices, every store we build delivers a seamless experience across smartphones, tablets, and desktops."
+      },
+      {
+        "title": "Scalable for Growth",
+        "body": "Whether you sell 20 products or 20,000, your website is built to grow with your business without compromising performance or user experience."
+      },
+      {
+        "title": "Tailored Around Your Brand",
+        "body": "No generic themes or cookie-cutter layouts. Every online store is custom-designed to reflect your brand identity and deliver a memorable shopping experience."
+      },
+      {
+        "title": "Secure Payment Processing",
+        "body": "Every store includes secure payment gateway integration, SSL encryption, and compliance with PCI DSS standards to protect your customers and grow trust."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": "Your e-commerce website can include all of these features and more.",
+    "features": [
+      "Shopify or WooCommerce development",
+      "Custom e-commerce development",
+      "Product catalogue management",
+      "Product search & filtering",
+      "Secure payment gateway integration",
+      "Guest checkout",
+      "Customer account portal",
+      "Wishlist functionality",
+      "Product reviews",
+      "Related products",
+      "Inventory management integration",
+      "Discount & coupon system",
+      "Shipping calculator",
+      "Abandoned cart recovery",
+      "Multi-currency support"
+    ],
+    "sectorsTitle": "We Work With",
+    "sectorsIntro": "Our e-commerce web design services are ideal for a wide range of online retailers.",
+    "sectors": [
+      "Fashion Brands",
+      "Beauty & Cosmetics",
+      "Furniture Retailers",
+      "Electronics Stores",
+      "Jewellery Brands",
+      "Luxury Goods",
+      "Homeware Businesses",
+      "Food & Beverage Brands",
+      "Pet Supply Stores",
+      "Sports & Fitness Retailers",
+      "Health & Wellness Brands",
+      "Subscription Businesses",
+      "Manufacturers",
+      "Wholesale Suppliers",
+      "DTC (Direct-to-Consumer) Brands"
+    ],
+    "whyTitle": "Why Your Business Needs a High-Performing Online Store",
+    "why": [
+      "Online shoppers expect speed, convenience, and confidence. If your website is slow, difficult to navigate, or confusing at checkout, potential customers will simply buy elsewhere. A professionally designed e-commerce website makes it easy for visitors to browse products, compare options, and complete purchases while reinforcing trust in your brand.",
+      "At Crea Web, we combine premium design with strategic development to create online stores that deliver measurable business results. Every website is optimised for search engines, user experience, and conversion rate optimisation, helping businesses attract more visitors, increase sales, and build long-term customer loyalty."
+    ],
+    "benefitsTitle": "Why Choose Crea Web?",
+    "benefits": [
+      "Bespoke E-Commerce Website Design",
+      "Shopify & WooCommerce Specialists",
+      "UK Web Design Agency",
+      "Conversion-Focused Development",
+      "SEO-Friendly Online Stores",
+      "Secure Payment Integrations",
+      "Fast Loading Performance",
+      "Ongoing Website Support",
+      "Designed to Increase Revenue"
+    ],
+    "pricingTitle": "E-Commerce Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 50 products",
+          "Responsive design",
+          "Basic SEO setup",
+          "Payment gateway integration",
+          "Mobile optimized"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 500 products",
+          "Shopify development",
+          "Product search & filtering",
+          "Customer accounts",
+          "Advanced SEO",
+          "Analytics setup"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Unlimited products",
+          "Custom e-commerce development",
+          "Multi-currency support",
+          "Inventory management",
+          "Advanced integrations",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does an e-commerce website cost?",
+        "a": "Every online store is bespoke. Pricing depends on the number of products, integrations, platform, and custom functionality required."
+      },
+      {
+        "q": "Do you build Shopify websites?",
+        "a": "Yes. We design and develop bespoke Shopify stores tailored to your products and brand identity."
+      },
+      {
+        "q": "Can you build WooCommerce websites?",
+        "a": "Absolutely. We build scalable WooCommerce stores with custom functionality and seamless WordPress integration."
+      },
+      {
+        "q": "Can you migrate my existing online store?",
+        "a": "Yes. We can migrate products, customer data, and content from many popular e-commerce platforms."
+      },
+      {
+        "q": "Are your online stores mobile-friendly?",
+        "a": "Yes. Every e-commerce website is fully responsive and optimised for all screen sizes and devices."
+      },
+      {
+        "q": "Can you integrate payment gateways?",
+        "a": "Yes. We integrate Stripe, PayPal, Klarna, Apple Pay, Google Pay, and many other payment providers."
+      },
+      {
+        "q": "Do you provide SEO for e-commerce websites?",
+        "a": "Yes. Every project includes technical SEO foundations, with optional ongoing SEO services available."
+      },
+      {
+        "q": "Do you offer ongoing support?",
+        "a": "Yes. We provide maintenance, security updates, performance monitoring, and long-term technical support."
+      }
+    ],
+    "finalTitle": "Build an Online Store That Grows Your Business",
+    "finalText": [
+      "Whether you're launching your first online store or scaling an established retail brand, Crea Web creates bespoke e-commerce websites designed to increase sales, strengthen your brand, and deliver exceptional shopping experiences."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "E-Commerce Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs bespoke e-commerce websites for UK businesses. Shopify, WooCommerce, and custom online stores built to increase sales, improve user experience, and support growth.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/ecommerce"
+      },
+      "openGraph": {
+        "title": "E-Commerce Web Design UK | Crea Web",
+        "description": "Crea Web designs bespoke e-commerce websites for UK businesses. Shopify, WooCommerce, and custom online stores built to increase sales, improve user experience, and support growth.",
+        "url": "https://creaweb.co.uk/industries/ecommerce",
+        "type": "website"
+      }
+    }
+  },
+  "education": {
+    "slug": "education",
+    "label": "Education",
+    "keyword": "Education Web Design",
+    "heroTitle": "Education Web Design That Inspires Learning & Engagement",
+    "intro": "Your website is often the first interaction prospective students, parents, and learners have with your institution. At Crea Web, we specialise in Education Web Design, creating modern, accessible, and SEO-friendly websites for schools, colleges, universities, academies, tutors, and training providers. We build digital experiences that inform, engage, and encourage enrolment.",
+    "cta": "Start Your Project",
+    "images": [
+      {
+        "src": "/images/industries/education-hero.jpg",
+        "alt": "Education Web Design UK"
+      },
+      {
+        "src": "/images/industries/education-about.jpg",
+        "alt": "Education Web Design UK"
+      },
+      {
+        "src": "/images/industries/education-why.jpg",
+        "alt": "Education Web Design UK"
+      }
+    ],
+    "aboutTitle": "Websites that inspire learning and engagement",
+    "about": [
+      "Today's learners expect more than a simple website—they expect a digital experience that is informative, engaging, and easy to navigate. Whether you're a primary school, independent college, university department, online academy, or training provider, your website should communicate your values while making important information easy to access. At Crea Web, we create bespoke education websites that strengthen your institution's reputation and improve the experience for students, parents, and staff alike.",
+      "Every educational organisation has unique goals, programmes, and audiences. That's why we design every website from the ground up, ensuring it reflects your brand identity while providing intuitive navigation, responsive layouts, and excellent accessibility. From admissions information and course pages to event calendars and staff directories, every element is designed to support communication and engagement. As a trusted UK web design agency, we combine thoughtful design with modern development to create education websites that are fast, secure, and built for long-term growth."
+    ],
+    "reasonsTitle": "Why Educational Institutions Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Improve Student & Parent Experience",
+        "body": "A well-structured website makes it easier for visitors to find admissions information, courses, timetables, policies, and contact details."
+      },
+      {
+        "title": "Encourage More Applications",
+        "body": "Strategic calls-to-action, clear navigation, and engaging content help convert prospective students into applicants."
+      },
+      {
+        "title": "SEO That Increases Visibility",
+        "body": "Our websites are optimised for searches such as Private School London, College Manchester, Training Provider Birmingham, Online Courses Leeds, and Academy Bristol."
+      },
+      {
+        "title": "Accessible & Responsive",
+        "body": "Every website is designed to work seamlessly across desktop, tablet, and mobile devices while following modern accessibility best practices."
+      },
+      {
+        "title": "Tailored to Your Institution",
+        "body": "Every website is bespoke, designed around your curriculum, admissions process, branding, and communication needs."
+      },
+      {
+        "title": "Ongoing Support & Partnership",
+        "body": "We don't disappear after launch. Ongoing maintenance, updates, and strategic guidance help your institution stay ahead as your needs grow."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": null,
+    "features": [
+      "Course & programme pages",
+      "Online admissions forms",
+      "Student application portals",
+      "Event calendars",
+      "Staff directories",
+      "Faculty profile pages",
+      "News & announcements",
+      "School blog",
+      "Downloadable prospectuses",
+      "Timetables",
+      "Parent information hub",
+      "Student resource centre",
+      "Secure enquiry forms",
+      "Accessibility-focused design",
+      "GDPR-compliant forms",
+      "SSL security"
+    ],
+    "sectorsTitle": "We Work With",
+    "sectorsIntro": null,
+    "sectors": [
+      "Primary Schools",
+      "Secondary Schools",
+      "Independent Schools",
+      "Colleges",
+      "Universities",
+      "Academies",
+      "Sixth Form Colleges",
+      "Nurseries",
+      "Tutors",
+      "Online Learning Platforms",
+      "Training Providers",
+      "Professional Certification Providers",
+      "Coaching Businesses",
+      "Educational Consultants"
+    ],
+    "whyTitle": "Why Your Institution Needs a Modern Website",
+    "why": [
+      "For many prospective students and parents, your website is their first impression of your institution. A modern, professionally designed website helps communicate your values, showcase your programmes, and make important information accessible to everyone. It also reduces administrative workload by making forms, policies, and announcements available online.",
+      "At Crea Web, we create education websites that balance beautiful design with practical functionality. Every website is responsive, SEO-friendly, and built to support admissions, communication, and long-term growth while providing an outstanding experience for students, parents, and educators."
+    ],
+    "benefitsTitle": "Why Choose Crea Web?",
+    "benefits": [
+      "Bespoke Education Website Design",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Mobile-First Design",
+      "Accessibility-Focused Websites",
+      "Fast Loading Performance",
+      "Secure Development",
+      "Long-Term Website Support",
+      "Designed to Increase Enquiries & Applications"
+    ],
+    "pricingTitle": "Education Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [],
+        "features": [
+          "Up to 8 pages",
+          "Responsive design",
+          "Basic SEO",
+          "Contact forms",
+          "Mobile optimised"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [],
+        "features": [
+          "Up to 15 pages",
+          "Advanced functionality",
+          "Admissions forms",
+          "Event calendars",
+          "SEO optimisation",
+          "Fast performance"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [],
+        "features": [
+          "Unlimited pages",
+          "Student portal",
+          "Custom integrations",
+          "LMS integration",
+          "Staff resources",
+          "Advanced security",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does an education website cost?",
+        "a": "Every education website is tailored to your institution's requirements. Pricing depends on functionality, page count, and integrations."
+      },
+      {
+        "q": "Can you redesign our current school or college website?",
+        "a": "Yes. We redesign outdated education websites while improving performance, accessibility, and user experience."
+      },
+      {
+        "q": "Can students apply online?",
+        "a": "Absolutely. We can integrate online application forms, admissions portals, and enquiry forms."
+      },
+      {
+        "q": "Are your education websites mobile-friendly?",
+        "a": "Yes. Every website is fully responsive across desktop, tablet, and mobile devices."
+      },
+      {
+        "q": "Do you optimise websites for search engines?",
+        "a": "Yes. Every website includes technical SEO foundations, with optional ongoing SEO services available."
+      },
+      {
+        "q": "Can you integrate learning management systems (LMS)?",
+        "a": "Yes. We can integrate with many LMS platforms or develop custom solutions where required."
+      },
+      {
+        "q": "Do you provide ongoing maintenance?",
+        "a": "Yes. We offer website maintenance, updates, security monitoring, and technical support."
+      },
+      {
+        "q": "How long does a project take?",
+        "a": "Most education website projects are completed within 6–8 weeks, depending on the scope and complexity."
+      }
+    ],
+    "finalTitle": "Create an Online Experience That Reflects Your Institution",
+    "finalText": [
+      "Whether you're launching a new school, promoting a training provider, or modernising an existing education website, Crea Web designs bespoke websites that inform, inspire, and encourage more enquiries and applications."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Education Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs bespoke education websites for schools, colleges, universities, academies, and training providers. Responsive, SEO-friendly, and built to engage students and parents.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/education"
+      },
+      "openGraph": {
+        "title": "Education Web Design UK | Crea Web",
+        "description": "Crea Web designs bespoke education websites for schools, colleges, universities, academies, and training providers. Responsive, SEO-friendly, and built to engage students and parents.",
+        "url": "https://creaweb.co.uk/industries/education",
+        "type": "website"
+      }
+    }
+  },
+  "finance": {
+    "slug": "finance",
+    "label": "Finance",
+    "keyword": "Finance Web Design",
+    "heroTitle": "Finance Web Design That Builds Trust & Drives Growth",
+    "intro": "Your clients expect confidence, professionalism, and security before they ever make contact. At Crea Web, we specialise in Finance Web Design, creating bespoke websites for accountants, financial advisers, mortgage brokers, insurance firms, fintech startups, and wealth management companies.",
+    "cta": "Start Your Project",
+    "images": [
+      {
+        "src": "/images/industries/finance-hero.jpg",
+        "alt": "Finance Web Design UK"
+      },
+      {
+        "src": "/images/industries/finance-about.jpg",
+        "alt": "Finance Web Design UK"
+      },
+      {
+        "src": "/images/industries/finance-why.jpg",
+        "alt": "Finance Web Design UK"
+      }
+    ],
+    "aboutTitle": "Professional Websites for Financial Businesses",
+    "about": [
+      "In the financial sector, trust is everything. Whether someone is searching for an accountant, financial planner, mortgage adviser, or investment firm, your website is often the deciding factor in whether they choose your business. At Crea Web, we design premium finance websites that communicate professionalism, reliability, and expertise from the very first visit.",
+      "Every financial business serves different clients with different needs. That's why every website we create is completely bespoke. We take the time to understand your services, target audience, and business objectives before designing a website that reflects your brand while making complex financial information clear and accessible. Every page is responsive, SEO-friendly, and built to convert visitors into enquiries. As a trusted UK web design agency, we combine thoughtful design with modern development to create finance websites that are secure, scalable, and built for long-term growth."
+    ],
+    "reasonsTitle": "Why Financial Businesses Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Build Immediate Credibility",
+        "body": "A modern, professionally designed website reassures prospective clients that your business is trustworthy, experienced, and established."
+      },
+      {
+        "title": "Generate High-Quality Leads",
+        "body": "Clear navigation, strategically placed calls-to-action, and informative service pages encourage visitors to enquire with confidence."
+      },
+      {
+        "title": "SEO Built for Financial Services",
+        "body": "We optimise websites to help businesses appear in searches such as Financial Adviser London, Accountant Manchester, and Mortgage Broker Birmingham."
+      },
+      {
+        "title": "Secure & Reliable",
+        "body": "Every finance website is built using modern development standards with SSL security, fast performance, and reliable hosting recommendations."
+      },
+      {
+        "title": "Bespoke Design for Your Business",
+        "body": "No generic templates. Every website is designed around your firm's branding, services, and long-term growth strategy."
+      },
+      {
+        "title": "Transparent Communication",
+        "body": "We work closely with you throughout the process, ensuring your vision is understood and delivered with clarity and professionalism."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": null,
+    "features": [
+      "Service pages",
+      "Team member profiles",
+      "Online consultation request forms",
+      "Client testimonials",
+      "Financial calculators",
+      "Mortgage calculator integration",
+      "Secure document upload forms",
+      "Blog & financial insights",
+      "FAQ pages",
+      "Interactive contact forms",
+      "Office location pages",
+      "Multi-branch support",
+      "GDPR-compliant forms",
+      "Accessibility-focused design",
+      "SSL security implementation"
+    ],
+    "sectorsTitle": "We Work With",
+    "sectorsIntro": null,
+    "sectors": [
+      "Accountants",
+      "Chartered Accountants",
+      "Financial Advisers",
+      "Wealth Management Firms",
+      "Mortgage Brokers",
+      "Insurance Companies",
+      "Tax Consultants",
+      "Bookkeeping Firms",
+      "Pension Advisers",
+      "Investment Companies",
+      "Credit Unions",
+      "Fintech Startups",
+      "Business Consultants",
+      "Corporate Finance Firms"
+    ],
+    "whyTitle": "Why Your Financial Business Needs a Professional Website",
+    "why": [
+      "Financial decisions involve careful consideration, and your website should reinforce confidence at every stage of the customer journey. A professionally designed website clearly explains your services, showcases your expertise, and provides prospective clients with the information they need to take the next step. An outdated or difficult-to-use website can undermine credibility, while a modern, well-structured website strengthens your reputation and supports business growth.",
+      "At Crea Web, we create finance websites that combine elegant design, intuitive navigation, and SEO best practices to help financial businesses attract qualified enquiries. Every website is built for speed, responsiveness, and long-term performance, ensuring your online presence reflects the quality of your services."
+    ],
+    "benefitsTitle": "Why Choose Crea Web?",
+    "benefits": [
+      "Bespoke Finance Website Design",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Responsive Across All Devices",
+      "Fast & Secure Websites",
+      "Modern User Experience",
+      "Transparent Communication",
+      "Ongoing Website Support",
+      "Designed to Generate Enquiries"
+    ],
+    "pricingTitle": "Finance Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [],
+        "features": [
+          "Up to 8 pages",
+          "Responsive design",
+          "Basic SEO",
+          "Contact forms",
+          "Mobile optimised"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [],
+        "features": [
+          "Up to 15 pages",
+          "Advanced functionality",
+          "Consultation request forms",
+          "Team profiles",
+          "SEO optimisation",
+          "Fast performance"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [],
+        "features": [
+          "Unlimited pages",
+          "Multi-branch support",
+          "Custom integrations",
+          "Advanced security",
+          "Calculator tools",
+          "Client portal",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a finance website cost?",
+        "a": "Every finance website is tailored to your business requirements. Pricing depends on the scope, functionality, and integrations needed."
+      },
+      {
+        "q": "Can you redesign our existing finance website?",
+        "a": "Yes. We modernise outdated websites while improving performance, user experience, and search visibility."
+      },
+      {
+        "q": "Do you build websites for accountants and financial advisers?",
+        "a": "Absolutely. We work with a wide range of financial professionals, including accountants, advisers, mortgage brokers, and fintech businesses."
+      },
+      {
+        "q": "Will our website be mobile-friendly?",
+        "a": "Yes. Every website is fully responsive and optimised for desktop, tablet, and mobile devices."
+      },
+      {
+        "q": "Can you include financial calculators or custom tools?",
+        "a": "Yes. We can integrate calculators, forms, and bespoke functionality based on your business needs."
+      },
+      {
+        "q": "Do you provide SEO services?",
+        "a": "Yes. Every website includes technical SEO foundations, with optional ongoing SEO campaigns available."
+      },
+      {
+        "q": "Is the website secure?",
+        "a": "Yes. We implement SSL certificates, secure development practices, and recommend reliable hosting solutions."
+      },
+      {
+        "q": "Do you provide ongoing maintenance?",
+        "a": "Yes. We offer maintenance, updates, security monitoring, and technical support after launch."
+      }
+    ],
+    "finalTitle": "Build Confidence Before Your Clients Make Contact",
+    "finalText": [
+      "Your website should reflect the professionalism of your financial business. Whether you're an accountant, financial adviser, mortgage broker, or fintech company, Crea Web designs bespoke finance websites that build trust, generate enquiries, and support long-term business growth."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Finance Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs professional finance websites for accountants, financial advisers, mortgage brokers, and fintech companies. Bespoke, SEO-friendly, and built for trust.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/finance"
+      },
+      "openGraph": {
+        "title": "Finance Web Design UK | Crea Web",
+        "description": "Crea Web designs professional finance websites for accountants, financial advisers, mortgage brokers, and fintech companies. Bespoke, SEO-friendly, and built for trust.",
+        "url": "https://creaweb.co.uk/industries/finance",
+        "type": "website"
+      }
+    }
+  },
+  "food-drink": {
+    "slug": "food-drink",
+    "label": "Food & drink",
+    "keyword": "Food & Drink Web Design",
+    "heroTitle": "Food & Drink Web Design for Thriving Food Businesses",
+    "intro": "Your website is often a customer's first taste of your brand. At Crea Web, we specialise in Food & Drink Web Design that combines stunning visuals, seamless functionality, and strategic design to help restaurants, cafés, breweries, food manufacturers, and beverage brands attract customers, increase orders, and build lasting brand loyalty.",
+    "cta": "Start Your Project",
+    "images": [
+      {
+        "src": "/images/industries/foods-hero.jpg",
+        "alt": "Food & Drink Web Design UK"
+      },
+      {
+        "src": "/images/industries/foods-about.jpg",
+        "alt": "Food & Drink Web Design UK"
+      },
+      {
+        "src": "/images/industries/foods-why.jpg",
+        "alt": "Food & Drink Web Design UK"
+      }
+    ],
+    "aboutTitle": "Websites That Drive Orders & Revenue",
+    "about": [
+      "Before customers taste your food or enjoy your drinks, they experience your brand online. A professionally designed website showcases your menu, communicates your brand personality, and makes it effortless for visitors to order, book, or discover your business. At Crea Web, we create bespoke food and drink websites that blend stunning visuals with intuitive functionality to help businesses stand out and thrive.",
+      "Every food and beverage business is unique. A family-run bakery has different goals from a national food manufacturer, while a craft brewery has different needs from a fine dining restaurant. That's why every website we design is custom-built around your brand, products, customer journey, and business model. From immersive photography and menu layouts to online ordering and multi-location management, every element is engineered to attract customers and increase revenue.",
+      "As a trusted UK web design agency, we understand that speed, mobile optimisation, and search visibility directly impact customer behaviour. Every website we build is responsive, SEO-friendly, and performance-optimised, helping food and drink businesses reach more customers, strengthen their brand, and grow with confidence."
+    ],
+    "reasonsTitle": "Why Food & Drink Businesses Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Showcase Your Brand Beautifully",
+        "body": "Professional photography, engaging menu layouts, and thoughtful design help communicate the quality of your food, drinks, and customer experience."
+      },
+      {
+        "title": "Increase Orders & Bookings",
+        "body": "Whether you take online orders, table reservations, or wholesale enquiries, we design websites that make it easy for customers to take action."
+      },
+      {
+        "title": "SEO Built In",
+        "body": "Our websites are optimised to help food and drink businesses rank for searches like Restaurant London, Café Manchester, Bakery Birmingham, and local food service searches."
+      },
+      {
+        "title": "Fast & Secure",
+        "body": "Performance and reliability matter in hospitality. We build websites that load quickly, follow modern security practices, and deliver dependable customer experiences."
+      },
+      {
+        "title": "Designed Around Your Business",
+        "body": "No templates. Every food and drink website is designed specifically around your brand, products, customer journey, and long-term goals."
+      },
+      {
+        "title": "Ongoing Support & Partnership",
+        "body": "We don't disappear after launch. Ongoing maintenance, updates, and strategic guidance help your business stay ahead as you grow."
+      }
+    ],
+    "featuresTitle": "Food & Drink Website Features",
+    "featuresIntro": "Every food and drink website can include:",
+    "features": [
+      "Interactive food and drink menus",
+      "Online ordering integration",
+      "Table reservation systems",
+      "Product catalogue with filtering",
+      "E-commerce functionality",
+      "Delivery platform integration",
+      "Event booking capabilities",
+      "Loyalty programme integration",
+      "High-quality image galleries",
+      "Customer reviews & testimonials",
+      "Store locator with maps",
+      "Recipe and blog section",
+      "Wholesale enquiry forms",
+      "Gift card sales integration",
+      "Newsletter integration"
+    ],
+    "sectorsTitle": "Industries We Work With",
+    "sectorsIntro": "We design websites for:",
+    "sectors": [
+      "Restaurants",
+      "Cafés",
+      "Coffee Shops",
+      "Bakeries",
+      "Pizzerias",
+      "Takeaway Businesses",
+      "Fine Dining Establishments",
+      "Fast Casual Restaurants",
+      "Food Trucks",
+      "Catering Companies",
+      "Breweries",
+      "Distilleries",
+      "Wineries",
+      "Beverage Brands"
+    ],
+    "whyTitle": "Why Your Food & Drink Business Needs a Modern Website",
+    "why": [
+      "Today's customers expect more than basic information—they expect to see beautiful food photos, browse menus, place orders, and book tables online. A professionally designed website makes it effortless for potential customers to discover your business, understand your offerings, and take action. An outdated or slow website can drive customers to your competitors, while a modern website builds credibility and increases sales.",
+      "At Crea Web, we combine creative design with technical excellence to create food and drink websites that look exceptional and perform effectively in search engines. Every website is developed with SEO best practices, mobile-first design, fast loading times, and intuitive navigation, helping your food and drink business reach more customers while delivering an outstanding digital experience."
+    ],
+    "benefitsTitle": "Why Crea Web?",
+    "benefits": [
+      "Bespoke Food & Drink Website Design",
+      "UK-Based Web Design Agency",
+      "SEO-Friendly Development",
+      "Mobile-First Design",
+      "Online Ordering Integration",
+      "Fast Loading Websites",
+      "E-Commerce Functionality",
+      "Long-Term Website Support",
+      "Designed to Increase Orders & Enquiries"
+    ],
+    "pricingTitle": "Food & Drink Website Pricing",
+    "pricingIntro": "Transparent, bespoke pricing for food and drink businesses of all sizes. Every package is tailored to your needs with no hidden fees.",
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 8 pages",
+          "Menu display pages",
+          "Basic online ordering",
+          "Mobile responsive",
+          "Contact forms"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 15 pages",
+          "Table reservation system",
+          "Advanced online ordering",
+          "E-commerce ready",
+          "Analytics integration",
+          "Blog & news section"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000+",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Unlimited pages",
+          "Multi-location support",
+          "Custom integrations",
+          "Full e-commerce",
+          "Advanced analytics",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a food and drink website cost?",
+        "a": "Every food and drink website is tailored to your business needs. Pricing depends on functionality, online ordering systems, integrations, and project scope. Contact us for a personalised quotation."
+      },
+      {
+        "q": "Can you integrate online ordering systems?",
+        "a": "Yes. We can integrate online ordering platforms, takeaway systems, delivery integrations, and custom ordering solutions tailored to your business."
+      },
+      {
+        "q": "Do you design restaurant and café websites?",
+        "a": "Absolutely. We work with restaurants, cafés, bakeries, pizzerias, breweries, food manufacturers, and beverage brands across the UK."
+      },
+      {
+        "q": "Can customers book tables online?",
+        "a": "Yes. We can integrate table reservation systems with your website to streamline booking management."
+      },
+      {
+        "q": "Can you build an e-commerce shop for food products?",
+        "a": "Yes. We develop secure e-commerce websites for selling food and drink products online, with payment processing and inventory management."
+      },
+      {
+        "q": "Are your websites mobile-friendly?",
+        "a": "Absolutely. Every website is fully responsive and optimised for smartphones, tablets, and desktop devices."
+      },
+      {
+        "q": "Do you provide SEO for food and drink businesses?",
+        "a": "Yes. Every website includes technical SEO foundations, with optional ongoing SEO services to help improve search visibility."
+      },
+      {
+        "q": "Do you provide ongoing website maintenance?",
+        "a": "Yes. We offer flexible website maintenance and support plans to keep your website secure, updated, and performing at its best."
+      }
+    ],
+    "finalTitle": "Serve an Exceptional Online Customer Experience",
+    "finalText": [
+      "Whether you're opening a new restaurant, launching a food brand online, or expanding your beverage business, Crea Web designs beautiful, high-performing websites that attract customers and drive orders.",
+      "Ready to transform your online presence? Get in touch today for a free consultation."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Food & Drink Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs bespoke food and drink websites for restaurants, cafés, bakeries, breweries, food brands, and beverage companies. SEO-friendly, responsive, and built to grow your business.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/food-drink"
+      },
+      "openGraph": {
+        "title": "Food & Drink Web Design UK | Crea Web",
+        "description": "Crea Web designs bespoke food and drink websites for restaurants, cafés, bakeries, breweries, food brands, and beverage companies. SEO-friendly, responsive, and built to grow your business.",
+        "url": "https://creaweb.co.uk/industries/food-drink",
+        "type": "website"
+      }
+    }
+  },
+  "healthcare": {
+    "slug": "healthcare",
+    "label": "Healthcare",
+    "keyword": "Healthcare Web Design",
+    "heroTitle": "Healthcare Web Design for Modern Medical Practices",
+    "intro": "Your website is often a patient's first impression of your practice. At Crea Web, we specialise in Healthcare Web Design that combines modern design, accessibility, security, and performance to help clinics, private practices, dental surgeries, and healthcare organisations build trust, attract new patients, and provide a seamless online experience.",
+    "cta": "Start Your Project",
+    "images": [
+      {
+        "src": "/images/industries/health-hero.jpg",
+        "alt": "Healthcare Web Design UK"
+      },
+      {
+        "src": "/images/industries/health-about.jpg",
+        "alt": "Healthcare Web Design UK"
+      },
+      {
+        "src": "/images/industries/health-why.jpg",
+        "alt": "Healthcare Web Design UK"
+      }
+    ],
+    "aboutTitle": "Websites That Build Patient Confidence",
+    "about": [
+      "In healthcare, trust begins long before a patient walks through your doors. A professionally designed website reassures visitors, answers important questions, and makes it easy to book appointments or contact your team. At Crea Web, we create bespoke healthcare websites that reflect the professionalism of your practice while delivering an intuitive user experience across every device.",
+      "Our websites are built with both patients and healthcare professionals in mind. Whether you operate a private medical practice, dental clinic, physiotherapy centre, mental health service, or specialist healthcare organisation, we design websites that are easy to navigate, mobile-friendly, and structured to help patients quickly find the information they need. Every project is developed with speed, accessibility, SEO, and long-term scalability at its core.",
+      "As a trusted UK web design agency, we understand the importance of credibility in the healthcare sector. From secure enquiry forms and online appointment requests to service pages, practitioner profiles, and patient resources, we build websites that strengthen your reputation while supporting sustainable business growth."
+    ],
+    "reasonsTitle": "Why Healthcare Providers Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Patient-Focused User Experience",
+        "body": "We create websites that are simple to navigate, helping patients quickly find treatments, locations, opening hours, and contact information."
+      },
+      {
+        "title": "Responsive Across Every Device",
+        "body": "Patients increasingly search for healthcare services on their phones. Every website we build performs beautifully across desktop, tablet, and mobile."
+      },
+      {
+        "title": "SEO Built In",
+        "body": "Our healthcare websites are optimised to help clinics rank for local searches such as Private Dentist London, Physiotherapist Manchester, Medical Clinic Birmingham."
+      },
+      {
+        "title": "Fast & Secure",
+        "body": "Performance and reliability matter in healthcare. We build websites that load quickly, follow modern security practices, and deliver dependable user experience."
+      },
+      {
+        "title": "Designed Around Your Practice",
+        "body": "No templates. Every healthcare website is designed specifically around your services, branding, patient journey, and long-term goals."
+      },
+      {
+        "title": "Ongoing Support & Partnership",
+        "body": "We don't disappear after launch. Ongoing maintenance, updates, and strategic guidance help your practice stay ahead as your business grows."
+      }
+    ],
+    "featuresTitle": "Healthcare Website Features",
+    "featuresIntro": "Every healthcare website can include:",
+    "features": [
+      "Online appointment booking integration",
+      "Practitioner profile pages",
+      "Treatment and service pages",
+      "Patient information resources",
+      "FAQ sections",
+      "Secure contact forms",
+      "Interactive Google Maps",
+      "Reviews & testimonials",
+      "Private patient enquiry forms",
+      "Emergency contact information",
+      "Blog & healthcare articles",
+      "Multi-location practice pages",
+      "Accessibility-friendly layouts",
+      "GDPR-ready forms",
+      "SSL security implementation"
+    ],
+    "sectorsTitle": "Industries We Work With",
+    "sectorsIntro": "We design websites for:",
+    "sectors": [
+      "Private Medical Clinics",
+      "NHS-affiliated Practices",
+      "Dental Clinics",
+      "Orthodontists",
+      "Cosmetic Clinics",
+      "Physiotherapists",
+      "Chiropractors",
+      "Mental Health Clinics",
+      "Therapy Practices",
+      "Opticians",
+      "Care Homes",
+      "Veterinary Practices",
+      "Pharmacies",
+      "Specialist Consultants"
+    ],
+    "whyTitle": "Why Your Healthcare Practice Needs a Modern Website",
+    "why": [
+      "Today's patients expect more than basic information—they expect convenience, speed, and confidence. A professionally designed healthcare website makes it easier for prospective patients to discover your services, understand your expertise, and take the next step by booking an appointment or making an enquiry. An outdated website can create uncertainty, while a modern, well-designed website reinforces professionalism and trust from the very first visit.",
+      "At Crea Web, we combine strategic design with technical excellence to create healthcare websites that not only look exceptional but also perform effectively in search engines. Every website is developed with SEO best practices, responsive layouts, and intuitive navigation, helping your practice reach more patients while providing an outstanding digital experience."
+    ],
+    "benefitsTitle": "Why Crea Web?",
+    "benefits": [
+      "Bespoke Website Design",
+      "UK-Based Web Design Agency",
+      "SEO-Friendly Development",
+      "Mobile-First Design",
+      "Fast Loading Websites",
+      "Secure Development Practices",
+      "Long-Term Website Support",
+      "Transparent Communication",
+      "Designed for Growth"
+    ],
+    "pricingTitle": "Healthcare Website Pricing",
+    "pricingIntro": "Transparent, bespoke pricing for healthcare practices of all sizes. Every package is tailored to your needs with no hidden fees.",
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 8 pages",
+          "Responsive design",
+          "Basic SEO setup",
+          "Contact forms",
+          "Mobile optimized"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 15 pages",
+          "Appointment booking",
+          "Practitioner profiles",
+          "Advanced SEO",
+          "Blog setup",
+          "Analytics tracking"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000+",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Unlimited pages",
+          "Multi-location support",
+          "Custom integrations",
+          "Advanced security",
+          "Staff portal",
+          "Patient resources",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a healthcare website cost?",
+        "a": "Every healthcare website is tailored to the needs of your practice. Pricing depends on functionality, page count, and integrations. Contact us for a personalised quotation."
+      },
+      {
+        "q": "Can patients book appointments online?",
+        "a": "Yes. We can integrate online appointment booking systems or connect your existing booking platform."
+      },
+      {
+        "q": "Are your healthcare websites mobile-friendly?",
+        "a": "Absolutely. Every website is fully responsive and optimised for smartphones, tablets, and desktop devices."
+      },
+      {
+        "q": "Do you provide SEO for healthcare websites?",
+        "a": "Yes. Every website includes technical SEO foundations, with optional ongoing SEO services available to help improve search visibility."
+      },
+      {
+        "q": "Can you redesign our existing healthcare website?",
+        "a": "Yes. We regularly redesign outdated medical websites while improving performance, user experience, and search engine optimisation."
+      },
+      {
+        "q": "Is my website secure?",
+        "a": "Security is a priority. We implement SSL encryption, secure hosting recommendations, and industry-standard development practices."
+      },
+      {
+        "q": "Do you provide ongoing website maintenance?",
+        "a": "Yes. We offer flexible website maintenance and support plans to keep your website secure, updated, and performing at its best."
+      },
+      {
+        "q": "Can you build websites for multiple clinic locations?",
+        "a": "Yes. We can create dedicated location pages, practitioner profiles, and service pages for multi-location healthcare organisations."
+      }
+    ],
+    "finalTitle": "Build a Website Your Patients Can Trust",
+    "finalText": [
+      "Whether you're launching a new healthcare practice or modernising an existing website, Crea Web designs secure, SEO-friendly healthcare websites that help you attract more patients and grow with confidence.",
+      "Ready to transform your online presence? Get in touch today for a free consultation."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Healthcare Web Design UK | Crea Web"
+      },
+      "description": "Crea Web provides professional healthcare web design in the UK, creating secure, SEO-friendly websites for clinics, hospitals, dentists, and healthcare providers.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/healthcare"
+      },
+      "openGraph": {
+        "title": "Healthcare Web Design UK | Crea Web",
+        "description": "Crea Web provides professional healthcare web design in the UK, creating secure, SEO-friendly websites for clinics, hospitals, dentists, and healthcare providers.",
+        "url": "https://creaweb.co.uk/industries/healthcare",
+        "type": "website"
+      }
+    }
+  },
+  "hospitality": {
+    "slug": "hospitality",
+    "label": "Hospitality",
+    "keyword": "Hospitality Web Design",
+    "heroTitle": "Hospitality Web Design That Turns Visitors Into Guests",
+    "intro": "In hospitality, your website is often the deciding factor between a booking and a lost opportunity. At Crea Web, we specialise in Hospitality Web Design, creating elegant, high-performing websites for hotels, restaurants, cafés, resorts, bars, and hospitality businesses. Every website is designed to showcase your brand, inspire confidence, and encourage direct bookings.",
+    "cta": "Get Started",
+    "images": [
+      {
+        "src": "/images/industries/hospitality-hero.jpg",
+        "alt": "Hospitality Web Design UK"
+      },
+      {
+        "src": "/images/industries/hospitality-about.jpg",
+        "alt": "Hospitality Web Design UK"
+      },
+      {
+        "src": "/images/industries/hospitality-why.jpg",
+        "alt": "Hospitality Web Design UK"
+      }
+    ],
+    "aboutTitle": "Beautiful Websites Designed for Memorable Guest Experiences",
+    "about": [
+      "First impressions matter, especially in hospitality. Long before a guest arrives, they'll visit your website to explore your rooms, browse your menu, compare venues, or read reviews. A professionally designed website should capture the atmosphere of your business while making it effortless for visitors to enquire, reserve, or book. At Crea Web, we create bespoke hospitality websites that combine striking visuals with seamless functionality to deliver exceptional digital experiences.",
+      "Every hospitality business has its own story, audience, and goals. Whether you operate a boutique hotel, luxury resort, independent restaurant, café, cocktail bar, wedding venue, or holiday accommodation, we design websites tailored to your brand identity and customer journey. Our websites feature intuitive navigation, responsive layouts, and fast loading speeds to ensure guests enjoy the same premium experience online as they do in person.",
+      "As a trusted UK web design agency, we understand that your website is more than a marketing tool—it's a direct revenue driver. That's why every hospitality website we build is optimised for search engines, designed to increase direct bookings, and structured to reduce reliance on third-party booking platforms. The result is a website that strengthens your brand, improves customer engagement, and supports long-term business growth."
+    ],
+    "reasonsTitle": "Why Hospitality Businesses Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Increase Direct Bookings",
+        "body": "Reduce reliance on third-party booking platforms by providing guests with a fast, intuitive booking experience directly through your website."
+      },
+      {
+        "title": "Create a Lasting First Impression",
+        "body": "Beautiful imagery, elegant layouts, and thoughtful user journeys help communicate the quality of your hospitality business before guests even arrive."
+      },
+      {
+        "title": "Optimised for Local & Travel Searches",
+        "body": "Every website is built with SEO best practices to improve visibility for searches such as hotel, restaurant, and venue booking queries."
+      },
+      {
+        "title": "Mobile-First Guest Experience",
+        "body": "Travellers often search and book from their phones. Every website is fully responsive, ensuring an exceptional experience across all devices."
+      },
+      {
+        "title": "Tailored Around Your Brand",
+        "body": "We never rely on generic templates. Every hospitality website is designed specifically around your venue, services, branding, and target audience."
+      },
+      {
+        "title": "Expert Hospitality Industry Knowledge",
+        "body": "We understand booking systems, guest expectations, and industry best practices to create websites that truly work for hospitality businesses."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": "Your hospitality website can include all of these features and more.",
+    "features": [
+      "Online booking integration",
+      "Room & accommodation pages",
+      "Restaurant menus",
+      "Interactive food & drink menus",
+      "Table reservation system",
+      "Event & wedding venue pages",
+      "Image galleries",
+      "Virtual tours",
+      "Customer reviews & testimonials",
+      "Google Maps integration",
+      "Gift voucher sales",
+      "Special offers & promotions",
+      "Blog & local travel guides",
+      "Multi-location support",
+      "Live chat integration"
+    ],
+    "sectorsTitle": "We Work With",
+    "sectorsIntro": "Our hospitality web design services are ideal for a wide range of hospitality businesses.",
+    "sectors": [
+      "Hotels",
+      "Boutique Hotels",
+      "Luxury Hotels",
+      "Bed & Breakfasts",
+      "Resorts",
+      "Restaurants",
+      "Cafés",
+      "Coffee Shops",
+      "Bars",
+      "Pubs",
+      "Cocktail Lounges",
+      "Wedding Venues",
+      "Event Venues",
+      "Holiday Parks",
+      "Holiday Lets",
+      "Guest Houses",
+      "Serviced Apartments",
+      "Conference Centres",
+      "Hospitality Groups"
+    ],
+    "whyTitle": "Why Your Hospitality Business Needs a Modern Website",
+    "why": [
+      "Travellers and diners make decisions quickly. A slow, outdated, or difficult-to-use website can cause potential guests to book elsewhere. A professionally designed hospitality website gives visitors confidence, showcases your venue beautifully, and provides a seamless path from browsing to booking. Whether someone is planning a weekend getaway, reserving a table, or comparing wedding venues, your website should make choosing your business feel effortless.",
+      "At Crea Web, we combine elegant design, modern development, and strategic SEO to create hospitality websites that work as powerful marketing tools. Every website is optimised for speed, search visibility, and user experience, helping hospitality businesses increase direct bookings, improve customer engagement, and strengthen their online presence."
+    ],
+    "benefitsTitle": "Why Choose Crea Web?",
+    "benefits": [
+      "Bespoke Hospitality Website Design",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Mobile-First Design",
+      "Fast Loading Websites",
+      "Booking System Integration",
+      "Conversion-Focused User Experience",
+      "Long-Term Website Support",
+      "Designed to Increase Bookings"
+    ],
+    "pricingTitle": "Hospitality Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 8 pages",
+          "Responsive design",
+          "Basic SEO setup",
+          "Contact forms",
+          "Mobile optimized"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 15 pages",
+          "Online booking integration",
+          "Restaurant menus",
+          "Image galleries",
+          "Advanced SEO",
+          "Analytics tracking"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Unlimited pages",
+          "Multi-location support",
+          "Custom booking systems",
+          "Virtual tours",
+          "Advanced integrations",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a hospitality website cost?",
+        "a": "Every hospitality website is bespoke. Pricing depends on your business requirements, functionality, booking integrations, and the number of pages required."
+      },
+      {
+        "q": "Can you integrate online booking systems?",
+        "a": "Yes. We can integrate hotel booking engines, restaurant reservation platforms, event booking systems, or bespoke booking solutions."
+      },
+      {
+        "q": "Do you design websites for restaurants and cafés?",
+        "a": "Absolutely. We work with restaurants, cafés, bars, hotels, resorts, and a wide range of hospitality businesses throughout the UK."
+      },
+      {
+        "q": "Will my website be mobile-friendly?",
+        "a": "Yes. Every website is fully responsive and optimised for smartphones, tablets, laptops, and desktop devices."
+      },
+      {
+        "q": "Can you showcase menus and image galleries?",
+        "a": "Yes. We can create elegant menu layouts, photo galleries, virtual tours, and promotional sections that highlight your business."
+      },
+      {
+        "q": "Do you provide SEO services?",
+        "a": "Yes. Every website includes technical SEO foundations, with optional ongoing SEO campaigns to improve rankings and attract more visitors."
+      },
+      {
+        "q": "Can you redesign our existing hospitality website?",
+        "a": "Yes. We modernise outdated websites while improving performance, user experience, branding, and conversion rates."
+      },
+      {
+        "q": "Do you provide ongoing website maintenance?",
+        "a": "Yes. We offer website maintenance, updates, security monitoring, and long-term technical support."
+      }
+    ],
+    "finalTitle": "Give Guests a Reason to Book Directly",
+    "finalText": [
+      "Whether you manage a boutique hotel, restaurant, wedding venue, or hospitality group, your website should inspire confidence and encourage bookings. Crea Web designs bespoke hospitality websites that combine exceptional design with measurable business results."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Hospitality Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs bespoke hospitality websites for hotels, restaurants, bars, resorts, and hospitality brands. Responsive, SEO-friendly, and built to increase bookings.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/hospitality"
+      },
+      "openGraph": {
+        "title": "Hospitality Web Design UK | Crea Web",
+        "description": "Crea Web designs bespoke hospitality websites for hotels, restaurants, bars, resorts, and hospitality brands. Responsive, SEO-friendly, and built to increase bookings.",
+        "url": "https://creaweb.co.uk/industries/hospitality",
+        "type": "website"
+      }
+    }
+  },
+  "legal": {
+    "slug": "legal",
+    "label": "Legal",
+    "keyword": "Legal Web Design",
+    "heroTitle": "Professional Legal Web Design That Inspires Trust",
+    "intro": "Your website should reflect the professionalism and expertise your clients expect. At Crea Web, we specialise in Legal Web Design, creating bespoke, responsive websites for solicitors, law firms, barristers, and legal consultants. Designed with performance, credibility, and SEO in mind, our websites help legal professionals attract new enquiries and establish lasting trust online.",
+    "cta": "Start Your Project",
+    "images": [
+      {
+        "src": "/images/industries/legal-hero.jpg",
+        "alt": "Legal Web Design UK"
+      },
+      {
+        "src": "/images/industries/legal-about.jpg",
+        "alt": "Legal Web Design UK"
+      },
+      {
+        "src": "/images/industries/legal-why.jpg",
+        "alt": "Legal Web Design UK"
+      }
+    ],
+    "aboutTitle": "Professional Websites for Modern Law Firms",
+    "about": [
+      "When potential clients need legal advice, their first impression often begins online. A well-designed website should communicate professionalism, build confidence, and make it easy for visitors to understand your expertise. At Crea Web, we design bespoke legal websites that combine elegant design with intuitive functionality, helping law firms present a credible and authoritative online presence.",
+      "Every legal practice has unique areas of expertise, and your website should reflect that. Whether you specialise in family law, corporate law, conveyancing, employment law, immigration, litigation, or personal injury, we create websites tailored to your firm's services and target audience. Every page is carefully structured to improve user experience, search visibility, and enquiry generation.",
+      "As a trusted UK web design agency, we understand that credibility is essential within the legal profession. Our websites are built to showcase your expertise, highlight client testimonials, introduce your legal team, and make it simple for prospective clients to contact your firm. From boutique practices to established law firms, we deliver websites that support long-term business growth."
+    ],
+    "reasonsTitle": "Why Law Firms Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Build Trust from the First Visit",
+        "body": "A polished, modern website reassures potential clients that they're dealing with a professional legal practice."
+      },
+      {
+        "title": "Generate More Client Enquiries",
+        "body": "Clear navigation, strategically placed calls-to-action, and well-structured service pages encourage visitors to get in touch."
+      },
+      {
+        "title": "Local SEO for Law Firms",
+        "body": "We optimise websites to help your practice appear in searches such as Solicitor London, Family Lawyer Manchester, and Employment Solicitor Birmingham."
+      },
+      {
+        "title": "Mobile-Optimised Experience",
+        "body": "Many legal enquiries begin on mobile devices. Every website is designed to perform seamlessly across smartphones, tablets, and desktops."
+      },
+      {
+        "title": "Tailored to Your Practice",
+        "body": "We don't use generic templates. Every legal website is custom-designed around your firm's branding, services, and long-term objectives."
+      },
+      {
+        "title": "Professional Credibility",
+        "body": "Your website communicates expertise and builds confidence with prospective clients from the moment they arrive."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": "Your legal website can include:",
+    "features": [
+      "Individual solicitor profiles",
+      "Practice area pages",
+      "Online consultation request forms",
+      "Case study pages",
+      "Client testimonials",
+      "Frequently asked questions",
+      "Legal insights and blog",
+      "Secure enquiry forms",
+      "Office location maps",
+      "Multi-office support",
+      "Live chat integration",
+      "Document download centre",
+      "GDPR-compliant contact forms",
+      "Accessibility-focused design",
+      "SSL security"
+    ],
+    "sectorsTitle": "Who We Work With",
+    "sectorsIntro": "We create websites for:",
+    "sectors": [
+      "Solicitors",
+      "Law Firms",
+      "Barristers",
+      "Chambers",
+      "Family Law Practices",
+      "Immigration Lawyers",
+      "Employment Law Firms",
+      "Commercial Law Firms",
+      "Corporate Lawyers",
+      "Conveyancing Solicitors",
+      "Personal Injury Firms",
+      "Criminal Defence Solicitors",
+      "Wills & Probate Specialists",
+      "Mediation Services"
+    ],
+    "whyTitle": "Why a Professional Legal Website Matters",
+    "why": [
+      "Legal services are built on trust, and your website plays a significant role in shaping that trust before a conversation even begins. A professionally designed website demonstrates credibility, communicates expertise, and provides prospective clients with the confidence to contact your firm. It should make your services easy to understand, highlight your experience, and remove unnecessary barriers to making an enquiry.",
+      "At Crea Web, we combine elegant design with strategic development to create websites that not only represent your firm professionally but also perform exceptionally well in search engines. Every website is responsive, SEO-friendly, and designed to support client acquisition while maintaining the professionalism expected within the legal sector."
+    ],
+    "benefitsTitle": "Why Choose Crea Web?",
+    "benefits": [
+      "Bespoke Legal Website Design",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Responsive Across All Devices",
+      "Fast Loading Websites",
+      "Modern User Experience",
+      "Transparent Project Management",
+      "Long-Term Website Support",
+      "Designed to Generate Enquiries"
+    ],
+    "pricingTitle": "Legal Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [],
+        "features": [
+          "Up to 8 pages",
+          "Responsive design",
+          "Basic SEO",
+          "Contact forms",
+          "Mobile optimised"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [],
+        "features": [
+          "Up to 15 pages",
+          "Advanced functionality",
+          "Consultation request forms",
+          "Multi-page features",
+          "SEO optimisation",
+          "Fast performance"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [],
+        "features": [
+          "Unlimited pages",
+          "Multi-location support",
+          "Custom integrations",
+          "Advanced security",
+          "Staff portal",
+          "Client resources",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a law firm website cost?",
+        "a": "Every legal website is bespoke. Pricing depends on the number of practice areas, required functionality, and project scope."
+      },
+      {
+        "q": "Can you redesign our existing law firm website?",
+        "a": "Yes. We modernise outdated legal websites while improving performance, SEO, and user experience."
+      },
+      {
+        "q": "Will our website rank on Google?",
+        "a": "Every project includes technical SEO foundations. We also offer ongoing SEO services to help increase visibility over time."
+      },
+      {
+        "q": "Can clients request consultations online?",
+        "a": "Absolutely. We can integrate secure consultation request forms and appointment booking systems."
+      },
+      {
+        "q": "Are your websites mobile-friendly?",
+        "a": "Yes. Every website is fully responsive across all devices."
+      },
+      {
+        "q": "Can you build websites for multiple office locations?",
+        "a": "Yes. We can create dedicated pages for each office and practice area to improve both user experience and local SEO."
+      },
+      {
+        "q": "Do you provide website maintenance?",
+        "a": "Yes. We offer ongoing maintenance, updates, and technical support to keep your website secure and performing optimally."
+      },
+      {
+        "q": "How long does a legal website project take?",
+        "a": "Most projects are completed within 4–6 weeks, depending on scope and content requirements."
+      }
+    ],
+    "finalTitle": "Give Your Law Firm the Online Presence It Deserves",
+    "finalText": [
+      "Whether you're launching a new legal practice or modernising an existing website, Crea Web creates bespoke legal websites that build trust, improve visibility, and generate high-quality client enquiries.",
+      "Book your free consultation today and let's create a website that reflects the professionalism of your firm."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Legal Web Design UK | Crea Web"
+      },
+      "description": "Crea Web provides professional legal web design in the UK, creating bespoke, SEO-friendly websites for solicitors, law firms, barristers, and legal professionals.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/legal"
+      },
+      "openGraph": {
+        "title": "Legal Web Design UK | Crea Web",
+        "description": "Crea Web provides professional legal web design in the UK, creating bespoke, SEO-friendly websites for solicitors, law firms, barristers, and legal professionals.",
+        "url": "https://creaweb.co.uk/industries/legal",
+        "type": "website"
+      }
+    }
+  },
+  "local-services": {
+    "slug": "local-services",
+    "label": "Local services",
+    "keyword": "Local Services Web Design",
+    "heroTitle": "Local Services Web Design That Brings You More Customers",
+    "intro": "Your customers are searching online for businesses like yours every day. At Crea Web, we specialise in Local Services Web Design, creating modern, SEO-friendly websites that help tradespeople, contractors, home service providers, and local businesses attract more enquiries, build trust, and grow their customer base across the UK.",
+    "cta": "GET STARTED",
+    "images": [
+      {
+        "src": "/images/industries/local-services-hero.jpg",
+        "alt": "Local Services Web Design UK"
+      },
+      {
+        "src": "/images/industries/local-services-about.jpg",
+        "alt": "Local Services Web Design UK"
+      },
+      {
+        "src": "/images/industries/local-services-why.jpg",
+        "alt": "Local Services Web Design UK"
+      }
+    ],
+    "aboutTitle": "Websites Built to Help Local Businesses Grow",
+    "about": [
+      "For local service businesses, a website is much more than an online brochure—it's one of your most valuable marketing tools. Whether someone needs an emergency plumber, a trusted electrician, a reliable cleaner, or a landscaping company, they often begin their search online. At Crea Web, we create bespoke websites that help local businesses make a strong first impression and convert visitors into paying customers.",
+      "Every local business is different, which is why every website we design is tailored to your services, service areas, and business goals. We create fast, responsive, and SEO-friendly websites that clearly communicate what you do, where you work, and why customers should choose you. From service pages and online quote requests to customer testimonials and location-specific content, every element is designed to support lead generation.",
+      "As a trusted UK web design agency, we understand the importance of local visibility. Our websites are structured to help businesses rank for local searches, improve user experience, and generate more enquiries from the communities they serve. Whether you're a sole trader or an established local company, we build websites that support long-term business growth."
+    ],
+    "reasonsTitle": "Why Local Businesses Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Generate More Local Enquiries",
+        "body": "Every website is designed with clear calls-to-action, contact forms, and quote request features that encourage visitors to get in touch."
+      },
+      {
+        "title": "Improve Local Search Visibility",
+        "body": "Our websites are optimised to help businesses rank for local searches. Whether plumber, electrician, or roofer, we build visibility in your service areas."
+      },
+      {
+        "title": "Build Trust with New Customers",
+        "body": "Professional design, customer testimonials, service guarantees, and clear contact information help establish credibility from the first visit."
+      },
+      {
+        "title": "Mobile-First Performance",
+        "body": "Many local customers search from their smartphones while on the move. Every website is fully responsive and optimised for speed."
+      },
+      {
+        "title": "Designed Around Your Business",
+        "body": "No templates. Every website is designed specifically around your services, branding, service areas, and business objectives."
+      },
+      {
+        "title": "Built for Lead Generation",
+        "body": "From appointment booking to location pages and service galleries, every feature supports turning visitors into paying customers."
+      }
+    ],
+    "featuresTitle": "Features Included in Your Local Services Website",
+    "featuresIntro": null,
+    "features": [
+      "Individual service pages",
+      "Location-specific landing pages",
+      "Online quote request forms",
+      "Appointment booking",
+      "Google Maps integration",
+      "Customer testimonials",
+      "Before & after project galleries",
+      "Portfolio section",
+      "Emergency contact information",
+      "Click-to-call functionality",
+      "Service area maps",
+      "FAQs section",
+      "Blog & advice centre",
+      "GDPR-compliant forms",
+      "SSL security & live chat"
+    ],
+    "sectorsTitle": "We Work With Local Service Businesses",
+    "sectorsIntro": null,
+    "sectors": [
+      "Plumbers",
+      "Electricians",
+      "Builders",
+      "Roofers",
+      "Landscapers",
+      "Cleaning Companies",
+      "HVAC Contractors",
+      "Carpenters",
+      "Locksmiths",
+      "Pest Control Companies",
+      "Painters & Decorators",
+      "Removal Companies",
+      "Garden Services",
+      "Flooring Specialists",
+      "Window & Door Installers",
+      "Appliance Repair Businesses",
+      "Home Improvement Companies",
+      "Mobile Mechanics",
+      "Handymen",
+      "Local Professional Service Providers"
+    ],
+    "whyTitle": "Why Your Local Business Needs a Professional Website",
+    "why": [
+      "Consumers increasingly expect to find reliable information online before choosing a local service provider. A professionally designed website helps your business stand out, communicate your expertise, and make it easy for customers to request a quote or book your services. An outdated website can create uncertainty, while a modern website reinforces professionalism and encourages confidence.",
+      "At Crea Web, we combine thoughtful design with SEO-focused development to create websites that help local businesses generate more enquiries. Every website is optimised for speed, mobile usability, and local search visibility, helping your business reach more customers in the areas you serve."
+    ],
+    "benefitsTitle": "Why Choose Crea Web",
+    "benefits": [
+      "Bespoke Local Business Websites",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Mobile-First Design",
+      "Fast Loading Websites",
+      "Conversion-Focused Layouts",
+      "Local SEO Foundations",
+      "Ongoing Website Support",
+      "Designed to Generate More Leads"
+    ],
+    "pricingTitle": "Local Services Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "Essential for getting started",
+          "8 pages, fully responsive"
+        ],
+        "features": [
+          "Homepage & service pages",
+          "Contact form",
+          "Mobile optimised",
+          "Basic SEO setup"
+        ],
+        "cta": "GET STARTED"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "Best for growing businesses",
+          "15 pages, advanced features"
+        ],
+        "features": [
+          "Everything in Foundation",
+          "Quote request forms",
+          "Location pages",
+          "Advanced SEO",
+          "Google Maps integration"
+        ],
+        "cta": "GET STARTED"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [
+          "Fully custom solution",
+          "Unlimited pages, custom features"
+        ],
+        "features": [
+          "Everything in Professional",
+          "Unlimited pages",
+          "Custom integrations",
+          "Booking system",
+          "12 months support"
+        ],
+        "cta": "GET STARTED"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a local business website cost?",
+        "a": "Every project is tailored to your business requirements. Pricing depends on the size of the website, functionality, and any custom features required."
+      },
+      {
+        "q": "Can you redesign my existing website?",
+        "a": "Yes. We modernise outdated local business websites while improving design, performance, SEO, and user experience."
+      },
+      {
+        "q": "Will my website help me rank locally on Google?",
+        "a": "Every website is built with strong technical SEO and local SEO foundations. We also offer ongoing SEO services to help improve rankings over time."
+      },
+      {
+        "q": "Can customers request quotes online?",
+        "a": "Absolutely. We can integrate quote request forms, booking forms, and click-to-call functionality to make contacting your business as easy as possible."
+      },
+      {
+        "q": "Are your websites mobile-friendly?",
+        "a": "Yes. Every website is fully responsive and optimised for smartphones, tablets, and desktop devices."
+      },
+      {
+        "q": "Can you create pages for multiple service areas?",
+        "a": "Yes. We can build dedicated location pages to help improve your visibility across different towns, cities, or regions."
+      },
+      {
+        "q": "Do you provide ongoing website maintenance?",
+        "a": "Yes. We offer maintenance, security updates, performance monitoring, and technical support after your website goes live."
+      }
+    ],
+    "finalTitle": "Grow Your Local Business with a Website That Works",
+    "finalText": [
+      "Whether you're an independent tradesperson, a growing service provider, or an established local business, Crea Web creates bespoke websites that help you attract more customers, generate more enquiries, and grow your business with confidence."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Local Services Web Design UK | Crea Web"
+      },
+      "description": "Crea Web creates bespoke local services websites for tradespeople, contractors, home services, and local businesses. SEO-friendly websites designed to generate more enquiries.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/local-services"
+      },
+      "openGraph": {
+        "title": "Local Services Web Design UK | Crea Web",
+        "description": "Crea Web creates bespoke local services websites for tradespeople, contractors, home services, and local businesses. SEO-friendly websites designed to generate more enquiries.",
+        "url": "https://creaweb.co.uk/industries/local-services",
+        "type": "website"
+      }
+    }
+  },
+  "real-estate": {
+    "slug": "real-estate",
+    "label": "Real estate",
+    "keyword": "Real Estate Web Design",
+    "heroTitle": "Real Estate Web Design That Helps You Sell More Property",
+    "intro": "Whether you're an independent estate agent, a national property company, or a luxury property developer, your website should showcase every listing beautifully while generating qualified enquiries. At Crea Web, we specialise in Real Estate Web Design, creating high-performing websites that combine elegant design, intuitive property search, and SEO-driven development to help your business attract buyers, sellers, landlords, and tenants across the UK.",
+    "cta": "Start Your Project",
+    "images": [
+      {
+        "src": "/images/industries/real-estate-hero.jpg",
+        "alt": "Real Estate Web Design UK"
+      },
+      {
+        "src": "/images/industries/real-estate-about.jpg",
+        "alt": "Real Estate Web Design UK"
+      },
+      {
+        "src": "/images/industries/real-estate-why.jpg",
+        "alt": "Real Estate Web Design UK"
+      }
+    ],
+    "aboutTitle": "Websites Designed to Showcase Properties & Generate Enquiries",
+    "about": [
+      "Property decisions begin online. Before arranging a viewing or contacting an agent, buyers and tenants expect an informative, visually engaging, and easy-to-use website. At Crea Web, we create bespoke real estate websites that highlight your properties, strengthen your brand, and provide a seamless experience from the first click to the final enquiry.",
+      "Every estate agency operates differently, which is why every website we build is tailored around your business. Whether you specialise in residential sales, lettings, commercial property, luxury developments, or investment opportunities, we design websites that make it simple for visitors to browse listings, explore property details, and contact your team. Every page is built with responsive design, SEO best practices, and performance optimisation to maximise visibility and conversions.",
+      "As a trusted UK web design agency, we understand that speed, presentation, and user experience directly influence enquiry rates. Our websites combine striking visuals with intuitive navigation, ensuring your listings receive the attention they deserve while making it easy for prospective buyers and tenants to take the next step."
+    ],
+    "reasonsTitle": "Why Estate Agents Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Showcase Every Property Beautifully",
+        "body": "We design elegant property listing pages with high-quality imagery, clear layouts, and intuitive navigation that encourage users to explore further."
+      },
+      {
+        "title": "Generate More Property Enquiries",
+        "body": "Every website is strategically designed with enquiry forms, valuation requests, and clear calls-to-action that convert visitors into potential clients."
+      },
+      {
+        "title": "Local SEO That Attracts Buyers",
+        "body": "Our websites are optimised for local property searches, including Estate Agent London, Houses for Sale Manchester, Property Developers Birmingham, and Letting Agents Leeds."
+      },
+      {
+        "title": "Built for Mobile Property Searches",
+        "body": "Most buyers search for properties on mobile devices. Every website delivers a seamless experience across smartphones, tablets, and desktops."
+      },
+      {
+        "title": "Tailored Around Your Brand",
+        "body": "No templates. Every real estate website is designed specifically around your agency, branding, property portfolio, and target market."
+      },
+      {
+        "title": "Advanced Lead Management & Analytics",
+        "body": "Track enquiries, manage leads, and gain insights into visitor behaviour with integrated analytics and CRM tools that help you convert browsers into buyers."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": null,
+    "features": [
+      "Advanced property search",
+      "Property listing management",
+      "Interactive property galleries",
+      "Video property tours",
+      "Virtual viewing integration",
+      "Property enquiry forms",
+      "Mortgage calculator integration",
+      "Google Maps integration",
+      "Agent profile pages",
+      "Valuation request forms",
+      "Saved favourites",
+      "Property comparison tools",
+      "Multi-office support",
+      "Blog and property news",
+      "GDPR-compliant forms"
+    ],
+    "sectorsTitle": "Who We Work With",
+    "sectorsIntro": null,
+    "sectors": [
+      "Estate Agents",
+      "Letting Agencies",
+      "Property Developers",
+      "Luxury Property Consultants",
+      "Commercial Property Firms",
+      "Property Investment Companies",
+      "New Build Developers",
+      "Student Accommodation Providers",
+      "Holiday Let Businesses",
+      "Property Management Companies",
+      "Build-to-Rent Operators",
+      "Housing Associations",
+      "Property Auctioneers",
+      "Short-Term Rental Platforms"
+    ],
+    "whyTitle": "Why Your Property Business Needs a Professional Website",
+    "why": [
+      "Today's buyers, sellers, landlords, and tenants expect an exceptional online experience. A modern property website should do more than display listings—it should guide visitors through the buying or renting journey with intuitive search tools, engaging visuals, and clear pathways to enquire. A professionally designed website builds confidence, reinforces your brand, and ensures every property receives maximum exposure.",
+      "At Crea Web, we combine premium design with modern development to create websites that not only showcase your portfolio beautifully but also perform exceptionally in search engines. Every website is optimised for speed, responsiveness, and SEO, helping estate agents and property professionals generate more enquiries and grow their business online."
+    ],
+    "benefitsTitle": "Why Choose Crea Web",
+    "benefits": [
+      "Bespoke Property Website Design",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Mobile-First Experience",
+      "Fast Loading Websites",
+      "CRM & Property Portal Integration",
+      "Ongoing Website Support",
+      "Designed to Generate Leads",
+      "Built for Long-Term Growth"
+    ],
+    "pricingTitle": "Real Estate Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [],
+        "features": [
+          "Up to 20 properties",
+          "Basic search",
+          "Responsive design",
+          "Mobile optimised",
+          "Contact forms"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [],
+        "features": [
+          "Up to 100 properties",
+          "Advanced search filters",
+          "Mortgage calculator",
+          "Valuation forms",
+          "Agent profiles",
+          "Blog integration"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [],
+        "features": [
+          "Unlimited properties",
+          "CRM integration",
+          "Virtual tours",
+          "Multi-office support",
+          "Advanced analytics",
+          "Custom integrations",
+          "Ongoing SEO"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a real estate website cost?",
+        "a": "Every project is tailored to your business requirements. Pricing depends on the number of listings, integrations, and features required."
+      },
+      {
+        "q": "Can you integrate our property management software?",
+        "a": "Yes. We can integrate with many popular CRM and property management systems or develop custom integrations where needed."
+      },
+      {
+        "q": "Will our website support property searches?",
+        "a": "Absolutely. We can build advanced search functionality with filters for location, price, bedrooms, property type, and more."
+      },
+      {
+        "q": "Can buyers enquire directly from property listings?",
+        "a": "Yes. Every listing can include enquiry forms, valuation requests, and contact options."
+      },
+      {
+        "q": "Are your websites mobile-friendly?",
+        "a": "Yes. Every real estate website is fully responsive and optimised for mobile browsing."
+      },
+      {
+        "q": "Can you redesign our current estate agency website?",
+        "a": "Yes. We redesign outdated property websites while improving speed, SEO, user experience, and lead generation."
+      },
+      {
+        "q": "Do you provide SEO services?",
+        "a": "Yes. Every website includes technical SEO foundations, with optional ongoing SEO campaigns available."
+      },
+      {
+        "q": "Do you offer website maintenance?",
+        "a": "Yes. We provide ongoing maintenance, updates, security monitoring, and technical support."
+      }
+    ],
+    "finalTitle": "Turn More Property Views Into Enquiries",
+    "finalText": [
+      "Your website should work as hard as your sales team. Whether you're marketing residential homes, commercial property, or luxury developments, Crea Web creates bespoke real estate websites that attract visitors, build trust, and generate more enquiries. Book your free consultation today and let's create a property website that helps your business grow."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Real Estate Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs bespoke real estate websites for UK estate agents, property developers, and letting agencies. SEO-friendly, responsive, and built to generate more property enquiries.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/real-estate"
+      },
+      "openGraph": {
+        "title": "Real Estate Web Design UK | Crea Web",
+        "description": "Crea Web designs bespoke real estate websites for UK estate agents, property developers, and letting agencies. SEO-friendly, responsive, and built to generate more property enquiries.",
+        "url": "https://creaweb.co.uk/industries/real-estate",
+        "type": "website"
+      }
+    }
+  },
+  "technology": {
+    "slug": "technology",
+    "label": "Technology",
+    "keyword": "Technology Web Design",
+    "heroTitle": "Technology Web Design That Powers Innovation",
+    "intro": "Technology companies need websites that do more than look impressive—they need websites that communicate innovation, simplify complex products, and generate qualified leads. At Crea Web, we specialise in Technology Web Design, creating bespoke websites for SaaS companies, software providers, IT consultancies, AI startups, fintech businesses, and growing technology brands across the UK. Every website is engineered for speed, scalability, and business growth.",
+    "cta": "Get Started",
+    "images": [
+      {
+        "src": "/images/industries/technology-hero.jpg",
+        "alt": "Technology Web Design UK"
+      },
+      {
+        "src": "/images/industries/technology-about.jpg",
+        "alt": "Technology Web Design UK"
+      },
+      {
+        "src": "/images/industries/technology-why.jpg",
+        "alt": "Technology Web Design UK"
+      }
+    ],
+    "aboutTitle": "Websites Built for Innovative Technology Companies",
+    "about": [
+      "In today's competitive technology landscape, your website is often your most effective sales tool. Whether you're launching a SaaS platform, promoting enterprise software, or introducing a disruptive startup, your website should explain your value proposition clearly while building confidence with investors, customers, and partners. At Crea Web, we create bespoke technology websites that blend premium design with technical excellence to help businesses stand out in fast-moving markets.",
+      "Every technology company has different products, audiences, and objectives. Some need to educate enterprise buyers with detailed product pages, while others need landing pages that convert startup traffic into demo requests. That's why every website we build is custom-designed around your business model, user journey, and growth strategy. We create intuitive digital experiences that simplify technical concepts without sacrificing depth or credibility.",
+      "As a trusted UK web design agency, we understand the expectations of modern technology businesses. Our websites are responsive, SEO-friendly, and performance-focused, ensuring your platform, software, or service is presented with the professionalism and innovation your audience expects. Whether you're a startup preparing for investment or an established software company expanding into new markets, we build websites that support long-term success."
+    ],
+    "reasonsTitle": "Why Technology Companies Choose Crea Web",
+    "reasons": [
+      {
+        "title": "Simplify Complex Products",
+        "body": "We transform technical concepts into clear, engaging user experiences that help prospects quickly understand your products and services."
+      },
+      {
+        "title": "Generate Qualified Leads",
+        "body": "Every website is strategically designed to encourage demo requests, consultation bookings, software trials, and sales enquiries through compelling calls-to-action."
+      },
+      {
+        "title": "SEO That Supports Business Growth",
+        "body": "We optimise websites to help technology companies rank for searches such as SaaS platforms, software solutions, and IT services."
+      },
+      {
+        "title": "Built for Performance",
+        "body": "Speed, responsiveness, accessibility, and technical optimisation are built into every project to ensure an exceptional user experience."
+      },
+      {
+        "title": "Designed Around Your Product",
+        "body": "Every technology website is completely bespoke, designed to reflect your product, branding, target audience, and business objectives."
+      },
+      {
+        "title": "CRM & API Integrations",
+        "body": "We integrate CRM systems, marketing platforms, and custom APIs to ensure your website connects seamlessly with your business tools."
+      }
+    ],
+    "featuresTitle": "Features Included",
+    "featuresIntro": "Your technology website can include all of these features and more.",
+    "features": [
+      "Product showcase pages",
+      "SaaS landing pages",
+      "Software feature pages",
+      "Interactive product demonstrations",
+      "Pricing comparison tables",
+      "Knowledge base integration",
+      "API documentation pages",
+      "Customer success stories",
+      "Case studies",
+      "Resource centre",
+      "Whitepaper downloads",
+      "Blog & technical articles",
+      "Webinar registration",
+      "Live chat integration",
+      "CRM integration"
+    ],
+    "sectorsTitle": "We Work With",
+    "sectorsIntro": "Our technology web design services are ideal for a wide range of technology companies and startups.",
+    "sectors": [
+      "SaaS Companies",
+      "Software Development Firms",
+      "AI Startups",
+      "Machine Learning Companies",
+      "Cybersecurity Providers",
+      "Cloud Service Providers",
+      "IT Consultancies",
+      "Managed Service Providers (MSPs)",
+      "App Development Companies",
+      "DevOps Consultancies",
+      "Data Analytics Firms",
+      "FinTech Companies",
+      "Blockchain Businesses",
+      "EdTech Companies",
+      "HealthTech Startups",
+      "PropTech Companies",
+      "Enterprise Software Providers",
+      "Digital Product Companies"
+    ],
+    "whyTitle": "Why Your Technology Business Needs a Professional Website",
+    "why": [
+      "Technology buyers expect speed, clarity, and credibility. A well-designed website helps explain complex solutions, demonstrate product value, and establish trust with decision-makers before the first conversation takes place. Whether you're selling software subscriptions, enterprise solutions, or professional IT services, your website should guide visitors through a seamless journey from discovery to conversion.",
+      "At Crea Web, we combine modern design, technical expertise, and SEO-driven development to create websites that perform as well as they look. Every project is built for scalability, ensuring your website can evolve alongside your products, services, and business goals. The result is a digital platform that attracts qualified traffic, supports sales, and positions your business as a leader in the technology sector."
+    ],
+    "benefitsTitle": "Why Choose Crea Web?",
+    "benefits": [
+      "Bespoke Technology Website Design",
+      "UK Web Design Agency",
+      "SEO-Friendly Development",
+      "Lightning-Fast Performance",
+      "Mobile-First Design",
+      "SaaS & Software Specialists",
+      "CRM & API Integrations",
+      "Long-Term Technical Support",
+      "Built to Scale With Your Business"
+    ],
+    "pricingTitle": "Technology Website Design Pricing",
+    "pricingIntro": null,
+    "plans": [
+      {
+        "name": "Foundation",
+        "price": "£2,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 10 pages",
+          "Responsive design",
+          "Basic SEO setup",
+          "Contact forms",
+          "Mobile optimized"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "£7,500",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Up to 20 pages",
+          "SaaS landing pages",
+          "Product showcase",
+          "CRM integration",
+          "Advanced SEO",
+          "Analytics setup"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "£15,000",
+        "notes": [
+          "One-time project fee"
+        ],
+        "features": [
+          "Unlimited pages",
+          "Custom development",
+          "API integrations",
+          "Portal development",
+          "Advanced integrations",
+          "Custom features"
+        ],
+        "cta": "Get Started"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a technology website cost?",
+        "a": "Every technology website is custom-built around your business requirements. Pricing depends on the complexity, integrations, and functionality required."
+      },
+      {
+        "q": "Do you build websites for SaaS companies?",
+        "a": "Yes. We design high-converting SaaS websites that showcase features, pricing, integrations, and customer success stories while encouraging demo requests and free trial sign-ups."
+      },
+      {
+        "q": "Can you integrate our CRM or marketing platform?",
+        "a": "Absolutely. We can integrate popular platforms including HubSpot, Salesforce, Zoho CRM, Mailchimp, ActiveCampaign, and many others."
+      },
+      {
+        "q": "Can you build custom functionality?",
+        "a": "Yes. In addition to website design, we develop bespoke web applications, client portals, dashboards, API integrations, and custom business systems tailored to your needs."
+      },
+      {
+        "q": "Are your websites SEO-friendly?",
+        "a": "Yes. Every technology website includes technical SEO best practices, with optional ongoing SEO services available to improve rankings over time."
+      },
+      {
+        "q": "Will the website be fast and mobile-friendly?",
+        "a": "Absolutely. Every project is optimised for Core Web Vitals, responsive design, and fast loading speeds across all devices."
+      },
+      {
+        "q": "Can you redesign our existing software website?",
+        "a": "Yes. We modernise outdated technology websites while improving performance, usability, branding, and lead generation."
+      },
+      {
+        "q": "Do you provide ongoing support?",
+        "a": "Yes. We offer maintenance, performance monitoring, security updates, hosting support, and continuous improvements after launch."
+      }
+    ],
+    "finalTitle": "Build a Website That Reflects Your Innovation",
+    "finalText": [
+      "Whether you're launching a SaaS platform, scaling a technology startup, or modernising an established software company, your website should inspire confidence and drive growth. Crea Web designs bespoke technology websites that combine exceptional design, technical performance, and measurable business results."
+    ],
+    "metadata": {
+      "title": {
+        "absolute": "Technology Web Design UK | Crea Web"
+      },
+      "description": "Crea Web designs modern technology websites for SaaS companies, startups, software firms, IT providers, and technology businesses across the UK. SEO-friendly and built to scale.",
+      "alternates": {
+        "canonical": "https://creaweb.co.uk/industries/technology"
+      },
+      "openGraph": {
+        "title": "Technology Web Design UK | Crea Web",
+        "description": "Crea Web designs modern technology websites for SaaS companies, startups, software firms, IT providers, and technology businesses across the UK. SEO-friendly and built to scale.",
+        "url": "https://creaweb.co.uk/industries/technology",
+        "type": "website"
+      }
+    }
+  }
+}

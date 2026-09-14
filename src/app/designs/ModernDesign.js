@@ -1,0 +1,55 @@
+import Image from "next/image";
+import Link from "next/link";
+import { copy, projects, services, processSteps, articles } from "./content";
+import ProjectExplorer from "./ProjectExplorer";
+
+export function ModernImage({ src, alt, className = "", priority = false, top = false }) {
+  return <div className={`nx-image ${className}`}><Image src={src} alt={alt} fill sizes="(max-width: 700px) 100vw, 65vw" priority={priority} style={{ objectFit: "cover", objectPosition: top ? "top" : "center" }} /></div>;
+}
+
+export function ModernNav() {
+  const links = <><Link href="#work">Our work</Link><Link href="#services">Services</Link><Link href="#studio">About us</Link><Link href="/insights">Insights</Link></>;
+  return <header className="nx-nav"><Link href="#top" className="nx-logo"><span className="nx-brand-icon" aria-hidden="true">c</span>crea<span>web</span><b>.</b></Link><nav aria-label="Website navigation">{links}</nav><Link className="nx-nav-cta" href="/contact">Start a project <span aria-hidden="true">↗</span></Link><details className="nx-mobile-menu"><summary>Menu <span aria-hidden="true">☰</span></summary><nav aria-label="Mobile website navigation">{links}<Link href="/contact">Start a project ↗</Link></nav></details></header>;
+}
+
+function Button({ children = "Start a conversation", href = "/contact", secondary = false }) {
+  return <Link className={`nx-button${secondary ? " nx-secondary" : ""}`} href={href}>{children}<span aria-hidden="true">↗</span></Link>;
+}
+
+function BrowserFrame({ project = projects[0], className = "", priority = false }) {
+  return <figure className={`nx-browser ${className}`}><div className="nx-browser-bar"><span aria-hidden="true">● ● ●</span><span>{project.client}</span><span aria-hidden="true">↗</span></div><ModernImage src={project.image} alt={`${project.client} website design`} top priority={priority} /></figure>;
+}
+
+export function ModernHero({ theme, preview = false }) {
+  const priority = !preview;
+  if (theme === "launchpad") return <section className="nx-hero launch-hero"><div className="launch-glow" aria-hidden="true" /><div className="launch-copy"><span className="nx-badge"><i /> UK web design & development</span><h1>Professional<br />web design.<br /><span>Built for growth.</span></h1><p>{copy.intro}</p><div className="nx-actions"><Button>Get a free quote</Button><Button href="#work" secondary>Explore our work</Button></div><div className="launch-features"><span>✓ Bespoke design</span><span>✓ SEO-friendly</span><span>✓ Fully responsive</span></div></div><div className="launch-visual"><BrowserFrame priority={priority} /><div className="launch-card"><span className="launch-card-icon" aria-hidden="true">↗</span><div><strong>Designed to generate<br />more leads.</strong><span>Strategy meets beautiful design.</span></div></div><div className="launch-mobile"><ModernImage src={projects[2].image} alt="Accelede website preview" top /></div><span className="launch-floating">Design. Build. Grow. <span aria-hidden="true">✦</span></span></div><div className="launch-clients"><span>A few of the brands<br />behind our work</span>{projects.map(p=><strong key={p.index}>{p.client}</strong>)}</div></section>;
+  if (theme === "showcase") return <section className="nx-hero showcase-hero"><ModernImage src="/images/crea-web-hero.webp" alt="Website design in the studio" priority={priority} /><div className="showcase-overlay" /><div className="showcase-topline"><span>Independent digital studio</span><span>Manchester, UK ↗</span></div><div className="showcase-content"><span className="nx-label">Crea Web — Design & development</span><h1>Professional<br />web design.<br /><span>Lasting impact.</span></h1><div className="showcase-bottom"><p>{copy.intro}</p><Button href="#work">Discover our work</Button></div></div><Link href="#work" className="showcase-scroll" aria-label="Scroll to selected projects">↓</Link></section>;
+  if (theme === "wildcard") return <section className="nx-hero wildcard-hero"><div className="wild-intro"><span className="nx-label">CREA WEB / UK DIGITAL STUDIO</span><h1>PROFESSIONAL<br />WEB DESIGN<span className="wild-period">.</span></h1><div className="wild-bottom"><span className="wild-star" aria-hidden="true">✳</span><p>{copy.intro}</p><Button>LET’S MAKE IT HAPPEN</Button></div></div><div className="wild-projects"><div className="wild-caption"><span>GOOD DESIGN.<br />REAL BUSINESS RESULTS.</span><Link href="#work">OUR WORK ↘</Link></div><BrowserFrame project={projects[2]} priority={priority} /><div className="wild-seal">DESIGNED<br />TO STAND<br /><strong>OUT ↗</strong></div></div><div className="wild-ticker" aria-hidden="true"><span>DESIGN ✳ DEVELOPMENT ✳ E-COMMERCE ✳ SEO ✳ DESIGN ✳ DEVELOPMENT ✳</span></div></section>;
+  if (theme === "goodcompany") return <section className="nx-hero good-hero"><div className="good-copy"><span className="nx-badge">A small introduction. A big possibility. <span aria-hidden="true">✺</span></span><h1>Professional<br />web design.<br /><span>With a human<br className="good-break" /> touch.</span></h1><p>{copy.intro}</p><div className="nx-actions"><Button>Let’s talk about your project</Button></div><span className="good-location">Based in Manchester. Connected across the UK.</span></div><div className="good-grid"><div className="good-note"><span>Thoughtfully<br />designed.</span><span className="good-flower" aria-hidden="true">✿</span><small>BUILT AROUND YOUR BUSINESS</small></div><div className="good-portrait"><ModernImage src="/images/crea-web-hero-about-us.webp" alt="Collaborating on a website design" priority={priority} /><span>Good people. Great partnerships.</span></div><div className="good-project"><ModernImage src={projects[0].image} alt="Aanchor Health website" top /><span>Aanchor Health <b aria-hidden="true">↗</b></span></div><div className="good-services"><span>What we bring</span><strong>Creativity.<br />Clarity.<br />Clean code.</strong><Link href="#services">Meet our services ↗</Link></div></div></section>;
+  return <section className="nx-hero nexus-hero"><div className="nexus-grid" aria-hidden="true" /><div className="nexus-copy"><span className="nx-badge"><i /> Design thinking. Engineering precision.</span><h1>Professional<br />web design.<br /><span>Engineered<br />to perform.</span></h1><p>{copy.intro}</p><div className="nx-actions"><Button>Build with Crea Web</Button><Button href="#work" secondary>View our work</Button></div><div className="nexus-stack"><span>Next.js</span><span>PHP</span><span>CMS integration</span><span>AI & automation</span></div></div><div className="nexus-visual"><div className="nexus-orbit" aria-hidden="true" /><BrowserFrame project={projects[2]} priority={priority} /><div className="nexus-code"><div><span aria-hidden="true">⌘</span> THE CREA WEB APPROACH <span className="code-dot" /></div><pre><code><span>const</span> yourNextWebsite = {'{'}{"\n"}  design: <b>&apos;bespoke&apos;</b>,{"\n"}  experience: <b>&apos;responsive&apos;</b>,{"\n"}  foundation: <b>&apos;SEO-friendly&apos;</b>,{"\n"}  partnership: <b>&apos;ongoing&apos;</b>{"\n"}{'}'};</code></pre><p><span aria-hidden="true">↳</span> Built around your business.</p></div><span className="nexus-caption">DESIGN + DEVELOPMENT / ONE PARTNER</span></div></section>;
+}
+
+function Services() {
+  const icons = ["✳", "⌘", "✦", "↗", "◎", "∞"];
+  return <section id="services" className="nx-section nx-services"><div className="nx-section-heading"><div><span className="nx-label">What we do</span><h2>Everything your<br />website needs.</h2></div><p>Web design services for UK businesses. Each discipline practised with depth — never spread thin.</p></div><div className="nx-service-grid">{services.map((s,i)=><Link className="nx-service-card" key={s.title} href={s.href}><div><span className="nx-service-icon" aria-hidden="true">{icons[i]}</span><span aria-hidden="true">↗</span></div><h3>{s.title}</h3><p>{s.body}</p></Link>)}</div></section>;
+}
+
+function Studio() {
+  return <section id="studio" className="nx-section nx-studio"><div className="nx-studio-photo"><ModernImage src="/images/crea-web-hero-about-us.webp" alt="A collaborative approach to web design" /><span>Creative thinking.<br /><strong>Technical expertise.</strong></span></div><div className="nx-studio-copy"><span className="nx-label">About Crea Web</span><h2>Your ambitions.<br />Our expertise.</h2><p>{copy.about}</p><p>{copy.approach}</p><Button href="/about">Get to know us</Button></div></section>;
+}
+
+function Process() {
+  return <section className="nx-section nx-process"><div className="nx-section-heading"><div><span className="nx-label">Clear steps. Close collaboration.</span><h2>From first idea<br />to what’s next.</h2></div><p>A structured, five-phase approach that keeps you informed, involved, and confident at every stage.</p></div><div className="nx-process-steps">{processSteps.map((s,i)=><div key={s}><span>{String(i+1).padStart(2,"0")}</span><h3>{s}</h3><span aria-hidden="true">{i===4?"✓":"→"}</span></div>)}</div></section>;
+}
+
+function Journal() {
+  return <section className="nx-section nx-journal"><div className="nx-section-heading"><div><span className="nx-label">Ideas from the studio</span><h2>Insights worth<br />your time.</h2></div><Button href="/insights" secondary>All insights</Button></div><div className="nx-journal-grid">{articles.map(a=><Link key={a.id} href={`/${a.slug}`}><span className="nx-label">{a.category} · {a.readTime}</span><h3>{a.title}</h3><span>Read the article <b aria-hidden="true">↗</b></span></Link>)}</div></section>;
+}
+
+function Footer() {
+  return <footer className="nx-footer"><div className="nx-final-cta"><span className="nx-label">Your next chapter starts here</span><h2>Let’s begin with<br />a conversation<span>.</span></h2><p>Tell us about your project and we will be in touch within one business day.</p><Button>Start your project</Button></div><div className="nx-footer-row"><Link href="#top" className="nx-logo">crea<span>web</span>.</Link><Link href="mailto:contact@creaweb.co.uk">contact@creaweb.co.uk</Link><span>Manchester · Remote across UK</span><nav aria-label="Legal pages"><Link href="/privacy-policy">Privacy</Link><Link href="/accessibility">Accessibility</Link></nav></div></footer>;
+}
+
+export default function ModernDesign({ direction }) {
+  return <div id="top" className={`nx nx-${direction.theme}`}><a href="#nx-content" className="nx-skip">Skip to content</a><div className="nx-shell"><ModernNav /><main id="nx-content"><ModernHero theme={direction.theme} />{["6","9","10"].includes(direction.id)?<><Services /><ProjectExplorer /></>:<><ProjectExplorer /><Services /></>}<Studio /><Process /><Journal /></main><Footer /></div></div>;
+}

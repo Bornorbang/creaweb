@@ -1,0 +1,98 @@
+[
+  {
+    "index": "001",
+    "client": "Aanchor Health",
+    "category": "Healthcare",
+    "image": "/images/works/aanchor.png",
+    "width": 1980,
+    "height": 7762
+  },
+  {
+    "index": "002",
+    "client": "University Compare",
+    "category": "Education",
+    "image": "/images/works/academia.png",
+    "width": 1920,
+    "height": 5172
+  },
+  {
+    "index": "003",
+    "client": "Accelede",
+    "category": "Technology",
+    "image": "/images/works/Accelede.png",
+    "width": 1920,
+    "height": 6784
+  },
+  {
+    "index": "004",
+    "client": "Bae Bronx",
+    "category": "Fashion",
+    "image": "/images/works/baebronx.png",
+    "width": 1920,
+    "height": 15319
+  },
+  {
+    "index": "005",
+    "client": "Religion Empowering Ministries",
+    "category": "NGO",
+    "image": "/images/works/empowering.png",
+    "width": 1920,
+    "height": 6058
+  },
+  {
+    "index": "006",
+    "client": "Travisa Ltd",
+    "category": "Travel",
+    "image": "/images/works/evisa_website.jpg",
+    "width": 2561,
+    "height": 12101
+  },
+  {
+    "index": "007",
+    "client": "NGO Grace Empowered",
+    "category": "Education",
+    "image": "/images/works/graceempoweredearlyyears.png",
+    "width": 1920,
+    "height": 5523
+  },
+  {
+    "index": "008",
+    "client": "Lily Heart Home Care",
+    "category": "Healthcare",
+    "image": "/images/works/lilyhearthomecare-ca.jpg",
+    "width": 2561,
+    "height": 7510
+  },
+  {
+    "index": "009",
+    "client": "Makeup Talent",
+    "category": "Beauty",
+    "image": "/images/works/makeuptalent.png",
+    "width": 1920,
+    "height": 8241
+  },
+  {
+    "index": "010",
+    "client": "Naija Beauty",
+    "category": "E-Commerce",
+    "image": "/images/works/Naijabeauty.png",
+    "width": 1920,
+    "height": 7546
+  },
+  {
+    "index": "011",
+    "client": "Lady Flora",
+    "category": "Business",
+    "image": "/images/works/trimmer1.png",
+    "width": 1920,
+    "height": 4674
+  },
+  {
+    "index": "012",
+    "client": "WizzyPro",
+    "category": "Photography",
+    "image": "/images/works/wizzypro.png",
+    "width": 1920,
+    "height": 7294
+  }
+]

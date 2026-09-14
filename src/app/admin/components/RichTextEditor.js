@@ -77,7 +77,7 @@ function markdownToHtml(text) {
 export default function RichTextEditor({ content, onChange }) {
   const editor = useEditor({
     extensions: [
-      StarterKit,
+      StarterKit.configure({ link: false, underline: false, heading: { levels: [2, 3] } }),
       Underline,
       Placeholder.configure({ placeholder: "Write your article content here…" }),
       Link.configure({ openOnClick: false, HTMLAttributes: { rel: "noopener noreferrer" } }),

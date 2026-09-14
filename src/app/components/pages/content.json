@@ -1,0 +1,2717 @@
+{
+  "about": {
+    "slug": "about",
+    "title": "About Crea Web",
+    "intro": [
+      "At Crea Web, we believe exceptional websites begin with thoughtful strategy, purposeful design, and lasting partnerships. As a leading UK web design agency, we create bespoke, high-performing websites that help businesses establish credibility, attract customers, and grow with confidence."
+    ],
+    "vars": {
+      "values": [
+        {
+          "label": "Craft",
+          "body": "Exceptional website design is found in the details. Every layout, interaction, line of code, and piece of content is created with care and intention. We believe quality comes from thoughtful craftsmanship, ensuring every website feels refined, intuitive, and built to last."
+        },
+        {
+          "label": "Clarity",
+          "body": "The best websites communicate with confidence, not complexity. We remove unnecessary distractions to create clean, user-focused experiences that make information easy to find, strengthen your brand, and build trust from the very first interaction."
+        },
+        {
+          "label": "Longevity",
+          "body": "Great websites should continue delivering value long after launch. Rather than chasing design trends, we focus on timeless aesthetics, scalable development, and future-ready solutions that support your business as it grows."
+        },
+        {
+          "label": "Honesty",
+          "body": "Trust is the foundation of every successful partnership. We provide straightforward advice, realistic expectations, and transparent communication throughout every stage of your project. If something can be improved, we'll explain why and recommend the best path forward."
+        },
+        {
+          "label": "Ambition",
+          "body": "We believe every business deserves a website that stands out for the right reasons. From strategy to launch, we continually challenge ourselves to deliver work that exceeds expectations and creates measurable value for our clients."
+        },
+        {
+          "label": "Partnership",
+          "body": "Building a website is only the beginning. As your trusted web design agency, we work alongside you as a long-term digital partner—offering ongoing support, guidance, and continuous improvements to help your business succeed online today and into the future."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "At Crea Web, we believe exceptional websites begin with thoughtful strategy, purposeful design, and lasting partnerships. As a leading UK web design agency, we create bespoke, high-performing websites that help businesses establish credibility, attract customers, and grow with confidence."
+        ],
+        "images": [
+          {
+            "src": "/images/crea-web-hero-about-us.webp",
+            "alt": "UK Web Design Agency"
+          }
+        ],
+        "links": []
+      },
+      {
+        "paragraphs": [
+          "Every business has a story worth telling, and every website should reflect it with clarity, purpose, and precision. At Crea Web, we specialise in website design services that combine elegant design, modern development, and SEO best practices to create digital experiences that are as functional as they are beautiful. We don't believe in generic templates or short-lived trends—we build bespoke websites that are tailored to your business, your audience, and your long-term goals.",
+          "Our work is driven by strategy rather than assumptions. Before a single page is designed, we take the time to understand your business, industry, and customers, ensuring every decision supports measurable growth. Whether we're creating a corporate website, an e-commerce platform, or a complete website redesign, every project is developed with performance, accessibility, responsiveness, and search visibility at its core. The result is a website that not only looks exceptional but also works harder for your business every day.",
+          "As a trusted UK web design agency, we see every project as the beginning of a long-term partnership rather than a one-time transaction. We continue to support our clients long after launch through maintenance, improvements, and strategic advice that helps their digital presence evolve alongside their business. At Crea Web, our goal isn't simply to build websites—it's to create lasting digital assets that inspire confidence, strengthen brands, and deliver meaningful results."
+        ],
+        "images": [
+          {
+            "src": "/images/crea-web-about-about.png",
+            "alt": "UK Web Design Agency"
+          }
+        ],
+        "links": []
+      },
+      {
+        "paragraphs": [
+          "Our workspace, London"
+        ],
+        "images": [],
+        "links": []
+      },
+      {
+        "heading": "A Design Philosophy Built on Purpose",
+        "paragraphs": [
+          "Our mission is simple: to create bespoke websites that help businesses succeed online through thoughtful design, modern development, and measurable results. Every decision we make is guided by a set of principles that shape the way we approach web design, collaborate with our clients, and deliver exceptional digital experiences. These aren't marketing slogans—they're the standards we hold ourselves to on every project.",
+          "Craft",
+          "Exceptional website design is found in the details. Every layout, interaction, line of code, and piece of content is created with care and intention. We believe quality comes from thoughtful craftsmanship, ensuring every website feels refined, intuitive, and built to last.",
+          "Clarity",
+          "The best websites communicate with confidence, not complexity. We remove unnecessary distractions to create clean, user-focused experiences that make information easy to find, strengthen your brand, and build trust from the very first interaction.",
+          "Longevity",
+          "Great websites should continue delivering value long after launch. Rather than chasing design trends, we focus on timeless aesthetics, scalable development, and future-ready solutions that support your business as it grows.",
+          "Honesty",
+          "Trust is the foundation of every successful partnership. We provide straightforward advice, realistic expectations, and transparent communication throughout every stage of your project. If something can be improved, we'll explain why and recommend the best path forward.",
+          "Ambition",
+          "We believe every business deserves a website that stands out for the right reasons. From strategy to launch, we continually challenge ourselves to deliver work that exceeds expectations and creates measurable value for our clients.",
+          "Partnership",
+          "Building a website is only the beginning. As your trusted web design agency, we work alongside you as a long-term digital partner—offering ongoing support, guidance, and continuous improvements to help your business succeed online today and into the future."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "services": {
+    "slug": "services",
+    "title": "Services Rendered with Intention",
+    "intro": [
+      "A focused range of disciplines — each practised with depth. We do not do everything; only what we do exceptionally well."
+    ],
+    "vars": {
+      "services": [
+        {
+          "number": "01",
+          "title": "Bespoke Web Design",
+          "tagline": "Every decision deliberate. Every detail earned.",
+          "body": "We design digital experiences from first principles — not templates. Each project begins with a thorough understanding of your business, your audience, and your competitive context. What emerges is a visual identity that is unmistakably yours: considered, authoritative, and built to endure.",
+          "detail": [
+            "UX research & wireframing",
+            "Brand-aligned visual design",
+            "Responsive across all devices",
+            "Accessibility (WCAG 2.1 AA)",
+            "Design systems & component libraries",
+            "Interactive prototyping"
+          ],
+          "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=1200&auto=format&fit=crop&q=70",
+          "imageAlt": "Designer sketching a website layout",
+          "accent": "#12372A"
+        },
+        {
+          "number": "02",
+          "title": "Web Development",
+          "tagline": "Clean code. Lasting foundations.",
+          "body": "Performance is not a feature — it is the baseline. We build on modern, battle-tested frameworks: fast to load, a pleasure to maintain, and structured to grow alongside your business for years, not months. Every line of code is written with the next developer in mind.",
+          "detail": [
+            "Next.js & React applications",
+            "Headless CMS integration",
+            "PHP & custom API development",
+            "Core Web Vitals optimisation",
+            "CI/CD deployment pipelines",
+            "Ongoing technical stewardship"
+          ],
+          "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&auto=format&fit=crop&q=70",
+          "imageAlt": "Developer writing clean code",
+          "accent": "#1C1C1C"
+        },
+        {
+          "number": "03",
+          "title": "AI & Automation",
+          "tagline": "Intelligence, applied with restraint.",
+          "body": "Artificial intelligence is most powerful when invisible — when it quietly removes friction, surfaces the right information, and frees your team from repetitive work. We integrate AI thoughtfully: only where it genuinely serves your business, never as a gimmick.",
+          "detail": [
+            "AI-powered chat & support systems",
+            "Content generation workflows",
+            "Smart search & recommendations",
+            "Automated lead qualification",
+            "Data enrichment & analytics",
+            "Custom LLM integrations"
+          ],
+          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&auto=format&fit=crop&q=70",
+          "imageAlt": "Abstract AI neural network visualisation",
+          "accent": "#12372A"
+        },
+        {
+          "number": "04",
+          "title": "E-Commerce",
+          "tagline": "Stores that feel as premium as the products within.",
+          "body": "Conversion is a consequence of trust — and trust is built through design. We create e-commerce experiences that do justice to your product: considered presentation, frictionless checkout, and seamless integration with fulfilment and inventory systems you already rely on.",
+          "detail": [
+            "Shopify & WooCommerce builds",
+            "Custom checkout experiences",
+            "Product photography direction",
+            "Payment gateway integration",
+            "Inventory & order management",
+            "Abandoned cart & retention flows"
+          ],
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&auto=format&fit=crop&q=70",
+          "imageAlt": "Luxury product on a clean, minimal background",
+          "accent": "#B08D57"
+        },
+        {
+          "number": "05",
+          "title": "SEO & Performance",
+          "tagline": "Visibility earned, not bought.",
+          "body": "Organic search is a long game, and we play it properly. Technical excellence — fast pages, clean markup, structured data — is our foundation. Authority and genuinely useful content are how we build on it. We do not chase algorithm updates; we build the kind of site they are designed to reward.",
+          "detail": [
+            "Technical SEO audit & remediation",
+            "Core Web Vitals & page speed",
+            "Structured data & schema markup",
+            "Local SEO for UK businesses",
+            "Content strategy & content planning",
+            "Monthly performance reporting"
+          ],
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=70",
+          "imageAlt": "Analytics charts on a laptop screen",
+          "accent": "#7C746A"
+        },
+        {
+          "number": "06",
+          "title": "Ongoing Partnership",
+          "tagline": "A relationship that outlasts the launch.",
+          "body": "The best client relationships we have are not defined by individual projects — they are defined by years of consistent, considered collaboration. Our retained partnerships offer priority access, strategic quarterly reviews, and the peace of mind that your digital presence is always in capable hands.",
+          "detail": [
+            "Monthly maintenance & updates",
+            "Priority response & support",
+            "Quarterly strategy reviews",
+            "Performance monitoring & alerts",
+            "Content updates & publishing",
+            "Annual design refresh"
+          ],
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&auto=format&fit=crop&q=70",
+          "imageAlt": "Two professionals in a strategic meeting",
+          "accent": "#12372A"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long does a typical project take?",
+          "a": "A standard brochure website takes 6–10 weeks from kick-off to launch. Larger e-commerce builds or complex applications are typically 12–20 weeks. We always provide a detailed timeline in our proposal."
+        },
+        {
+          "q": "Do you work with clients outside London?",
+          "a": "Absolutely. We work remotely with businesses across the UK and internationally. Our discovery and review process is designed to work just as well over video call as in person."
+        },
+        {
+          "q": "Can you work with our existing CMS or platform?",
+          "a": "In most cases, yes. We have experience integrating with a wide range of platforms and can advise on whether to continue with your current setup or migrate to something better suited to your needs."
+        },
+        {
+          "q": "What does ongoing partnership include?",
+          "a": "Retained clients receive priority support, a dedicated point of contact, monthly maintenance, quarterly strategy calls, and a fixed allocation of hours for updates and new features each month."
+        },
+        {
+          "q": "Do you provide copywriting and photography?",
+          "a": "We can direct and commission both. We have a network of trusted copywriters and photographers who understand our design standards — and we can work with your existing assets when they meet the brief."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "A focused range of disciplines — each practised with depth. We do not do everything; only what we do exceptionally well."
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": [
+          {
+            "href": "#service-01",
+            "text": "01 Bespoke Web Design"
+          },
+          {
+            "href": "#service-02",
+            "text": "02 Web Development"
+          },
+          {
+            "href": "#service-03",
+            "text": "03 AI & Automation"
+          },
+          {
+            "href": "#service-04",
+            "text": "04 E-Commerce"
+          },
+          {
+            "href": "#service-05",
+            "text": "05 SEO & Performance"
+          },
+          {
+            "href": "#service-06",
+            "text": "06 Ongoing Partnership"
+          }
+        ]
+      },
+      {
+        "heading": "Bespoke Web Design",
+        "paragraphs": [
+          "Every decision deliberate. Every detail earned.",
+          "We design digital experiences from first principles — not templates. Each project begins with a thorough understanding of your business, your audience, and your competitive context. What emerges is a visual identity that is unmistakably yours: considered, authoritative, and built to endure.",
+          "What’s included"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=1200&auto=format&fit=crop&q=70",
+            "alt": "Designer sketching a website layout"
+          }
+        ],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Enquire About This Service"
+          }
+        ]
+      },
+      {
+        "heading": "Web Development",
+        "paragraphs": [
+          "Clean code. Lasting foundations.",
+          "Performance is not a feature — it is the baseline. We build on modern, battle-tested frameworks: fast to load, a pleasure to maintain, and structured to grow alongside your business for years, not months. Every line of code is written with the next developer in mind.",
+          "What’s included"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&auto=format&fit=crop&q=70",
+            "alt": "Developer writing clean code"
+          }
+        ],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Enquire About This Service"
+          }
+        ]
+      },
+      {
+        "heading": "AI & Automation",
+        "paragraphs": [
+          "Intelligence, applied with restraint.",
+          "Artificial intelligence is most powerful when invisible — when it quietly removes friction, surfaces the right information, and frees your team from repetitive work. We integrate AI thoughtfully: only where it genuinely serves your business, never as a gimmick.",
+          "What’s included"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&auto=format&fit=crop&q=70",
+            "alt": "Abstract AI neural network visualisation"
+          }
+        ],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Enquire About This Service"
+          }
+        ]
+      },
+      {
+        "heading": "E-Commerce",
+        "paragraphs": [
+          "Stores that feel as premium as the products within.",
+          "Conversion is a consequence of trust — and trust is built through design. We create e-commerce experiences that do justice to your product: considered presentation, frictionless checkout, and seamless integration with fulfilment and inventory systems you already rely on.",
+          "What’s included"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&auto=format&fit=crop&q=70",
+            "alt": "Luxury product on a clean, minimal background"
+          }
+        ],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Enquire About This Service"
+          }
+        ]
+      },
+      {
+        "heading": "SEO & Performance",
+        "paragraphs": [
+          "Visibility earned, not bought.",
+          "Organic search is a long game, and we play it properly. Technical excellence — fast pages, clean markup, structured data — is our foundation. Authority and genuinely useful content are how we build on it. We do not chase algorithm updates; we build the kind of site they are designed to reward.",
+          "What’s included"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=70",
+            "alt": "Analytics charts on a laptop screen"
+          }
+        ],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Enquire About This Service"
+          }
+        ]
+      },
+      {
+        "heading": "Ongoing Partnership",
+        "paragraphs": [
+          "A relationship that outlasts the launch.",
+          "The best client relationships we have are not defined by individual projects — they are defined by years of consistent, considered collaboration. Our retained partnerships offer priority access, strategic quarterly reviews, and the peace of mind that your digital presence is always in capable hands.",
+          "What’s included"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&auto=format&fit=crop&q=70",
+            "alt": "Two professionals in a strategic meeting"
+          }
+        ],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Enquire About This Service"
+          }
+        ]
+      },
+      {
+        "heading": "Transparent Pricing. No Surprises.",
+        "paragraphs": [
+          "We provide fixed-price proposals for project work and clear monthly retainers for ongoing partnerships. You will always know exactly what you are paying for — and why.",
+          "Project Work",
+          "From £2,500",
+          "Fixed-price proposals. Scope defined upfront. No scope creep.",
+          "Retained Partner",
+          "From £500/mo",
+          "Monthly retainer. Priority support. Ongoing strategy included.",
+          "Day Rate",
+          "£850/day",
+          "Consultancy, audits, and specialist engagements on a day-rate basis."
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&auto=format&fit=crop&q=60",
+            "alt": ""
+          }
+        ],
+        "links": []
+      },
+      {
+        "heading": "Frequently Asked",
+        "paragraphs": [
+          "If your question is not answered here, please do not hesitate to get in touch — we are always happy to talk.",
+          "01How long does a typical project take?",
+          "A standard brochure website takes 6–10 weeks from kick-off to launch. Larger e-commerce builds or complex applications are typically 12–20 weeks. We always provide a detailed timeline in our proposal.",
+          "02Do you work with clients outside London?",
+          "Absolutely. We work remotely with businesses across the UK and internationally. Our discovery and review process is designed to work just as well over video call as in person.",
+          "03Can you work with our existing CMS or platform?",
+          "In most cases, yes. We have experience integrating with a wide range of platforms and can advise on whether to continue with your current setup or migrate to something better suited to your needs.",
+          "04What does ongoing partnership include?",
+          "Retained clients receive priority support, a dedicated point of contact, monthly maintenance, quarterly strategy calls, and a fixed allocation of hours for updates and new features each month.",
+          "05Do you provide copywriting and photography?",
+          "We can direct and commission both. We have a network of trusted copywriters and photographers who understand our design standards — and we can work with your existing assets when they meet the brief."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Ask a Question →"
+          }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "slug": "pricing",
+    "title": "Transparent Website Design Pricing for UK Businesses",
+    "intro": [
+      "Whether you're launching a new business, redesigning an existing website, or building an online store, Crea Web offers flexible website design pricing tailored to your goals. Explore our website design packages and discover what's included, with bespoke solutions designed to deliver long-term value, performance, and measurable results for businesses across the UK.",
+      "No hidden fees. Bespoke pricing. Trusted by businesses across the UK."
+    ],
+    "vars": {
+      "plans": [
+        {
+          "name": "Foundation",
+          "tagline": "For businesses ready to establish a credible online presence.",
+          "price": "From £2,500",
+          "period": "one-off project",
+          "accent": "#7C746A",
+          "features": [
+            "Up to 6 bespoke pages",
+            "Mobile-first responsive design",
+            "CMS integration (blog / news)",
+            "Contact form & basic SEO",
+            "Performance optimisation",
+            "30-day post-launch support"
+          ],
+          "cta": "Start a Conversation",
+          "featured": false
+        },
+        {
+          "name": "Commerce",
+          "tagline": "For product businesses that need conversion built into every detail.",
+          "price": "From £7,500",
+          "period": "one-off project",
+          "accent": "#B08D57",
+          "features": [
+            "Shopify or WooCommerce build",
+            "Custom checkout experience",
+            "Product photography direction",
+            "Payment gateway integration",
+            "Inventory & order management",
+            "Abandoned cart & retention flows",
+            "SEO-optimised product pages",
+            "45-day post-launch support"
+          ],
+          "cta": "Start a Conversation",
+          "featured": true
+        },
+        {
+          "name": "Enterprise",
+          "tagline": "For brands that demand craft, depth, and lasting impact.",
+          "price": "From £15,000",
+          "period": "one-off project",
+          "accent": "#12372A",
+          "features": [
+            "Unlimited pages & sections",
+            "Custom design system & brand tokens",
+            "Headless CMS or bespoke admin",
+            "Advanced animations & interactions",
+            "Full technical SEO & structured data",
+            "Core Web Vitals optimisation",
+            "60-day post-launch support",
+            "Analytics & conversion setup"
+          ],
+          "cta": "Start a Conversation",
+          "featured": false
+        }
+      ],
+      "retainer": [
+        {
+          "name": "Essentials",
+          "price": "£500 / mo",
+          "features": [
+            "Security & plugin updates",
+            "Monthly content changes (up to 2h)",
+            "Uptime monitoring",
+            "Monthly performance report"
+          ]
+        },
+        {
+          "name": "Growth",
+          "price": "£1,000 / mo",
+          "features": [
+            "Everything in Essentials",
+            "Up to 6h development work",
+            "SEO monitoring & reporting",
+            "CRO recommendations",
+            "Priority response (same-day)"
+          ]
+        },
+        {
+          "name": "Partner",
+          "price": "£2,000 / mo",
+          "features": [
+            "Everything in Growth",
+            "Unlimited small-scope tasks",
+            "Quarterly strategy review",
+            "Dedicated project manager",
+            "A/B testing & experimentation"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Are these prices fixed or indicative?",
+          "a": "The prices shown are starting points. Every project is scoped individually — final investment depends on complexity, number of integrations, content volume, and timeline. We'll provide a detailed, itemised proposal before any commitment is made."
+        },
+        {
+          "q": "What's included in the post-launch support period?",
+          "a": "Bug fixes, browser compatibility issues, and minor content adjustments within the agreed scope. It doesn't cover new features or major changes — those are handled through a retainer or separate project."
+        },
+        {
+          "q": "Do you offer payment in instalments?",
+          "a": "Yes. Most projects are structured as a 40% deposit at brief sign-off, 40% at design approval, and 20% on launch. Larger projects may have additional milestones. We discuss payment schedules openly before work begins."
+        },
+        {
+          "q": "Can I upgrade my retainer plan later?",
+          "a": "Absolutely. You can move between retainer tiers with one month's notice. Many clients start on Essentials and upgrade as their digital ambitions grow."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Whether you're launching a new business, redesigning an existing website, or building an online store, Crea Web offers flexible website design pricing tailored to your goals. Explore our website design packages and discover what's included, with bespoke solutions designed to deliver long-term value, performance, and measurable results for businesses across the UK.",
+          "No hidden fees. Bespoke pricing. Trusted by businesses across the UK."
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Request a Quote"
+          },
+          {
+            "href": "#pricing-plans",
+            "text": "Compare Packages"
+          }
+        ]
+      },
+      {
+        "heading": "One-Off Projects",
+        "paragraphs": [
+          "Scoped, delivered, and priced transparently. Choose the level that matches your ambition.",
+          "Foundation",
+          "For businesses ready to establish a credible online presence.",
+          "From £2,500",
+          "one-off project",
+          "Commerce",
+          "For product businesses that need conversion built into every detail.",
+          "From £7,500",
+          "one-off project",
+          "Enterprise",
+          "For brands that demand craft, depth, and lasting impact.",
+          "From £15,000",
+          "one-off project"
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Start a Conversation"
+          },
+          {
+            "href": "/contact",
+            "text": "Start a Conversation"
+          },
+          {
+            "href": "/contact",
+            "text": "Start a Conversation"
+          }
+        ]
+      },
+      {
+        "heading": "Monthly Retainers",
+        "paragraphs": [
+          "For businesses that want a trusted digital partner on hand every month — not just at launch.",
+          "Essentials",
+          "£500 / mo",
+          "Growth",
+          "£1,000 / mo",
+          "Partner",
+          "£2,000 / mo"
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Enquire"
+          },
+          {
+            "href": "/contact",
+            "text": "Enquire"
+          },
+          {
+            "href": "/contact",
+            "text": "Enquire"
+          }
+        ]
+      },
+      {
+        "heading": "Common Questions",
+        "paragraphs": [
+          "Are these prices fixed or indicative?",
+          "The prices shown are starting points. Every project is scoped individually — final investment depends on complexity, number of integrations, content volume, and timeline. We'll provide a detailed, itemised proposal before any commitment is made.",
+          "What's included in the post-launch support period?",
+          "Bug fixes, browser compatibility issues, and minor content adjustments within the agreed scope. It doesn't cover new features or major changes — those are handled through a retainer or separate project.",
+          "Do you offer payment in instalments?",
+          "Yes. Most projects are structured as a 40% deposit at brief sign-off, 40% at design approval, and 20% on launch. Larger projects may have additional milestones. We discuss payment schedules openly before work begins.",
+          "Can I upgrade my retainer plan later?",
+          "Absolutely. You can move between retainer tiers with one month's notice. Many clients start on Essentials and upgrade as their digital ambitions grow."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "web-design": {
+    "slug": "web-design",
+    "title": "Bespoke Web Design in the UK",
+    "intro": [
+      "Custom website design for British businesses that want a digital presence as considered and purposeful as the work they do."
+    ],
+    "vars": {
+      "features": [
+        {
+          "title": "Custom-Built, Never Templated",
+          "body": "Every website we design starts from a blank canvas — shaped by your brand, your audience, and your goals. No theme marketplaces. No compromises."
+        },
+        {
+          "title": "Responsive Website Design",
+          "body": "Your site performs flawlessly on every screen — from widescreen desktops to the smallest mobile handsets. Responsive design is built in from day one."
+        },
+        {
+          "title": "Conversion-Focused Layouts",
+          "body": "Beautiful design that works. Every layout decision is grounded in user psychology and tested against your business objectives."
+        },
+        {
+          "title": "Brand-Led Visual Identity",
+          "body": "We translate your brand values into a cohesive digital aesthetic — typography, colour, spacing, and imagery chosen with intent."
+        },
+        {
+          "title": "SEO-Ready from Launch",
+          "body": "Clean semantic markup, fast load times, and optimised page structure ensure your new site is primed to rank from the moment it goes live."
+        },
+        {
+          "title": "Ongoing Partnership Available",
+          "body": "Our relationship doesn't end at launch. Retained clients receive priority support, iterative improvements, and strategic guidance."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Custom website design for British businesses that want a digital presence as considered and purposeful as the work they do."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Start Your Project"
+          }
+        ]
+      },
+      {
+        "heading": "Custom Website Design Built for Results",
+        "paragraphs": [
+          "Every website we design starts from a blank canvas — shaped by your brand, your audience, and your goals. No theme marketplaces. No compromises.",
+          "Your site performs flawlessly on every screen — from widescreen desktops to the smallest mobile handsets. Responsive design is built in from day one.",
+          "Beautiful design that works. Every layout decision is grounded in user psychology and tested against your business objectives.",
+          "We translate your brand values into a cohesive digital aesthetic — typography, colour, spacing, and imagery chosen with intent.",
+          "Clean semantic markup, fast load times, and optimised page structure ensure your new site is primed to rank from the moment it goes live.",
+          "Our relationship doesn't end at launch. Retained clients receive priority support, iterative improvements, and strategic guidance."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Get a Free Consultation"
+          },
+          {
+            "href": "/services",
+            "text": "All Services"
+          }
+        ]
+      }
+    ]
+  },
+  "website-development": {
+    "slug": "website-development",
+    "title": "Website Development in the UK",
+    "intro": [
+      "Clean, performant code built on modern frameworks. Fast load times, full accessibility compliance, and a codebase you can grow into for years."
+    ],
+    "vars": {
+      "stack": [
+        {
+          "name": "Next.js",
+          "desc": "For performant, SEO-optimised web applications."
+        },
+        {
+          "name": "WordPress",
+          "desc": "Flexible CMS for content-driven websites."
+        },
+        {
+          "name": "Shopify",
+          "desc": "Purpose-built e-commerce development."
+        },
+        {
+          "name": "PHP / Laravel",
+          "desc": "Robust back-end for complex requirements."
+        },
+        {
+          "name": "Tailwind CSS",
+          "desc": "Precision styling with no bloat."
+        },
+        {
+          "name": "Headless CMS",
+          "desc": "Sanity and Contentful for modern editorial workflows."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Clean, performant code built on modern frameworks. Fast load times, full accessibility compliance, and a codebase you can grow into for years."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Discuss Your Project"
+          }
+        ]
+      },
+      {
+        "heading": "Technologies We Build With",
+        "paragraphs": [
+          "For performant, SEO-optimised web applications.",
+          "Flexible CMS for content-driven websites.",
+          "Purpose-built e-commerce development.",
+          "Robust back-end for complex requirements.",
+          "Precision styling with no bloat.",
+          "Sanity and Contentful for modern editorial workflows."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "ecommerce-websites": {
+    "slug": "ecommerce-websites",
+    "title": "E-Commerce Website Design in the UK",
+    "intro": [
+      "Conversion-focused online stores for UK brands — premium design paired with seamless payment, inventory, and fulfilment systems."
+    ],
+    "vars": {
+      "features": [
+        {
+          "title": "Conversion-Focused Design",
+          "body": "Every layout, colour choice, and micro-interaction is made with one goal: turning more visitors into paying customers."
+        },
+        {
+          "title": "Shopify & WooCommerce",
+          "body": "We work with the UK's most trusted e-commerce platforms and build bespoke themes that make the most of each."
+        },
+        {
+          "title": "Payment & Fulfilment Integration",
+          "body": "Stripe, PayPal, Klarna, and fulfilment APIs integrated cleanly — so your operations run without friction."
+        },
+        {
+          "title": "Mobile Commerce Ready",
+          "body": "Over 65% of UK online shopping happens on mobile. Every store we build is optimised for the small screen first."
+        },
+        {
+          "title": "Inventory & CMS",
+          "body": "Easy-to-manage product catalogues, stock alerts, and editorial content — giving your team full control post-launch."
+        },
+        {
+          "title": "SEO for E-Commerce",
+          "body": "Product schema, structured data, fast Core Web Vitals, and category page optimisation built in from day one."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Conversion-focused online stores for UK brands — premium design paired with seamless payment, inventory, and fulfilment systems."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Build My Online Store"
+          }
+        ]
+      },
+      {
+        "heading": "E-Commerce Design Built to Sell",
+        "paragraphs": [
+          "Every layout, colour choice, and micro-interaction is made with one goal: turning more visitors into paying customers.",
+          "We work with the UK's most trusted e-commerce platforms and build bespoke themes that make the most of each.",
+          "Stripe, PayPal, Klarna, and fulfilment APIs integrated cleanly — so your operations run without friction.",
+          "Over 65% of UK online shopping happens on mobile. Every store we build is optimised for the small screen first.",
+          "Easy-to-manage product catalogues, stock alerts, and editorial content — giving your team full control post-launch.",
+          "Product schema, structured data, fast Core Web Vitals, and category page optimisation built in from day one."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "seo": {
+    "slug": "seo",
+    "title": "SEO Services for UK Businesses",
+    "intro": [
+      "Organic visibility built through technical excellence and genuine authority. We don’t chase algorithms — we build the kind of site they reward."
+    ],
+    "vars": {
+      "services": [
+        {
+          "title": "Technical SEO Audit",
+          "body": "A comprehensive audit of your site's crawlability, indexation, Core Web Vitals, schema markup, and architecture — with a clear action plan."
+        },
+        {
+          "title": "On-Page Optimisation",
+          "body": "Keyword-aligned title tags, meta descriptions, heading structure, internal linking, and content improvements across every page."
+        },
+        {
+          "title": "Content Strategy",
+          "body": "We identify the topics and keywords your audience searches for and build a content plan that earns authority over time."
+        },
+        {
+          "title": "Local SEO",
+          "body": "Dominate local search results in your city or region — Google Business Profile optimisation, local citations, and geo-targeted content."
+        },
+        {
+          "title": "Link Building",
+          "body": "Ethical, editorial link acquisition from reputable UK publications and industry sites — no directories, no shortcuts."
+        },
+        {
+          "title": "SEO for New Websites",
+          "body": "Every website we build is SEO-ready from day one — fast, accessible, semantically structured, and properly indexed."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Organic visibility built through technical excellence and genuine authority. We don’t chase algorithms — we build the kind of site they reward."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Get an SEO Audit"
+          }
+        ]
+      },
+      {
+        "heading": "SEO Services We Provide",
+        "paragraphs": [
+          "A comprehensive audit of your site's crawlability, indexation, Core Web Vitals, schema markup, and architecture — with a clear action plan.",
+          "Keyword-aligned title tags, meta descriptions, heading structure, internal linking, and content improvements across every page.",
+          "We identify the topics and keywords your audience searches for and build a content plan that earns authority over time.",
+          "Dominate local search results in your city or region — Google Business Profile optimisation, local citations, and geo-targeted content.",
+          "Ethical, editorial link acquisition from reputable UK publications and industry sites — no directories, no shortcuts.",
+          "Every website we build is SEO-ready from day one — fast, accessible, semantically structured, and properly indexed."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "shopify-development": {
+    "slug": "shopify-development",
+    "title": "Shopify Development for UK Businesses",
+    "intro": [
+      "Bespoke Shopify stores that feel as premium as the products within them — custom themes, seamless integrations, and a shopping experience that converts."
+    ],
+    "vars": {
+      "services": [
+        {
+          "title": "Custom Shopify Themes",
+          "body": "Bespoke Shopify theme development that goes far beyond the theme store — designed and coded to reflect your brand at its finest."
+        },
+        {
+          "title": "Shopify Plus",
+          "body": "Enterprise-grade Shopify Plus solutions for high-volume UK retailers — including custom checkout, B2B functionality, and automation."
+        },
+        {
+          "title": "Shopify Migrations",
+          "body": "Moving to Shopify from WooCommerce, Magento, or a custom platform? We handle the transition with zero data loss and SEO continuity."
+        },
+        {
+          "title": "App Integration",
+          "body": "Seamless integration of third-party apps — from loyalty programmes and review platforms to ERP and fulfilment systems."
+        },
+        {
+          "title": "Conversion Rate Optimisation",
+          "body": "We audit your existing Shopify store and implement data-backed improvements to product pages, checkout, and navigation."
+        },
+        {
+          "title": "Ongoing Support",
+          "body": "Retained Shopify support for UK merchants — platform updates, new feature rollouts, and strategic guidance as you scale."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Bespoke Shopify stores that feel as premium as the products within them — custom themes, seamless integrations, and a shopping experience that converts."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Start Your Shopify Project"
+          }
+        ]
+      },
+      {
+        "heading": "Shopify Services We Offer",
+        "paragraphs": [
+          "Bespoke Shopify theme development that goes far beyond the theme store — designed and coded to reflect your brand at its finest.",
+          "Enterprise-grade Shopify Plus solutions for high-volume UK retailers — including custom checkout, B2B functionality, and automation.",
+          "Moving to Shopify from WooCommerce, Magento, or a custom platform? We handle the transition with zero data loss and SEO continuity.",
+          "Seamless integration of third-party apps — from loyalty programmes and review platforms to ERP and fulfilment systems.",
+          "We audit your existing Shopify store and implement data-backed improvements to product pages, checkout, and navigation.",
+          "Retained Shopify support for UK merchants — platform updates, new feature rollouts, and strategic guidance as you scale."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "wordpress-development": {
+    "slug": "wordpress-development",
+    "title": "WordPress Development in the UK",
+    "intro": [
+      "Expert WordPress development for British businesses — bespoke themes, custom plugins, and WooCommerce stores built to perform and built to last."
+    ],
+    "vars": {
+      "services": [
+        {
+          "title": "Custom WordPress Themes",
+          "body": "Pixel-perfect designs built as bespoke WordPress themes — not off-the-shelf templates. Every element coded to match your brand."
+        },
+        {
+          "title": "Plugin Development",
+          "body": "When existing plugins don't meet your requirements, we build custom WordPress plugins tailored precisely to your workflow."
+        },
+        {
+          "title": "WooCommerce Stores",
+          "body": "Fully customised WooCommerce development for UK e-commerce businesses — from product pages to checkout and fulfilment integration."
+        },
+        {
+          "title": "WordPress Migrations",
+          "body": "Moving from another platform? We handle the migration cleanly, preserving your content, SEO, and data integrity."
+        },
+        {
+          "title": "Performance Optimisation",
+          "body": "We audit and optimise existing WordPress sites for Core Web Vitals, page speed, and security best practices."
+        },
+        {
+          "title": "Ongoing Maintenance",
+          "body": "Managed WordPress hosting, updates, backups, and security monitoring — so you never have to think about it."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Expert WordPress development for British businesses — bespoke themes, custom plugins, and WooCommerce stores built to perform and built to last."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Start Your WordPress Project"
+          }
+        ]
+      },
+      {
+        "heading": "WordPress Services We Offer",
+        "paragraphs": [
+          "Pixel-perfect designs built as bespoke WordPress themes — not off-the-shelf templates. Every element coded to match your brand.",
+          "When existing plugins don't meet your requirements, we build custom WordPress plugins tailored precisely to your workflow.",
+          "Fully customised WooCommerce development for UK e-commerce businesses — from product pages to checkout and fulfilment integration.",
+          "Moving from another platform? We handle the migration cleanly, preserving your content, SEO, and data integrity.",
+          "We audit and optimise existing WordPress sites for Core Web Vitals, page speed, and security best practices.",
+          "Managed WordPress hosting, updates, backups, and security monitoring — so you never have to think about it."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "website-redesign": {
+    "slug": "website-redesign",
+    "title": "Website Redesign for UK Businesses",
+    "intro": [
+      "Your current website may be costing you clients. We rebuild it with purpose — improving design, speed, and conversions without losing what makes your business distinctive."
+    ],
+    "vars": {
+      "steps": [
+        {
+          "num": "01",
+          "title": "Audit & Discovery",
+          "body": "We assess your current website — design, performance, SEO health, and conversion data — to understand exactly what needs to change and why."
+        },
+        {
+          "num": "02",
+          "title": "Strategy & Wireframing",
+          "body": "Before any visual work begins, we map out a revised information architecture and user journey that serves your business goals."
+        },
+        {
+          "num": "03",
+          "title": "Redesign & Build",
+          "body": "Your new site is designed and developed with precision — preserving what works, replacing what doesn't, and elevating the whole."
+        },
+        {
+          "num": "04",
+          "title": "SEO Migration",
+          "body": "We manage URL redirects, metadata, and indexing carefully to protect your existing search rankings through the transition."
+        },
+        {
+          "num": "05",
+          "title": "Launch & Handover",
+          "body": "A thorough pre-launch quality check followed by a smooth, zero-downtime launch — and full training for your team."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Your current website may be costing you clients. We rebuild it with purpose — improving design, speed, and conversions without losing what makes your business distinctive."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/contact",
+            "text": "Get a Redesign Quote"
+          }
+        ]
+      },
+      {
+        "heading": "Our Redesign Process",
+        "paragraphs": [
+          "We assess your current website — design, performance, SEO health, and conversion data — to understand exactly what needs to change and why.",
+          "Before any visual work begins, we map out a revised information architecture and user journey that serves your business goals.",
+          "Your new site is designed and developed with precision — preserving what works, replacing what doesn't, and elevating the whole.",
+          "We manage URL redirects, metadata, and indexing carefully to protect your existing search rankings through the transition.",
+          "A thorough pre-launch quality check followed by a smooth, zero-downtime launch — and full training for your team."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "contact": {
+    "slug": "contact",
+    "title": "Let’s Begin with a Conversation",
+    "intro": [
+      "We welcome enquiries from businesses that care about their digital presence. Tell us about your project and we will be in touch within one business day."
+    ],
+    "vars": {},
+    "sections": [
+      {
+        "paragraphs": [
+          "We welcome enquiries from businesses that care about their digital presence. Tell us about your project and we will be in touch within one business day."
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": []
+      },
+      {
+        "heading": "We’d love to hear about your project",
+        "paragraphs": [
+          "C",
+          "We take on a limited number of projects each year to ensure every client receives our full attention and commitment."
+        ],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "projects": {
+    "slug": "projects",
+    "title": "All Our Projects Web Design Portfolio",
+    "intro": [
+      "Explore our complete portfolio of web design and digital solutions across industries. Click on any project image to scroll through and see the full design."
+    ],
+    "vars": {
+      "allProjects": [
+        {
+          "index": "001",
+          "client": "Aanchor Health",
+          "category": "Healthcare",
+          "image": "/images/works/aanchor.png"
+        },
+        {
+          "index": "002",
+          "client": "University Compare",
+          "category": "Education",
+          "image": "/images/works/academia.png"
+        },
+        {
+          "index": "003",
+          "client": "Accelede",
+          "category": "Technology",
+          "image": "/images/works/Accelede.png"
+        },
+        {
+          "index": "004",
+          "client": "Bae Bronx",
+          "category": "Fashion",
+          "image": "/images/works/baebronx.png"
+        },
+        {
+          "index": "005",
+          "client": "Religion Empowering Ministries",
+          "category": "NGO",
+          "image": "/images/works/empowering.png"
+        },
+        {
+          "index": "006",
+          "client": "Travisa Ltd",
+          "category": "Travel",
+          "image": "/images/works/evisa_website.jpg"
+        },
+        {
+          "index": "007",
+          "client": "NGO Grace Empowered",
+          "category": "Education",
+          "image": "/images/works/graceempoweredearlyyears.png"
+        },
+        {
+          "index": "008",
+          "client": "Lily Heart Home Care",
+          "category": "Healthcare",
+          "image": "/images/works/lilyhearthomecare-ca.jpg"
+        },
+        {
+          "index": "009",
+          "client": "Makeup Talent",
+          "category": "Beauty",
+          "image": "/images/works/makeuptalent.png"
+        },
+        {
+          "index": "010",
+          "client": "Naija Beauty",
+          "category": "E-Commerce",
+          "image": "/images/works/Naijabeauty.png"
+        },
+        {
+          "index": "011",
+          "client": "Lady Flora",
+          "category": "Business",
+          "image": "/images/works/trimmer1.png"
+        },
+        {
+          "index": "012",
+          "client": "WizzyPro",
+          "category": "Photography",
+          "image": "/images/works/wizzypro.png"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Explore our complete portfolio of web design and digital solutions across industries. Click on any project image to scroll through and see the full design."
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": []
+      },
+      {
+        "paragraphs": [],
+        "images": [
+          {
+            "src": "/images/works/aanchor.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/academia.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/Accelede.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/baebronx.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/empowering.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/evisa_website.jpg",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/graceempoweredearlyyears.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/lilyhearthomecare-ca.jpg",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/makeuptalent.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/Naijabeauty.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/trimmer1.png",
+            "alt": "Web design company UK"
+          },
+          {
+            "src": "/images/works/wizzypro.png",
+            "alt": "Web design company UK"
+          }
+        ],
+        "links": []
+      }
+    ]
+  },
+  "privacy-policy": {
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "intro": [
+      "Last updated: 18 June 2026"
+    ],
+    "vars": {
+      "LAST_UPDATED": "18 June 2026"
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Last updated: 18 June 2026"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": []
+      },
+      {
+        "heading": "1. Who We Are",
+        "paragraphs": [
+          "Crea Web (“we”, “us”, “our”) is a web design and development agency based in Manchester, United Kingdom. Our website is creaweb.co.uk. You can contact us at contact@creaweb.co.uk.",
+          "We are committed to protecting your personal data and handling it in accordance with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.",
+          "We may collect the following categories of personal data:",
+          "We use your personal data to:",
+          "We do not sell, rent, or share your personal data with third parties for marketing purposes.",
+          "We process your data on the following legal grounds:",
+          "We retain enquiry data for up to 24 months unless an ongoing client relationship requires longer retention. Analytics data is retained in aggregated form only. You may request deletion at any time.",
+          "Under UK GDPR, you have the right to:",
+          "To exercise any of these rights, contact us at contact@creaweb.co.uk.",
+          "We use cookies to improve your browsing experience and gather anonymous usage statistics. Please see our Cookie Policy for full details.",
+          "We may use third-party tools (such as analytics providers) that process data on our behalf. These providers are contractually bound to process data only as instructed and in compliance with applicable law.",
+          "We may update this Privacy Policy from time to time. The “Last updated” date at the top of this page indicates when the most recent changes were made.",
+          "For any privacy-related queries, contact us at contact@creaweb.co.uk or by post at Crea Web, Manchester, United Kingdom."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "https://creaweb.co.uk",
+            "text": "creaweb.co.uk"
+          },
+          {
+            "href": "mailto:contact@creaweb.co.uk",
+            "text": "contact@creaweb.co.uk"
+          },
+          {
+            "href": "mailto:contact@creaweb.co.uk",
+            "text": "contact@creaweb.co.uk"
+          },
+          {
+            "href": "/cookie-policy",
+            "text": "Cookie Policy"
+          },
+          {
+            "href": "mailto:contact@creaweb.co.uk",
+            "text": "contact@creaweb.co.uk"
+          }
+        ]
+      }
+    ],
+    "policy": [
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-1"
+        },
+        "children": [
+          "1. Who We Are"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Crea Web (“we”, “us”, “our”) is a web design and development agency based in Manchester, United Kingdom. Our website is ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "https://creaweb.co.uk"
+            },
+            "children": [
+              "creaweb.co.uk"
+            ]
+          },
+          ". You can contact us at ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "mailto:contact@creaweb.co.uk"
+            },
+            "children": [
+              "contact@creaweb.co.uk"
+            ]
+          },
+          "."
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We are committed to protecting your personal data and handling it in accordance with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-2"
+        },
+        "children": [
+          "2. Data We Collect"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We may collect the following categories of personal data:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              {
+                "tag": "strong",
+                "props": {},
+                "children": [
+                  "Enquiry data:"
+                ]
+              },
+              " name, email address, phone number, company name, and project details submitted via our contact form."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              {
+                "tag": "strong",
+                "props": {},
+                "children": [
+                  "Usage data:"
+                ]
+              },
+              " IP address, browser type, pages visited, and time spent on the site, collected automatically via analytics tools."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              {
+                "tag": "strong",
+                "props": {},
+                "children": [
+                  "Communication data:"
+                ]
+              },
+              " any information you send us via email or other channels."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-3"
+        },
+        "children": [
+          "3. How We Use Your Data"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We use your personal data to:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Respond to your enquiries and provide the services you request."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Send project-related communications during an active engagement."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Improve our website and services through aggregated analytics."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Comply with legal obligations."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We do not sell, rent, or share your personal data with third parties for marketing purposes."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-4"
+        },
+        "children": [
+          "4. Legal Basis for Processing"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We process your data on the following legal grounds:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              {
+                "tag": "strong",
+                "props": {},
+                "children": [
+                  "Legitimate interests:"
+                ]
+              },
+              " to respond to your enquiry and manage our business relationship."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              {
+                "tag": "strong",
+                "props": {},
+                "children": [
+                  "Contract performance:"
+                ]
+              },
+              " where we are fulfilling a service agreement."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              {
+                "tag": "strong",
+                "props": {},
+                "children": [
+                  "Legal obligation:"
+                ]
+              },
+              " where required by law."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              {
+                "tag": "strong",
+                "props": {},
+                "children": [
+                  "Consent:"
+                ]
+              },
+              " where you have explicitly opted in (e.g. marketing emails, if applicable)."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-5"
+        },
+        "children": [
+          "5. Data Retention"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We retain enquiry data for up to 24 months unless an ongoing client relationship requires longer retention. Analytics data is retained in aggregated form only. You may request deletion at any time."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-6"
+        },
+        "children": [
+          "6. Your Rights"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Under UK GDPR, you have the right to:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Access the personal data we hold about you."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Request correction of inaccurate data."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Request erasure of your data."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Object to or restrict processing."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Data portability."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Lodge a complaint with the ICO (ico.org.uk)."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "To exercise any of these rights, contact us at ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "mailto:contact@creaweb.co.uk"
+            },
+            "children": [
+              "contact@creaweb.co.uk"
+            ]
+          },
+          "."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-7"
+        },
+        "children": [
+          "7. Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We use cookies to improve your browsing experience and gather anonymous usage statistics. Please see our ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "/cookie-policy"
+            },
+            "children": [
+              "Cookie Policy"
+            ]
+          },
+          " for full details."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-8"
+        },
+        "children": [
+          "8. Third-Party Services"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We may use third-party tools (such as analytics providers) that process data on our behalf. These providers are contractually bound to process data only as instructed and in compliance with applicable law."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-9"
+        },
+        "children": [
+          "9. Changes to This Policy"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We may update this Privacy Policy from time to time. The “Last updated” date at the top of this page indicates when the most recent changes were made."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-10"
+        },
+        "children": [
+          "10. Contact"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "For any privacy-related queries, contact us at ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "mailto:contact@creaweb.co.uk"
+            },
+            "children": [
+              "contact@creaweb.co.uk"
+            ]
+          },
+          " or by post at Crea Web, Manchester, United Kingdom."
+        ]
+      }
+    ],
+    "toc": [
+      {
+        "id": "policy-1",
+        "title": "1. Who We Are"
+      },
+      {
+        "id": "policy-2",
+        "title": "2. Data We Collect"
+      },
+      {
+        "id": "policy-3",
+        "title": "3. How We Use Your Data"
+      },
+      {
+        "id": "policy-4",
+        "title": "4. Legal Basis for Processing"
+      },
+      {
+        "id": "policy-5",
+        "title": "5. Data Retention"
+      },
+      {
+        "id": "policy-6",
+        "title": "6. Your Rights"
+      },
+      {
+        "id": "policy-7",
+        "title": "7. Cookies"
+      },
+      {
+        "id": "policy-8",
+        "title": "8. Third-Party Services"
+      },
+      {
+        "id": "policy-9",
+        "title": "9. Changes to This Policy"
+      },
+      {
+        "id": "policy-10",
+        "title": "10. Contact"
+      }
+    ]
+  },
+  "terms-of-service": {
+    "slug": "terms-of-service",
+    "title": "Terms of Service",
+    "intro": [
+      "Last updated: 18 June 2026"
+    ],
+    "vars": {
+      "LAST_UPDATED": "18 June 2026"
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Last updated: 18 June 2026"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": []
+      },
+      {
+        "heading": "1. Introduction",
+        "paragraphs": [
+          "These Terms of Service (“Terms”) govern your use of the Crea Web website at creaweb.co.uk (“the Site”) and any services provided by Crea Web (“we”, “us”, “our”), a web design and development agency based in Manchester, United Kingdom.",
+          "By accessing the Site or engaging our services, you agree to be bound by these Terms. If you do not agree, please do not use the Site.",
+          "Crea Web provides web design, web development, e-commerce, SEO, and related digital services. The specific scope, deliverables, timeline, and fees for any engagement are set out in a separate written proposal or service agreement, which forms part of the contract between us.",
+          "You agree not to:",
+          "All content on this Site — including text, graphics, logos, and code — is the property of Crea Web or its licensors and is protected by UK and international copyright law.",
+          "Deliverables produced for clients are subject to the intellectual property terms set out in the relevant service agreement. Typically, full ownership transfers to the client upon receipt of final payment.",
+          "Project fees are as agreed in the service proposal. Invoices are due within 14 days of issue unless otherwise agreed in writing. Late payments may incur statutory interest under the Late Payment of Commercial Debts (Interest) Act 1998.",
+          "To the fullest extent permitted by law, Crea Web shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Site or our services. Our total liability in connection with any engagement shall not exceed the total fees paid by you in the 12 months preceding the claim.",
+          "These Terms are governed by the laws of England and Wales. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.",
+          "We reserve the right to update these Terms at any time. Continued use of the Site after changes are posted constitutes acceptance of the revised Terms.",
+          "For questions about these Terms, contact us at contact@creaweb.co.uk."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "mailto:contact@creaweb.co.uk",
+            "text": "contact@creaweb.co.uk"
+          }
+        ]
+      }
+    ],
+    "policy": [
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-1"
+        },
+        "children": [
+          "1. Introduction"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "These Terms of Service (“Terms”) govern your use of the Crea Web website at creaweb.co.uk (“the Site”) and any services provided by Crea Web (“we”, “us”, “our”), a web design and development agency based in Manchester, United Kingdom."
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "By accessing the Site or engaging our services, you agree to be bound by these Terms. If you do not agree, please do not use the Site."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-2"
+        },
+        "children": [
+          "2. Services"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Crea Web provides web design, web development, e-commerce, SEO, and related digital services. The specific scope, deliverables, timeline, and fees for any engagement are set out in a separate written proposal or service agreement, which forms part of the contract between us."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-3"
+        },
+        "children": [
+          "3. Use of the Website"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "You agree not to:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Use the Site for any unlawful purpose or in violation of any applicable regulations."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Attempt to gain unauthorised access to any part of the Site or its underlying systems."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Transmit any unsolicited commercial communications via the Site."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Introduce viruses, malware, or other harmful code."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Scrape, crawl, or harvest content from the Site without our written consent."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-4"
+        },
+        "children": [
+          "4. Intellectual Property"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "All content on this Site — including text, graphics, logos, and code — is the property of Crea Web or its licensors and is protected by UK and international copyright law."
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Deliverables produced for clients are subject to the intellectual property terms set out in the relevant service agreement. Typically, full ownership transfers to the client upon receipt of final payment."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-5"
+        },
+        "children": [
+          "5. Payment Terms"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Project fees are as agreed in the service proposal. Invoices are due within 14 days of issue unless otherwise agreed in writing. Late payments may incur statutory interest under the Late Payment of Commercial Debts (Interest) Act 1998."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-6"
+        },
+        "children": [
+          "6. Limitation of Liability"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "To the fullest extent permitted by law, Crea Web shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Site or our services. Our total liability in connection with any engagement shall not exceed the total fees paid by you in the 12 months preceding the claim."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-7"
+        },
+        "children": [
+          "7. Governing Law"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "These Terms are governed by the laws of England and Wales. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-8"
+        },
+        "children": [
+          "8. Changes to These Terms"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We reserve the right to update these Terms at any time. Continued use of the Site after changes are posted constitutes acceptance of the revised Terms."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-9"
+        },
+        "children": [
+          "9. Contact"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "For questions about these Terms, contact us at ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "mailto:contact@creaweb.co.uk"
+            },
+            "children": [
+              "contact@creaweb.co.uk"
+            ]
+          },
+          "."
+        ]
+      }
+    ],
+    "toc": [
+      {
+        "id": "policy-1",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "policy-2",
+        "title": "2. Services"
+      },
+      {
+        "id": "policy-3",
+        "title": "3. Use of the Website"
+      },
+      {
+        "id": "policy-4",
+        "title": "4. Intellectual Property"
+      },
+      {
+        "id": "policy-5",
+        "title": "5. Payment Terms"
+      },
+      {
+        "id": "policy-6",
+        "title": "6. Limitation of Liability"
+      },
+      {
+        "id": "policy-7",
+        "title": "7. Governing Law"
+      },
+      {
+        "id": "policy-8",
+        "title": "8. Changes to These Terms"
+      },
+      {
+        "id": "policy-9",
+        "title": "9. Contact"
+      }
+    ]
+  },
+  "cookie-policy": {
+    "slug": "cookie-policy",
+    "title": "Cookie Policy",
+    "intro": [
+      "Last updated: 18 June 2026"
+    ],
+    "vars": {
+      "LAST_UPDATED": "18 June 2026"
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Last updated: 18 June 2026"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": []
+      },
+      {
+        "heading": "1. What Are Cookies",
+        "paragraphs": [
+          "Cookies are small text files placed on your device when you visit a website. They help websites remember your preferences, understand how you use the site, and improve your experience on future visits.",
+          "We use cookies for the following purposes:",
+          "These cookies are necessary for the website to function and cannot be switched off. They are set in response to actions you take, such as setting your privacy preferences.",
+          "We use analytics cookies to understand how visitors interact with our website — which pages are most visited, how long visitors stay, and where they come from. This data is aggregated and anonymous. It helps us improve our site.",
+          "These cookies help us deliver a faster, more reliable experience by caching resources and reducing load times on repeat visits.",
+          "Some third-party services embedded on our site (such as analytics tools or embedded media) may set their own cookies. We do not control these cookies directly. Please refer to the respective providers’ privacy policies for details.",
+          "You can control and delete cookies through your browser settings. Most browsers allow you to:",
+          "Note that disabling essential cookies may affect the functionality of the website.",
+          "We may update this Cookie Policy from time to time. Please check back periodically for the latest version.",
+          "If you have questions about our use of cookies, contact us at contact@creaweb.co.uk."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "mailto:contact@creaweb.co.uk",
+            "text": "contact@creaweb.co.uk"
+          }
+        ]
+      }
+    ],
+    "policy": [
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-1"
+        },
+        "children": [
+          "1. What Are Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Cookies are small text files placed on your device when you visit a website. They help websites remember your preferences, understand how you use the site, and improve your experience on future visits."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-2"
+        },
+        "children": [
+          "2. How We Use Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We use cookies for the following purposes:"
+        ]
+      },
+      {
+        "tag": "h3",
+        "props": {},
+        "children": [
+          "Essential Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "These cookies are necessary for the website to function and cannot be switched off. They are set in response to actions you take, such as setting your privacy preferences."
+        ]
+      },
+      {
+        "tag": "h3",
+        "props": {},
+        "children": [
+          "Analytics Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We use analytics cookies to understand how visitors interact with our website — which pages are most visited, how long visitors stay, and where they come from. This data is aggregated and anonymous. It helps us improve our site."
+        ]
+      },
+      {
+        "tag": "h3",
+        "props": {},
+        "children": [
+          "Performance Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "These cookies help us deliver a faster, more reliable experience by caching resources and reducing load times on repeat visits."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-3"
+        },
+        "children": [
+          "3. Third-Party Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Some third-party services embedded on our site (such as analytics tools or embedded media) may set their own cookies. We do not control these cookies directly. Please refer to the respective providers’ privacy policies for details."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-4"
+        },
+        "children": [
+          "4. Managing Cookies"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "You can control and delete cookies through your browser settings. Most browsers allow you to:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "See what cookies are set."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Delete cookies individually or all at once."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Block third-party cookies."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Block all cookies from specific sites."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Note that disabling essential cookies may affect the functionality of the website."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-5"
+        },
+        "children": [
+          "5. Changes to This Policy"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We may update this Cookie Policy from time to time. Please check back periodically for the latest version."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-6"
+        },
+        "children": [
+          "6. Contact"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "If you have questions about our use of cookies, contact us at ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "mailto:contact@creaweb.co.uk"
+            },
+            "children": [
+              "contact@creaweb.co.uk"
+            ]
+          },
+          "."
+        ]
+      }
+    ],
+    "toc": [
+      {
+        "id": "policy-1",
+        "title": "1. What Are Cookies"
+      },
+      {
+        "id": "policy-2",
+        "title": "2. How We Use Cookies"
+      },
+      {
+        "id": "policy-3",
+        "title": "3. Third-Party Cookies"
+      },
+      {
+        "id": "policy-4",
+        "title": "4. Managing Cookies"
+      },
+      {
+        "id": "policy-5",
+        "title": "5. Changes to This Policy"
+      },
+      {
+        "id": "policy-6",
+        "title": "6. Contact"
+      }
+    ]
+  },
+  "accessibility": {
+    "slug": "accessibility",
+    "title": "Accessibility Statement",
+    "intro": [
+      "Last updated: 18 June 2026"
+    ],
+    "vars": {
+      "LAST_UPDATED": "18 June 2026"
+    },
+    "sections": [
+      {
+        "paragraphs": [
+          "Last updated: 18 June 2026"
+        ],
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1800&auto=format&fit=crop&q=70",
+            "alt": ""
+          }
+        ],
+        "links": []
+      },
+      {
+        "heading": "Our Commitment",
+        "paragraphs": [
+          "Crea Web is committed to ensuring that creaweb.co.uk is accessible to as many people as possible, regardless of ability or technology used. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA.",
+          "We have taken the following steps to improve accessibility across the site:",
+          "While we strive for full WCAG 2.2 AA compliance, some areas may not yet be fully accessible. We are actively working to address these. Known limitations include:",
+          "This site is designed to be compatible with:",
+          "We welcome feedback on the accessibility of creaweb.co.uk. If you encounter any barriers or have suggestions for improvement, please contact us:",
+          "If you are not satisfied with our response, you can contact the Equality and Human Rights Commission (EHRC).",
+          "This statement covers creaweb.co.uk only. It does not cover third-party websites that we may link to from our site."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "mailto:contact@creaweb.co.uk",
+            "text": "contact@creaweb.co.uk"
+          },
+          {
+            "href": "https://www.equalityhumanrights.com",
+            "text": "Equality and Human Rights Commission (EHRC)"
+          }
+        ]
+      }
+    ],
+    "policy": [
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-1"
+        },
+        "children": [
+          "Our Commitment"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "Crea Web is committed to ensuring that creaweb.co.uk is accessible to as many people as possible, regardless of ability or technology used. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-2"
+        },
+        "children": [
+          "Technical Approach"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We have taken the following steps to improve accessibility across the site:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "All pages use semantic HTML5 elements to convey structure to assistive technologies."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "All non-decorative images include descriptive ",
+              {
+                "tag": "code",
+                "props": {},
+                "children": [
+                  "alt"
+                ]
+              },
+              " text."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Colour contrast ratios meet or exceed the WCAG AA standard (4.5:1 for normal text, 3:1 for large text)."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "The site is fully navigable using a keyboard alone, with visible focus indicators throughout."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Interactive elements have accessible labels via ",
+              {
+                "tag": "code",
+                "props": {},
+                "children": [
+                  "aria-label"
+                ]
+              },
+              " and ",
+              {
+                "tag": "code",
+                "props": {},
+                "children": [
+                  "aria-expanded"
+                ]
+              },
+              " where appropriate."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Text can be resized up to 200% without loss of content or functionality."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "The site is tested against modern screen readers including NVDA and VoiceOver."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-3"
+        },
+        "children": [
+          "Known Limitations"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "While we strive for full WCAG 2.2 AA compliance, some areas may not yet be fully accessible. We are actively working to address these. Known limitations include:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Some third-party embedded content may not fully meet accessibility standards. We have limited control over third-party code."
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Complex animated elements may present challenges for users with vestibular disorders. We recommend enabling “Reduce Motion” in your operating system settings if needed."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-4"
+        },
+        "children": [
+          "Assistive Technology Support"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "This site is designed to be compatible with:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Screen readers (NVDA, JAWS, VoiceOver, TalkBack)"
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Keyboard-only navigation"
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Browser zoom up to 200%"
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "High-contrast display modes"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-5"
+        },
+        "children": [
+          "Feedback and Contact"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "We welcome feedback on the accessibility of creaweb.co.uk. If you encounter any barriers or have suggestions for improvement, please contact us:"
+        ]
+      },
+      {
+        "tag": "ul",
+        "props": {},
+        "children": [
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "Email: ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "mailto:contact@creaweb.co.uk"
+                },
+                "children": [
+                  "contact@creaweb.co.uk"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "props": {},
+            "children": [
+              "We aim to respond to accessibility feedback within 5 business days."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "If you are not satisfied with our response, you can contact the ",
+          {
+            "tag": "a",
+            "props": {
+              "href": "https://www.equalityhumanrights.com",
+              "target": "_blank",
+              "rel": "noopener noreferrer"
+            },
+            "children": [
+              "Equality and Human Rights Commission (EHRC)"
+            ]
+          },
+          "."
+        ]
+      },
+      {
+        "tag": "h2",
+        "props": {
+          "id": "policy-6"
+        },
+        "children": [
+          "Enforcement"
+        ]
+      },
+      {
+        "tag": "p",
+        "props": {},
+        "children": [
+          "This statement covers creaweb.co.uk only. It does not cover third-party websites that we may link to from our site."
+        ]
+      }
+    ],
+    "toc": [
+      {
+        "id": "policy-1",
+        "title": "Our Commitment"
+      },
+      {
+        "id": "policy-2",
+        "title": "Technical Approach"
+      },
+      {
+        "id": "policy-3",
+        "title": "Known Limitations"
+      },
+      {
+        "id": "policy-4",
+        "title": "Assistive Technology Support"
+      },
+      {
+        "id": "policy-5",
+        "title": "Feedback and Contact"
+      },
+      {
+        "id": "policy-6",
+        "title": "Enforcement"
+      }
+    ]
+  }
+}

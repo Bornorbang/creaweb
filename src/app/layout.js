@@ -92,8 +92,9 @@ export default function RootLayout({ children }) {
                 {
                   "@type": "WebSite",
                   "@id": "https://creaweb.co.uk/#website",
-                  "url": "https://creaweb.co.uk",
+                  "url": "https://creaweb.co.uk/",
                   "name": "Crea Web Agency",
+                  "alternateName": ["Crea Web", "Crea"],
                   "publisher": { "@id": "https://creaweb.co.uk/#organization" }
                 }
               ]
