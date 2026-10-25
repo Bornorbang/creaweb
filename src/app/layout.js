@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
                     "addressCountry": "GB"
                   },
                   "email": "contact@creaweb.co.uk",
-                  "telephone": "+447846935545",
+                  "telephone": "+447474349081",
                   "areaServed": { "@type": "Country", "name": "United Kingdom" },
                   "priceRange": "£££",
                   "hasOfferCatalog": {
